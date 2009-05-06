@@ -202,3 +202,5 @@ SQL;
 	define('INSTALL_REQUIREMENTS_PASSED', true);
 	include_once('./symphony/lib/toolkit/include.install.php');
 
+
+?>
