@@ -19,3 +19,6 @@
 [submodule "extensions/mediathek"]
 	path = extensions/mediathek
 	url = git://github.com/nilshoerrmann/mediathek.git
+[submodule "extensions/calendaroverlay"]
+	path = extensions/calendaroverlay
+	url = git://github.com/rowan-lewis/calendaroverlay.git
