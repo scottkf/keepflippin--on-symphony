@@ -308,9 +308,9 @@
 				$element->appendChild(General::createXMLDateObject($date['value'], 'current'));
 			}
 			
-			foreach ($dates[1] as $index => $date) {
-				$element->appendChild(General::createXMLDateObject($date['value'], ($index == 0 ? 'current' : 'after')));
-			}
+			// foreach ($dates[1] as $index => $date) {
+			// 	$element->appendChild(General::createXMLDateObject($date['value'], ($index == 0 ? 'current' : 'after')));
+			// }
 			
 			$element->appendChild(General::createXMLDateObject($data['end'], 'end'));
 			
