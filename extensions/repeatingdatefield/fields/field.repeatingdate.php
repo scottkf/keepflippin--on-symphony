@@ -117,7 +117,7 @@
 	-------------------------------------------------------------------------*/
 		
 		public function displayPublishPanel(&$wrapper, $data = null, $error = null, $prefix = null, $suffix = null) {
-			$this->_engine->Page->addStylesheetToHead(URL . '/extensions/repeatingdatefield/assets/publish.css', 'screen', 9172332);
+			// $this->_engine->Page->addStylesheetToHead(URL . '/extensions/repeatingdatefield/assets/publish.css', 'screen', 9172332);
 			
 			$label = new XMLElement('div', $this->get('label'));
 			$label->setAttribute('class', 'repeatingdate');
@@ -322,7 +322,7 @@
 		
 		public function prepareTableValue($data, XMLElement $link = null) {
 			$date = $this->_driver->getEntryDate($data, $this->get('id'));
-			$date = DateTimeObj::get('D h:i a', $date); //  a, j M Y
+			$date = DateTimeObj::get('D h:i a Y', $date); //  a, j M Y
 			return parent::prepareTableValue(
 				array(
 					'value' => "{$date}"

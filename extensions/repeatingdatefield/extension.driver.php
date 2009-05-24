@@ -27,8 +27,23 @@
 					'page'		=> '/frontend/',
 					'delegate'	=> 'FrontendPageResolved',
 					'callback'	=> 'buildParams'
+				),
+				array(
+					'page'		=> '/backend/',
+					'delegate'	=> 'InitaliseAdminPageHead',
+					'callback'	=> 'initaliseAdminPageHead'
 				)
 			);
+		}
+
+
+		public function initaliseAdminPageHead($context) {
+			$page = $context['parent']->Page;
+
+      $page->addScriptToHead(URL . '/extensions/repeatingdatefield/assets/jquery.js', 3466701);
+      $page->addScriptToHead(URL . '/extensions/repeatingdatefield/assets/datejs.core.js', 3466703);
+      $page->addScriptToHead(URL . '/extensions/repeatingdatefield/assets/publish-r.js', 3466704);
+			$page->addStylesheetToHead(URL . '/extensions/repeatingdatefield/assets/publish-r.css', 'screen', 3466701);
 		}
 		
 		public function uninstall() {
