@@ -25,7 +25,7 @@
 			return array(
 				array(
 					'page'		=> '/frontend/',
-					'delegate'	=> 'ManipulatePageParameters',
+					'delegate'	=> 'FrontendPageResolved',
 					'callback'	=> 'buildParams'
 				)
 			);
@@ -105,22 +105,23 @@
 			if ($value == null) {
 				$value = $this->getToday();
 			}
+
+			// $return = $this->_Parent->Database->fetchVar('value', 0, "
+			// 	SELECT
+			// 		d.value
+			// 	FROM
+			// 		`tbl_entries_data_{$field_id}_dates` as d
+			// 	WHERE
+			// 		d.link_id = {$link_id}
+			// 		AND d.value >= {$value}
+			// 	ORDER BY
+			// 		d.value ASC
+			// 	LIMIT
+			// 		1
+			// ");
+			$return = $data['start'];
 			
-			$return = $this->_Parent->Database->fetchVar('value', 0, "
-				SELECT
-					d.value
-				FROM
-					`tbl_entries_data_{$field_id}_dates` as d
-				WHERE
-					d.link_id = {$link_id}
-					AND d.value >= {$value}
-				ORDER BY
-					d.value ASC
-				LIMIT
-					1
-			");
-			
-			if ($return == null) return $data['end'];
+			if ($return == null) return $data['start'];
 			
 			return $return;
 		}
@@ -131,45 +132,62 @@
 		* @param integer $data Entry data
 		* @return array
 		*/
-		public function getEntryDates($data, $field_id, $limit = 10) {
+		public function getEntryDates($data, $field_id, $filter, $limit = 31	) {
 			$limit = ((integer)$limit < 2 ? 2 : (integer)$limit);
-			$link_id = $data['link_id'];
-			$today = $this->getToday();
+			if (array_key_exists('link_id', $data)) {
+				$link_id = $data['link_id'];
+				if (count($filter) == 0) {
+					$today = $this->getToday();
+					$limit++;
+					$dates = $this->_Parent->Database->fetch("
+						SELECT
+							d.value
+						FROM
+							`tbl_entries_data_{$field_id}_dates` as d
+						WHERE
+							d.link_id = {$link_id}
+							AND d.value >= {$today}
+						ORDER BY
+							d.value ASC
+						LIMIT
+							{$limit}
+					");
+				} else { 
+					$dates = $this->_Parent->Database->fetch("
+						SELECT
+							d.value
+						FROM
+							`tbl_entries_data_{$field_id}_dates` as d
+						WHERE
+							d.link_id = {$link_id}
+							AND ({$filter[0]} <= d.value AND {$filter[1]} >= d.value)
+						ORDER BY
+							d.value DESC
+						LIMIT
+							{$limit}
+					");
+				}
+			} else { // we need to grab a whole lot of dates
+				$ids = implode(',',$data);
+				$dates = $this->_Parent->Database->fetch("
+					SELECT
+						d.value, d.link_id
+					FROM
+						`tbl_entries_data_{$field_id}_dates` as d
+					WHERE
+						d.link_id IN ({$ids})
+						AND ({$filter[0]} <= d.value AND {$filter[1]} >= d.value)
+					ORDER BY
+						d.value DESC
+					LIMIT
+						{$limit}
+				");
+			}
 			
-			$limit /= 2;
-			$before = $this->_Parent->Database->fetch("
-				SELECT
-					d.value
-				FROM
-					`tbl_entries_data_{$field_id}_dates` as d
-				WHERE
-					d.link_id = {$link_id}
-					AND d.value < {$today}
-				ORDER BY
-					d.value DESC
-				LIMIT
-					{$limit}
-			");
+			if (empty($dates)) $dates = array();
+			// if (empty($after)) $after = array();
 			
-			$limit++;
-			$after = $this->_Parent->Database->fetch("
-				SELECT
-					d.value
-				FROM
-					`tbl_entries_data_{$field_id}_dates` as d
-				WHERE
-					d.link_id = {$link_id}
-					AND d.value >= {$today}
-				ORDER BY
-					d.value ASC
-				LIMIT
-					{$limit}
-			");
-			
-			if (empty($before)) $before = array();
-			if (empty($after)) $after = array();
-			
-			return array($before, $after);
+			return array($dates);
 		}
 		
 		/**
@@ -274,7 +292,6 @@
 				// Skip to the next month:
 				$current = strtotime(date("Y-m-{$day} H:i:s", strtotime("+{$skip} month", $current)));
 			}
-		
 			return $dates;
 		}
 	

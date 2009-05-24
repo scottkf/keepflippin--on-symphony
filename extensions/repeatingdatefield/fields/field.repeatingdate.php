@@ -4,7 +4,7 @@
 	
 	class FieldRepeatingDate extends Field {
 		protected $_driver = null;
-		protected $filter = 0;
+		protected $filter = array(0,0);
 		
 	/*-------------------------------------------------------------------------
 		Definition:
@@ -12,7 +12,7 @@
 		
 		public function __construct(&$parent) {
 			parent::__construct($parent);
-			
+
 			$this->_name = 'Repeating Date';
 			$this->_driver = $this->_engine->ExtensionManager->create('repeatingdatefield');
 		}
@@ -54,6 +54,9 @@
 					KEY `value` (`value`)
 				)
 			");
+		}
+		public function allowDatasourceOutputGrouping(){
+			return true;
 		}
 		
 		public function isSortable() {
@@ -244,76 +247,70 @@
 		public function processRawFieldData($data, &$status, $simulate = false, $entry_id = null) {
 			$status = self::__OK__;
 			$data = array_merge(array(
-				'start'		=> null,
-				'end'		=> null,
-				'units'		=> 1,
-				'mode'		=> 'weeks'
-			), $data);
-			
+				'start'    => null,
+				'end'    => null,
+				'units'    => 1,
+				'mode'    => 'weeks'
+				), $data);
+
 			$data['start'] = strtotime(DateTimeObj::get('c', strtotime($data['start'])));
 			$data['end'] = strtotime(DateTimeObj::get('c', strtotime($data['end'])));
 			$data['units'] = (integer)$data['units'];
-			
+
 			// Build data:
 			if (!$simulate) {
 				$field_id = $this->get('id');
 				$link_id = $this->_driver->getEntryLinkId($field_id, $entry_id);
 				$data['link_id'] = $link_id;
-				
+
 				$dates = $this->_driver->getDates($data);
-				
+
 				// Remove old dates:
 				$this->_engine->Database->query("
 					DELETE QUICK FROM
-						`tbl_entries_data_{$field_id}_dates`
+					`tbl_entries_data_{$field_id}_dates`
 					WHERE
-						`link_id` = {$link_id}
+					`link_id` = {$link_id}
 				");
-				
+
 				// Insert new dates:
 				foreach ($dates as $date) {
 					$this->_engine->Database->query("
 						INSERT INTO
-							`tbl_entries_data_{$field_id}_dates`
+						`tbl_entries_data_{$field_id}_dates`
 						SET
-							`link_id` = {$link_id},
-							`value` = {$date}
+						`link_id` = {$link_id},
+						`value` = {$date}
 					");
 				}
-				
+
 				// Clean up indexes:
 				$this->_engine->Database->query("
 					OPTIMIZE TABLE
-						`tbl_entries_data_{$field_id}_dates`
-				");
+					`tbl_entries_data_{$field_id}_dates`
+					");
 			}
-			
+
 			return $data;
 		}
-		
+
 	/*-------------------------------------------------------------------------
 		Output:
 	-------------------------------------------------------------------------*/
 		
 		public function appendFormattedElement(&$wrapper, $data, $encode = false) {
-			$dates = $this->_driver->getEntryDates($data, $this->get('id'), $this->filter);
+			$dates = $this->_driver->getEntryDates($data, $this->get('id'), $this->_Parent->filter);
 			$element = new XMLElement($this->get('element_name'));
-			
+
 			$element->appendChild(General::createXMLDateObject($data['start'], 'start'));
 			
-			// for ($i = -4; $i <= -2; $i++) {
-			// 	$element->appendChild(General::createXMLDateObject(strtotime($i." weeks", $dates[1][0]['value']), abs($i).'-before'));				
-			// }
 			foreach ($dates[0] as $index => $date) {
-				$element->appendChild(General::createXMLDateObject($date['value'], 'before'));
+				$element->appendChild(General::createXMLDateObject($date['value'], 'current'));
 			}
 			
 			foreach ($dates[1] as $index => $date) {
 				$element->appendChild(General::createXMLDateObject($date['value'], ($index == 0 ? 'current' : 'after')));
 			}
-			// for ($i = 2; $i <= 4; $i++) {
-			// 	$element->appendChild(General::createXMLDateObject(strtotime("+".$i." weeks", $dates[1][0]['value']), $i.'-after'));				
-			// }
 			
 			$element->appendChild(General::createXMLDateObject($data['end'], 'end'));
 			
@@ -325,8 +322,7 @@
 		
 		public function prepareTableValue($data, XMLElement $link = null) {
 			$date = $this->_driver->getEntryDate($data, $this->get('id'));
-			$date = DateTimeObj::get(__SYM_DATE_FORMAT__, $date);
-			
+			$date = DateTimeObj::get('D h:i a', $date); //  a, j M Y
 			return parent::prepareTableValue(
 				array(
 					'value' => "{$date}"
@@ -334,25 +330,90 @@
 			);
 		}
 		
+		
+		/*-------------------------------------------------------------------------
+			Grouping:
+		-------------------------------------------------------------------------*/
+
+		public function groupRecords($records){
+			if(!is_array($records) || empty($records)) return;
+
+			$groups = array('year' => array());
+
+
+			// cache all the days ahead of time, otherwise it results in a ton of queries
+			foreach($records as $r){
+				$d = $r->getData($this->get('id'));
+				$cache[$r->_fields['id']] = $d['link_id'];
+			}
+			$dates = $this->_driver->getEntryDates($cache,$this->get('id'),$this->_Parent->filter, 99); // this will appear at most 31 times in one month, hack
+			foreach ($dates[0] as $v) {
+				$days[$v['link_id']][] = $v['value'];
+			}
+			foreach($records as $r){
+
+				foreach($days[$cache[$r->_fields['id']]] as $d) {
+					$info = getdate($d);
+					$year = $info['year'];
+					$month = ($info['mon'] < 10 ? '0' . $info['mon'] : $info['mon']);
+					$day = ($info['mday'] < 10 ? '0' . $info['mday'] : $info['mday']);
+
+					if(!isset($groups['year'][$year])) $groups['year'][$year] = array('attr' => array('value' => $year),
+																					  'records' => array(), 
+																					  'groups' => array());
+
+					if(!isset($groups['year'][$year]['groups']['month'])) $groups['year'][$year]['groups']['month'] = array();
+
+					if(!isset($groups['year'][$year]['groups']['month'][$month])) $groups['year'][$year]['groups']['month'][$month] = array('attr' => array('value' => $month),
+																					  					  'records' => array(), 
+																					  					  'groups' => array());		
+
+					if(!isset($groups['year'][$year]['groups']['month'][$month]['groups']['day'])) $groups['year'][$year]['groups']['month'][$month]['groups']['day'] = array();
+
+					if(!isset($groups['year'][$year]['groups']['month'][$month]['groups']['day'][$day])) $groups['year'][$year]['groups']['month'][$month]['groups']['day'][$day] = array('attr' => array('value' => $day),
+																					  					  'records' => array(), 
+																					  					  'groups' => array());		
+					$groups['year'][$year]['groups']['month'][$month]['groups']['day'][$day]['records'][] = $r;
+				}
+
+			}
+
+			return $groups;
+
+		}
+
 	/*-------------------------------------------------------------------------
 		Filtering:
 	-------------------------------------------------------------------------*/
 		
 		public function buildDSRetrivalSQL($data, &$joins, &$where, $andOperation = false) {
 			$field_id = $this->get('id');
+
 			$filter = preg_split('/(.*) to (.*)/', $data[0], -1, PREG_SPLIT_DELIM_CAPTURE | PREG_SPLIT_NO_EMPTY);
-			$filter[0] = strtotime($filter[0]);
-			$filter[1] = strtotime($filter[1]);
-			$joins .= "
-				LEFT JOIN
-					`tbl_entries_data_{$field_id}` AS t{$field_id}
-					ON (e.id = t{$field_id}.entry_id)
-			";
-			$where .= "
-				AND ((t{$field_id}.start <= {$filter[0]} AND t{$field_id}.end >= {$filter[1]})
-					OR t{$field_id}.start >= {$filter[0]})
+			if (count($filter) == 2) {
+				$this->_Parent->filter = array(strtotime($filter[0]),strtotime($filter[1]));
+
+				$joins .= "
+					LEFT JOIN
+						`tbl_entries_data_{$field_id}` AS t{$field_id}
+						ON (e.id = t{$field_id}.entry_id)
 				";
-			
+				$where .= "
+					AND ((t{$field_id}.start <= {$filter[0]} AND t{$field_id}.end >= {$filter[1]})
+						OR t{$field_id}.start >= {$filter[0]})
+					";
+			} else {
+				$this->_Parent->filter[0] = array(strtotime(@$data[0]));
+
+	      $joins .= "
+	        LEFT JOIN
+	          `tbl_entries_data_{$field_id}` AS t{$field_id}
+	          ON (e.id = t{$field_id}.entry_id)
+	      ";
+	      $where .= "
+	        AND t{$field_id}.end > {$this->filter}
+	      ";
+			}
 			return true;
 		}
 		
