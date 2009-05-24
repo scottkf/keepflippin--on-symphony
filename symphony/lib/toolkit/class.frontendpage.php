@@ -192,7 +192,6 @@
 			# Description: Just after having resolved the page params, but prior to any commencement of output creation
 			# Global: Yes
 			$this->ExtensionManager->notifyMembers('FrontendParamsResolve', '/frontend/', array('params' => &$this->_param));
-			
 			$xml_build_start = precision_timer();
 			
 			$xml = new XMLElement('data');
