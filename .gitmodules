@@ -25,3 +25,6 @@
 [submodule "extensions/calendaroverlay"]
 	path = extensions/calendaroverlay
 	url = git://github.com/rowan-lewis/calendaroverlay.git
+[submodule "extensions/markitup"]
+	path = extensions/markitup
+	url = git://github.com/ahwayakchih/markitup.git

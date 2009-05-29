@@ -40,8 +40,6 @@
 		public function initaliseAdminPageHead($context) {
 			$page = $context['parent']->Page;
 
-      $page->addScriptToHead(URL . '/extensions/repeatingdatefield/assets/jquery.js', 3466701);
-      $page->addScriptToHead(URL . '/extensions/repeatingdatefield/assets/datejs.core.js', 3466703);
       $page->addScriptToHead(URL . '/extensions/repeatingdatefield/assets/publish-r.js', 3466704);
 			$page->addStylesheetToHead(URL . '/extensions/repeatingdatefield/assets/publish-r.css', 'screen', 3466701);
 		}

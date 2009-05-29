@@ -514,7 +514,6 @@
 				## Combine FILES and POST arrays, indexed by their custom field handles
 				if(isset($_FILES['fields'])){
 					$filedata = General::processFilePostData($_FILES['fields']);
-
 					foreach($filedata as $handle => $data){
 						if(!isset($fields[$handle])) $fields[$handle] = $data;
 						elseif(isset($data['error']) && $data['error'] == 4) $fields['handle'] = NULL;

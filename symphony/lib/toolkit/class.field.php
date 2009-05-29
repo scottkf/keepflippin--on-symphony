@@ -1,5 +1,4 @@
 <?php
-	
 	Class Field extends Object{
 		protected $_key = 0;
 		protected $_fields;
