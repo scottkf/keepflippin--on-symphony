@@ -363,3 +363,33 @@ Build: 375
 21:49:35 > WARNING: 2 - Invalid argument supplied for foreach() in file /home/keepfli/symphony/extensions/mediathek/fields/field.mediathek.php on line 172
 22:21:35 > WARNING: 2 - Invalid argument supplied for foreach() in file /home/keepfli/symphony/symphony/content/content.publish.php on line 288
 10:41:44 > ERROR: 256 - Could not find extension at location /home/keepfli/symphony/extensions/cleanurlparams/extension.driver.php in file /home/keepfli/symphony/symphony/lib/toolkit/class.extensionmanager.php on line 234
+10:27:03 > ERROR: 256 - Could not find extension at location /home/keepfli/symphony/extensions/mediathek/extension.driver.php in file /home/keepfli/symphony/symphony/lib/toolkit/class.extensionmanager.php on line 234
+12:39:58 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/uploads/alibi-new.jpg in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
+12:40:00 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/uploads/alibi-new.jpg in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
+12:40:02 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/uploads/alibi-new.jpg in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
+12:40:09 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/uploads/alibi-new.jpg in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
+02:11:05 > ERROR: 256 - Could not find Data Source homepage_article. If the Data Source was provided by an Extensions, ensure that it is installed, and enabled. in file /home/keepfli/symphony/symphony/lib/toolkit/class.datasourcemanager.php on line 118
+13:10:50 > ERROR: 256 - Line: 75 - XSLTProcessor::importStylesheet(): I/O warning : failed to load external entity "/home/keepfli/symphony/workspace/pages/maintenance.xsl"
+Line: 75 - XSLTProcessor::importStylesheet(): compilation error: file /home/keepfli/symphony/ line 3 element import
+Line: 75 - XSLTProcessor::importStylesheet(): xsl:import : unable to load /home/keepfli/symphony/workspace/pages/maintenance.xsl
+Line: 88 - XSLTProcessor::transformToXml(): No stylesheet associated to this object
+13:10:54 > ERROR: 256 - Line: 75 - XSLTProcessor::importStylesheet(): I/O warning : failed to load external entity "/home/keepfli/symphony/workspace/pages/maintenance.xsl"
+Line: 75 - XSLTProcessor::importStylesheet(): compilation error: file /home/keepfli/symphony/ line 3 element import
+Line: 75 - XSLTProcessor::importStylesheet(): xsl:import : unable to load /home/keepfli/symphony/workspace/pages/maintenance.xsl
+Line: 88 - XSLTProcessor::transformToXml(): No stylesheet associated to this object
+20:44:17 > ERROR: 256 - Line: 75 - XSLTProcessor::importStylesheet(): I/O warning : failed to load external entity "/home/keepfli/symphony/workspace/pages/maintenance.xsl"
+Line: 75 - XSLTProcessor::importStylesheet(): compilation error: file /home/keepfli/symphony/ line 3 element import
+Line: 75 - XSLTProcessor::importStylesheet(): xsl:import : unable to load /home/keepfli/symphony/workspace/pages/maintenance.xsl
+Line: 88 - XSLTProcessor::transformToXml(): No stylesheet associated to this object
+07:30:03 > ERROR: 256 - Line: 75 - XSLTProcessor::importStylesheet(): I/O warning : failed to load external entity "/home/keepfli/symphony/workspace/pages/maintenance.xsl"
+Line: 75 - XSLTProcessor::importStylesheet(): compilation error: file /home/keepfli/symphony/ line 3 element import
+Line: 75 - XSLTProcessor::importStylesheet(): xsl:import : unable to load /home/keepfli/symphony/workspace/pages/maintenance.xsl
+Line: 88 - XSLTProcessor::transformToXml(): No stylesheet associated to this object
+13:24:07 > ERROR: 256 - Line: 75 - XSLTProcessor::importStylesheet(): I/O warning : failed to load external entity "/home/keepfli/symphony/workspace/pages/maintenance.xsl"
+Line: 75 - XSLTProcessor::importStylesheet(): compilation error: file /home/keepfli/symphony/ line 3 element import
+Line: 75 - XSLTProcessor::importStylesheet(): xsl:import : unable to load /home/keepfli/symphony/workspace/pages/maintenance.xsl
+Line: 88 - XSLTProcessor::transformToXml(): No stylesheet associated to this object
+20:41:48 > ERROR: 256 - Line: 75 - XSLTProcessor::importStylesheet(): I/O warning : failed to load external entity "/home/keepfli/symphony/workspace/pages/maintenance.xsl"
+Line: 75 - XSLTProcessor::importStylesheet(): compilation error: file /home/keepfli/symphony/ line 3 element import
+Line: 75 - XSLTProcessor::importStylesheet(): xsl:import : unable to load /home/keepfli/symphony/workspace/pages/maintenance.xsl
+Line: 88 - XSLTProcessor::transformToXml(): No stylesheet associated to this object

@@ -782,11 +782,11 @@
 			
 			##Upload the file
 			if(@is_uploaded_file($tmp_name)) {
-				
 				$dest_path = rtrim($dest_path, '/') . '/';
 
+
 				##Try place the file in the correction location	
-				if(@move_uploaded_file($tmp_name, $dest_path . $dest_name)){
+				if($p = @move_uploaded_file($tmp_name, $dest_path . $dest_name)){
 					@chmod($dest_path . $dest_name, intval($perm, 8));
 					return true;					
 				}

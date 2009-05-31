@@ -79,7 +79,7 @@
 			
 			if(!isset($this->_ParentCatalogue['sectionmanager'])) $SectionManager = new SectionManager($this->_engine);
 			else $SectionManager = $this->_ParentCatalogue['sectionmanager'];
-
+	
 			$section = $SectionManager->fetch($this->get('section_id'));
 			$schema = $section->fetchFieldsSchema();
 
@@ -131,7 +131,7 @@
 				$result = $field->processRawFieldData(
 					(isset($data[$info['element_name']]) ? $data[$info['element_name']] : NULL), $s, $m, $simulate, $this->get('id')
 				);
-				
+
 				if($s != Field::__OK__){
 					$status = __ENTRY_FIELD_ERROR__;
 					$error = array('field_id' => $info['id'], 'message' => $m);
