@@ -22,3 +22,6 @@
 [submodule "extensions/reflectionfield"]
 	path = extensions/reflectionfield
 	url = git://github.com/rowan-lewis/reflectionfield.git
+[submodule "extensions/massuploadutility"]
+	path = extensions/massuploadutility
+	url = git://github.com/scottkf/mass-upload-utility.git
