@@ -22,3 +22,6 @@
 [submodule "extensions/reflectionfield"]
 	path = extensions/reflectionfield
 	url = git://github.com/rowan-lewis/reflectionfield.git
+[submodule "extensions/markdown_labels"]
+	path = extensions/markdown_labels
+	url = git://github.com/michael-e/markdown_labels.git

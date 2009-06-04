@@ -1,9 +1,9 @@
 Multiple Upload Injector
 -------------------------------------------------------------------------------
 
-Version: .1
+Version: .9
 Author: Scott Tesoriere <scott@tesoriere.com>
-Build Date: 29 May 2009
+Build Date: 31 May 2009
 Github Repository: http://github.com/scottkf/multiple-upload-injector/tree/master
 Requirements: Symphony 2
 
@@ -31,3 +31,10 @@ Usage
   section.
 
 2.  ????
+
+
+TROUBLESHOOTING
+-------------------------------------------------------------------------------
+
+INSTALLING: If you have problems installing, manually create the 
+	/workspace/upload/mui directory and chmod it 777, Then try installing again.

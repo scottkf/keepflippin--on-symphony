@@ -5,7 +5,6 @@
 	require_once(TOOLKIT . '/class.entrymanager.php');
 	require_once(TOOLKIT . '/class.authormanager.php');	
 
-
 	/*
 		Caveats:
 		- It rolls back all entries if any of them error (file doesn't validate, can't copy, you left some fields, duplicates)
@@ -15,7 +14,7 @@
 		- sloppy as shit
 		- the error logic is weird and slapped together, and needs to be fixed
 		- probably only works with the default upload field
-		- 
+		- this will not install on most servers unless workspace is 777 (or /workspace/upload)
 	
 	*/
 
@@ -188,7 +187,7 @@
 				// already sanitized the sourcedir so no one can accidentally delete stuff 
 				// 	from anywhere but the uploads directory, make sure not to delete mui dir
 				if ($_POST['fields']['sourcedir'] != '/workspace'.$this->_driver->getMUI()) {
-					rmdir(DOCROOT . $_POST['fields']['sourcedir'].'/');
+					rmdir(DOCROOT . $_POST['fields']['sourcedir']);
 				}
 			}
 			$this->_entries_count = count($files['filelist']) - count($this->_ignored_files);
@@ -230,11 +229,12 @@
 			$script->setAttribute("type", 'text/javascript');
 			$folder_name = date("Y-m-d");
 			$path = preg_replace('/^http\:\/\/.*\//i', '', URL);
-			if (!General::realiseDirectory(WORKSPACE.$this->_driver->getMUI().'/'.$folder_name, intval('0777', 8)))
-				echo "failed!";
+			if (preg_match('/http\:\/\//i', $path)) $path = '';
+			if (!General::realiseDirectory(WORKSPACE.$this->_driver->getMUI().'/'.$folder_name, intval('0755', 8)))
+				; // could already exist echo "failed!";
 			// echo $path;
 			// echo WORKSPACE.$this->upload.'/'.$folder_name;
-			echo $_SERVER['DOCUMENT_ROOT']."/".$path."/workspace".$this->_driver->getMUI()."/".$folder_name;
+			// echo $_SERVER['DOCUMENT_ROOT']."/".$path."/workspace".$this->_driver->getMUI()."/".$folder_name;
 			// echo $folder_name;
 			$js = "
 				$(document).ready(function() {
@@ -528,18 +528,22 @@
 		public function parseErrors() {
 			if (is_array($this->_errors)) {
 				foreach ($this->_errors as $k=>$v) {
-					if ( preg_match("/File Chosen in \'.*\' does not match allowable file types for that field/i", $v)) {
+					if (preg_match("/File Chosen in \'.*\' does not match allowable file types for that field/i", $v)) {
 						$a = 'File \''.implode(', ', $this->_ignored_files).'\' does not match allowable filetypes for that fields. Please remove this file and try again.';
 						return $a;
-					} else if (preg_match('/A file with the name/i', $v)) {
-						return $v;
-					} else if (preg_match('/There are no files/i', $v)) {
-						return $v;
-					} else if (preg_match('/^Fail/i', $v)) {
-						return $v;
-					} else if (preg_match('/You didn\'t choose a source/i', $v)) {
-						return $v;
+					} else if (!preg_match('/required/i', $v)) {
+						return $v; 
 					}
+					// } else if (preg_match('/A file with the name/i', $v)) {
+					// 	return $v;
+					// } else if (preg_match('/There are no files/i', $v)) {
+					// 	return $v;
+					// } else if (preg_match('/^Fail/i', $v)) {
+					// 	return $v;
+					// } else if (preg_match('/You didn\'t choose a source/i', $v)) {
+					// 	return $v;
+					// } else if (preg_match('/Destination folder .* is not writable/i', $v)) {
+					// 	return $v;
 				}
 			}
 		}
