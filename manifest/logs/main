@@ -278,3 +278,14 @@ Line: 88 - XSLTProcessor::transformToXml(): unregistered variable this-session
 Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompiledEval: evaluation failed
 Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/navigation.xsl line 40 element value-of
 Line: 88 - XSLTProcessor::transformToXml(): xsltValueOf: text copy failed
+16:52:49 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/images/article_images/DSC06229-3.jpg in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
+16:52:49 > ERROR: 256 - Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/navigation.xsl line 40 element value-of
+Line: 88 - XSLTProcessor::transformToXml(): unregistered variable this-session
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompiledEval: evaluation failed
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/navigation.xsl line 40 element value-of
+Line: 88 - XSLTProcessor::transformToXml(): xsltValueOf: text copy failed
+16:52:52 > ERROR: 256 - Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/navigation.xsl line 40 element value-of
+Line: 88 - XSLTProcessor::transformToXml(): unregistered variable this-session
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompiledEval: evaluation failed
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/navigation.xsl line 40 element value-of
+Line: 88 - XSLTProcessor::transformToXml(): xsltValueOf: text copy failed
