@@ -28,3 +28,6 @@
 [submodule "extensions/cachelite"]
 	path = extensions/cachelite
 	url = git://github.com/makenosound/cachelite.git
+[submodule "extensions/massuploadutility"]
+	path = extensions/massuploadutility
+	url = git://github.com/scottkf/mass-upload-utility.git
