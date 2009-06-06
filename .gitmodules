@@ -25,3 +25,6 @@
 [submodule "extensions/massuploadutility"]
 	path = extensions/massuploadutility
 	url = git://github.com/scottkf/mass-upload-utility.git
+[submodule "extensions/markdown_labels"]
+	path = extensions/markdown_labels
+	url = git://github.com/michael-e/markdown_labels.git

@@ -116,3 +116,165 @@ Build: 375
 				FROM `sym_fields` AS `f` 
 				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
 				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
+14:09:26 > ERROR: 256 - Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/master.xsl line 72 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template top not found
+14:10:10 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
+				FROM `sym_fields` AS `f` 
+				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
+				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
+14:22:45 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
+				FROM `sym_fields` AS `f` 
+				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
+				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
+14:34:10 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/10.gif in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
+14:34:10 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/og.jpg in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
+14:49:13 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
+				FROM `sym_fields` AS `f` 
+				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
+				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
+15:13:31 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/10.gif in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
+15:13:31 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/og.jpg in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
+15:14:39 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
+				FROM `sym_fields` AS `f` 
+				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
+				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
+16:06:28 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/10.gif in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
+16:06:28 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/og.jpg in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
+16:11:31 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/10.gif in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
+16:11:31 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/og.jpg in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
+16:12:41 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/10.gif in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
+16:12:41 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/og.jpg in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
+16:13:23 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/10.gif in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
+16:13:23 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/og.jpg in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
+16:13:23 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/10.gif in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
+16:13:23 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/og.jpg in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
+16:24:07 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
+				FROM `sym_fields` AS `f` 
+				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
+				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
+16:52:29 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/10.gif in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
+16:52:29 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/og.jpg in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
+16:52:34 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/10.gif in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
+16:52:34 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/og.jpg in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
+17:05:59 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/10.gif in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
+17:05:59 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/og.jpg in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
+17:13:43 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/10.gif in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
+17:13:43 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/og.jpg in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
+17:21:56 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
+				FROM `sym_fields` AS `f` 
+				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
+				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
+17:22:05 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
+				FROM `sym_fields` AS `f` 
+				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
+				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
+17:22:27 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
+				FROM `sym_fields` AS `f` 
+				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
+				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
+23:18:34 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/10.gif in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
+23:18:34 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/og.jpg in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
+23:18:37 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/10.gif in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
+23:18:37 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/og.jpg in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
+11:32:24 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/10.gif in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
+11:32:24 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/og.jpg in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
+11:33:44 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/10.gif in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
+11:33:44 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/og.jpg in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
+11:33:59 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/10.gif in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
+11:33:59 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/og.jpg in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
+11:34:07 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/10.gif in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
+11:34:07 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/og.jpg in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
+11:34:20 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/10.gif in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
+11:34:20 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/og.jpg in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
+11:34:22 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/10.gif in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
+11:34:22 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/og.jpg in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
+11:34:27 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/10.gif in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
+11:34:27 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/og.jpg in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
+11:34:33 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/10.gif in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
+11:34:33 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/og.jpg in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
+11:35:00 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/10.gif in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
+11:35:00 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/og.jpg in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
+11:35:14 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/10.gif in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
+11:35:14 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/og.jpg in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
+11:56:43 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/10.gif in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
+11:56:43 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/og.jpg in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
+11:57:12 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/10.gif in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
+11:57:12 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/og.jpg in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
+11:57:15 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/10.gif in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
+11:57:15 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/og.jpg in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
+12:03:36 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
+				FROM `sym_fields` AS `f` 
+				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
+				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
+12:04:14 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
+				FROM `sym_fields` AS `f` 
+				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
+				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
+12:04:35 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
+				FROM `sym_fields` AS `f` 
+				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
+				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
+14:05:14 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
+				FROM `sym_fields` AS `f` 
+				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
+				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
+15:56:26 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/10.gif in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
+15:56:26 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/og.jpg in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
+15:56:35 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/10.gif in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
+15:56:37 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/og.jpg in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
+15:56:45 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/10.gif in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
+15:56:45 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/og.jpg in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
+15:56:54 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/10.gif in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
+15:56:54 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/og.jpg in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
+15:59:22 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/10.gif in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
+15:59:22 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/og.jpg in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
+16:00:48 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/10.gif in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
+16:00:48 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/og.jpg in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
+16:08:02 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/10.gif in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
+16:08:02 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/og.jpg in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
+16:12:11 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
+				FROM `sym_fields` AS `f` 
+				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
+				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
+16:31:47 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
+				FROM `sym_fields` AS `f` 
+				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
+				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
+16:48:35 > ERROR: 256 - Line: 75 - XSLTProcessor::importStylesheet(): I/O warning : failed to load external entity "/home/keepfli/symphony/workspace/pages/404-page-not-found.xsl"
+Line: 75 - XSLTProcessor::importStylesheet(): compilation error: file /home/keepfli/symphony/ line 3 element import
+Line: 75 - XSLTProcessor::importStylesheet(): xsl:import : unable to load /home/keepfli/symphony/workspace/pages/404-page-not-found.xsl
+Line: 88 - XSLTProcessor::transformToXml(): No stylesheet associated to this object
+16:48:38 > ERROR: 256 - Line: 75 - XSLTProcessor::importStylesheet(): I/O warning : failed to load external entity "/home/keepfli/symphony/workspace/pages/404-page-not-found.xsl"
+Line: 75 - XSLTProcessor::importStylesheet(): compilation error: file /home/keepfli/symphony/ line 3 element import
+Line: 75 - XSLTProcessor::importStylesheet(): xsl:import : unable to load /home/keepfli/symphony/workspace/pages/404-page-not-found.xsl
+Line: 88 - XSLTProcessor::transformToXml(): No stylesheet associated to this object
+16:49:14 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/images/article_images/DSC06229-3.jpg in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
+16:49:15 > ERROR: 256 - Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/navigation.xsl line 40 element value-of
+Line: 88 - XSLTProcessor::transformToXml(): unregistered variable this-session
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompiledEval: evaluation failed
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/navigation.xsl line 40 element value-of
+Line: 88 - XSLTProcessor::transformToXml(): xsltValueOf: text copy failed
+16:49:17 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/images/article_images/DSC06229-3.jpg in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
+16:49:17 > ERROR: 256 - Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/navigation.xsl line 40 element value-of
+Line: 88 - XSLTProcessor::transformToXml(): unregistered variable this-session
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompiledEval: evaluation failed
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/navigation.xsl line 40 element value-of
+Line: 88 - XSLTProcessor::transformToXml(): xsltValueOf: text copy failed
+16:49:17 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/images/article_images/DSC06229-3.jpg in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
+16:49:17 > ERROR: 256 - Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/navigation.xsl line 40 element value-of
+Line: 88 - XSLTProcessor::transformToXml(): unregistered variable this-session
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompiledEval: evaluation failed
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/navigation.xsl line 40 element value-of
+Line: 88 - XSLTProcessor::transformToXml(): xsltValueOf: text copy failed
+16:49:18 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/images/article_images/DSC06229-3.jpg in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
+16:49:18 > ERROR: 256 - Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/navigation.xsl line 40 element value-of
+Line: 88 - XSLTProcessor::transformToXml(): unregistered variable this-session
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompiledEval: evaluation failed
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/navigation.xsl line 40 element value-of
+Line: 88 - XSLTProcessor::transformToXml(): xsltValueOf: text copy failed
+16:49:19 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/images/article_images/DSC06229-3.jpg in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
+16:49:19 > ERROR: 256 - Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/navigation.xsl line 40 element value-of
+Line: 88 - XSLTProcessor::transformToXml(): unregistered variable this-session
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompiledEval: evaluation failed
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/navigation.xsl line 40 element value-of
+Line: 88 - XSLTProcessor::transformToXml(): xsltValueOf: text copy failed
