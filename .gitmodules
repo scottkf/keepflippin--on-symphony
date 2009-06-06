@@ -25,3 +25,6 @@
 [submodule "extensions/markdown_labels"]
 	path = extensions/markdown_labels
 	url = git://github.com/michael-e/markdown_labels.git
+[submodule "extensions/cachelite"]
+	path = extensions/cachelite
+	url = git://github.com/makenosound/cachelite.git
