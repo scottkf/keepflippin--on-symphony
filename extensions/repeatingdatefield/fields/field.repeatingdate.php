@@ -403,7 +403,6 @@
 					AND ((t{$field_id}.start <= {$this->_Parent->filter[0]} AND t{$field_id}.end >= {$this->_Parent->filter[1]})
 						OR t{$field_id}.start >= {$this->_Parent->filter[0]} OR t{$field_id}.end <= {$this->_Parent->filter[1]})
 					";
-					echo $joins." $where\n";
 			} else {
 				$this->_Parent->filter[0] = array(strtotime(@$data[0]));
 
