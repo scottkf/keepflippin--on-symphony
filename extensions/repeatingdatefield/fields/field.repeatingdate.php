@@ -394,16 +394,16 @@
 			$filter = preg_split('/(.*) to (.*)/', $data[0], -1, PREG_SPLIT_DELIM_CAPTURE | PREG_SPLIT_NO_EMPTY);
 			if (count($filter) == 2) {
 				$this->_Parent->filter = array(strtotime($filter[0]),strtotime($filter[1]));
-
 				$joins .= "
 					LEFT JOIN
 						`tbl_entries_data_{$field_id}` AS t{$field_id}
 						ON (e.id = t{$field_id}.entry_id)
 				";
 				$where .= "
-					AND ((t{$field_id}.start <= {$filter[0]} AND t{$field_id}.end >= {$filter[1]})
-						OR t{$field_id}.start >= {$filter[0]})
+					AND ((t{$field_id}.start <= {$this->_Parent->filter[0]} AND t{$field_id}.end >= {$this->_Parent->filter[1]})
+						OR t{$field_id}.start >= {$this->_Parent->filter[0]} OR t{$field_id}.end <= {$this->_Parent->filter[1]})
 					";
+					echo $joins." $where\n";
 			} else {
 				$this->_Parent->filter[0] = array(strtotime(@$data[0]));
 
