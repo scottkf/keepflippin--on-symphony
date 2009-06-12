@@ -3,7 +3,6 @@
 	ini_set("display_errors","2");
 	ERROR_REPORTING(E_ALL);
 	
- 
   define('DOCROOT', rtrim(dirname(__FILE__), '/'));
   define('DOMAIN', rtrim(rtrim($_SERVER['HTTP_HOST'], '/') . dirname($_SERVER['PHP_SELF']), '/'));
  
