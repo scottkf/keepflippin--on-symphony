@@ -43,3 +43,6 @@
 [submodule "extensions/textformatter_labels"]
 	path = extensions/textformatter_labels
 	url = git://github.com/michael-e/textformatter_labels.git
+[submodule "extensions/mailchimp"]
+	path = extensions/mailchimp
+	url = git://github.com/lewiswharf/mailchimp.git

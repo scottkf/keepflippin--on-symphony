@@ -259,7 +259,7 @@
 			
 				$current = strtotime("+{$skip} day", $current);
 			}
-		
+
 			return $dates;
 		}
 	

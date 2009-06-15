@@ -264,7 +264,6 @@
 				$data['link_id'] = $link_id;
 
 				$dates = $this->_driver->getDates($data);
-
 				// Remove old dates:
 				$this->_engine->Database->query("
 					DELETE QUICK FROM
@@ -301,7 +300,6 @@
 		public function appendFormattedElement(&$wrapper, $data, $encode = false) {
 			$dates = $this->_driver->getEntryDates($data, $this->get('id'), $this->_Parent->filter);
 			$element = new XMLElement($this->get('element_name'));
-
 			$element->appendChild(General::createXMLDateObject($data['start'], 'start'));
 			
 			// make sure not to print all the dates without a filter otherwise it pollutes the xml
@@ -390,19 +388,24 @@
 		
 		public function buildDSRetrivalSQL($data, &$joins, &$where, $andOperation = false) {
 			$field_id = $this->get('id');
-
 			$filter = preg_split('/(.*) to (.*)/', $data[0], -1, PREG_SPLIT_DELIM_CAPTURE | PREG_SPLIT_NO_EMPTY);
 			if (count($filter) == 2) {
-				$this->_Parent->filter = array(strtotime($filter[0]),strtotime($filter[1]));
+				$this->_Parent->filter = array(strtotime($filter[0]),strtotime("+1 day", strtotime($filter[1])));
 				$joins .= "
 					LEFT JOIN
 						`tbl_entries_data_{$field_id}` AS t{$field_id}
 						ON (e.id = t{$field_id}.entry_id)
+					LEFT JOIN
+						`tbl_entries_data_{$field_id}_dates` AS dates{$field_id}
+						ON (t{$field_id}.link_id = dates{$field_id}.link_id)
 				";
 				$where .= "
-					AND ((t{$field_id}.start <= {$this->_Parent->filter[0]} AND t{$field_id}.end >= {$this->_Parent->filter[1]})
-						OR t{$field_id}.start >= {$this->_Parent->filter[0]} OR t{$field_id}.end <= {$this->_Parent->filter[1]})
-					";
+					AND ({$this->_Parent->filter[0]} <= dates{$field_id}.value AND {$this->_Parent->filter[1]} >= dates{$field_id}.value)
+				";
+				// $where .= "
+				// 	AND ((t{$field_id}.start >= {$this->_Parent->filter[0]} AND t{$field_id}.end <= {$this->_Parent->filter[1]})
+				// 		OR t{$field_id}.start >= {$this->_Parent->filter[0]} OR t{$field_id}.end <= {$this->_Parent->filter[1]})
+				// 	";
 			} else {
 				$this->_Parent->filter[0] = array(strtotime(@$data[0]));
 
