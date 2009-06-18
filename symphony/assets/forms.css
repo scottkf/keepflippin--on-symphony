@@ -1,5 +1,5 @@
-@import url("basic.css");
-@import url("admin.css");
+@import "basic.css";
+@import "admin.css";
 
 /* Form Elements */
 fieldset,
