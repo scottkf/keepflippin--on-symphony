@@ -289,3 +289,363 @@ Line: 88 - XSLTProcessor::transformToXml(): unregistered variable this-session
 Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompiledEval: evaluation failed
 Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/navigation.xsl line 40 element value-of
 Line: 88 - XSLTProcessor::transformToXml(): xsltValueOf: text copy failed
+17:00:06 > ERROR: 256 - Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/navigation.xsl line 40 element value-of
+Line: 88 - XSLTProcessor::transformToXml(): unregistered variable this-session
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompiledEval: evaluation failed
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/navigation.xsl line 40 element value-of
+Line: 88 - XSLTProcessor::transformToXml(): xsltValueOf: text copy failed
+17:05:37 > ERROR: 256 - Could not find extension at location /home/keepfli/symphony/extensions/massuploadutility/extension.driver.php in file /home/keepfli/symphony/symphony/lib/toolkit/class.extensionmanager.php on line 234
+17:05:57 > ERROR: 256 - Could not find extension at location /home/keepfli/symphony/extensions/massuploadutility/extension.driver.php in file /home/keepfli/symphony/symphony/lib/toolkit/class.extensionmanager.php on line 234
+17:06:53 > ERROR: 256 - Could not find extension at location /home/keepfli/symphony/extensions/massuploadutility/extension.driver.php in file /home/keepfli/symphony/symphony/lib/toolkit/class.extensionmanager.php on line 234
+04:54:45 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
+				FROM `sym_fields` AS `f` 
+				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
+				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
+08:26:25 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
+				FROM `sym_fields` AS `f` 
+				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
+				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
+08:27:15 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
+				FROM `sym_fields` AS `f` 
+				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
+				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
+11:23:12 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
+				FROM `sym_fields` AS `f` 
+				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
+				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
+11:23:37 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
+				FROM `sym_fields` AS `f` 
+				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
+				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
+11:35:32 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
+				FROM `sym_fields` AS `f` 
+				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
+				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
+13:54:43 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
+				FROM `sym_fields` AS `f` 
+				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
+				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
+13:55:36 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
+				FROM `sym_fields` AS `f` 
+				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
+				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
+15:38:13 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
+				FROM `sym_fields` AS `f` 
+				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
+				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
+15:41:01 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
+				FROM `sym_fields` AS `f` 
+				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
+				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
+17:31:01 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
+				FROM `sym_fields` AS `f` 
+				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
+				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
+17:35:51 > WARNING: 512 - MySQL Error (1054): Unknown column 'NaN' in 'where clause' in query "SELECT  `e`.id, 
+						`e`.section_id, e.`author_id`, 
+						UNIX_TIMESTAMP(e.`creation_date`) AS `creation_date`, 
+						UNIX_TIMESTAMP(e.`creation_date_gmt`) AS `creation_date_gmt`
+						
+				FROM `sym_entries` AS `e`
+				 LEFT JOIN `sym_entries_data_109` AS `t109` ON (`e`.`id` = `t109`.entry_id) 
+					LEFT JOIN
+						`sym_entries_data_101` AS t101
+						ON (e.id = t101.entry_id)
+						
+				WHERE 1
+				
+				AND `e`.`section_id` = '20' 
+				 AND `t109`.relation_id IN ('158') 
+					AND ((t101.start = NaN-NaN-31)
+						OR t101.start >= NaN-NaN-01)
+					
+				ORDER BY `e`.`id` ASC
+				LIMIT 0, 20" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
+19:31:55 > WARNING: 512 - MySQL Error (1054): Unknown column 'NaN' in 'where clause' in query "SELECT  `e`.id, 
+						`e`.section_id, e.`author_id`, 
+						UNIX_TIMESTAMP(e.`creation_date`) AS `creation_date`, 
+						UNIX_TIMESTAMP(e.`creation_date_gmt`) AS `creation_date_gmt`
+						
+				FROM `sym_entries` AS `e`
+				 LEFT JOIN `sym_entries_data_118` AS `t118` ON (`e`.`id` = `t118`.entry_id)  LEFT JOIN `sym_entries_data_98` AS `t98` ON (`e`.`id` = `t98`.entry_id)  LEFT JOIN `sym_entries_data_109` AS `t109` ON (`e`.`id` = `t109`.entry_id) 
+					LEFT JOIN
+						`sym_entries_data_101` AS t101
+						ON (e.id = t101.entry_id)
+						
+				WHERE 1
+				
+				AND `e`.`section_id` = '20' 
+				 AND `t118`.relation_id IN ('173')  AND `t98`.relation_id IN ('993')  AND `t109`.relation_id IN ('158') 
+					AND ((t101.start = NaN-NaN-31)
+						OR t101.start >= NaN-NaN-01)
+					
+				ORDER BY `e`.`id` DESC
+				LIMIT 0, 99" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
+19:33:00 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
+				FROM `sym_fields` AS `f` 
+				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
+				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
+19:37:05 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
+				FROM `sym_fields` AS `f` 
+				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
+				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
+21:21:19 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
+				FROM `sym_fields` AS `f` 
+				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
+				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
+21:24:31 > WARNING: 512 - MySQL Error (1054): Unknown column 'NaN' in 'where clause' in query "SELECT  `e`.id, 
+						`e`.section_id, e.`author_id`, 
+						UNIX_TIMESTAMP(e.`creation_date`) AS `creation_date`, 
+						UNIX_TIMESTAMP(e.`creation_date_gmt`) AS `creation_date_gmt`
+						
+				FROM `sym_entries` AS `e`
+				 LEFT JOIN `sym_entries_data_118` AS `t118` ON (`e`.`id` = `t118`.entry_id)  LEFT JOIN `sym_entries_data_98` AS `t98` ON (`e`.`id` = `t98`.entry_id) 
+					LEFT JOIN
+						`sym_entries_data_101` AS t101
+						ON (e.id = t101.entry_id)
+						
+				WHERE 1
+				
+				AND `e`.`section_id` = '20' 
+				 AND `t118`.relation_id IN ('173')  AND `t98`.relation_id IN ('153', '157', '160', '161', '162', '163', '164', '165', '956') 
+					AND ((t101.start = NaN-NaN-31)
+						OR t101.start >= NaN-NaN-01)
+					
+				ORDER BY `e`.`id` ASC
+				LIMIT 0, 99" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
+23:00:38 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
+				FROM `sym_fields` AS `f` 
+				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
+				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
+23:02:46 > WARNING: 512 - MySQL Error (1054): Unknown column 'NaN' in 'where clause' in query "SELECT  `e`.id, 
+						`e`.section_id, e.`author_id`, 
+						UNIX_TIMESTAMP(e.`creation_date`) AS `creation_date`, 
+						UNIX_TIMESTAMP(e.`creation_date_gmt`) AS `creation_date_gmt`
+						
+				FROM `sym_entries` AS `e`
+				 LEFT JOIN `sym_entries_data_118` AS `t118` ON (`e`.`id` = `t118`.entry_id)  LEFT JOIN `sym_entries_data_98` AS `t98` ON (`e`.`id` = `t98`.entry_id)  LEFT JOIN `sym_entries_data_109` AS `t109` ON (`e`.`id` = `t109`.entry_id) 
+					LEFT JOIN
+						`sym_entries_data_101` AS t101
+						ON (e.id = t101.entry_id)
+						
+				WHERE 1
+				
+				AND `e`.`section_id` = '20' 
+				 AND `t118`.relation_id IN ('173')  AND `t98`.relation_id IN ('161')  AND `t109`.relation_id IN ('158') 
+					AND ((t101.start = NaN-NaN-31)
+						OR t101.start >= NaN-NaN-01)
+					
+				ORDER BY `e`.`id` DESC
+				LIMIT 0, 99" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
+23:04:04 > WARNING: 512 - MySQL Error (1054): Unknown column 'NaN' in 'where clause' in query "SELECT  `e`.id, 
+						`e`.section_id, e.`author_id`, 
+						UNIX_TIMESTAMP(e.`creation_date`) AS `creation_date`, 
+						UNIX_TIMESTAMP(e.`creation_date_gmt`) AS `creation_date_gmt`
+						
+				FROM `sym_entries` AS `e`
+				 LEFT JOIN `sym_entries_data_118` AS `t118` ON (`e`.`id` = `t118`.entry_id)  LEFT JOIN `sym_entries_data_98` AS `t98` ON (`e`.`id` = `t98`.entry_id)  LEFT JOIN `sym_entries_data_109` AS `t109` ON (`e`.`id` = `t109`.entry_id) 
+					LEFT JOIN
+						`sym_entries_data_101` AS t101
+						ON (e.id = t101.entry_id)
+						
+				WHERE 1
+				
+				AND `e`.`section_id` = '20' 
+				 AND `t118`.relation_id IN ('173')  AND `t98`.relation_id IN ('163')  AND `t109`.relation_id IN ('158') 
+					AND ((t101.start = NaN-NaN-31)
+						OR t101.start >= NaN-NaN-01)
+					
+				ORDER BY `e`.`id` DESC
+				LIMIT 0, 99" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
+23:20:43 > WARNING: 512 - MySQL Error (1054): Unknown column 'NaN' in 'where clause' in query "SELECT  `e`.id, 
+						`e`.section_id, e.`author_id`, 
+						UNIX_TIMESTAMP(e.`creation_date`) AS `creation_date`, 
+						UNIX_TIMESTAMP(e.`creation_date_gmt`) AS `creation_date_gmt`
+						
+				FROM `sym_entries` AS `e`
+				 LEFT JOIN `sym_entries_data_118` AS `t118` ON (`e`.`id` = `t118`.entry_id)  LEFT JOIN `sym_entries_data_98` AS `t98` ON (`e`.`id` = `t98`.entry_id)  LEFT JOIN `sym_entries_data_109` AS `t109` ON (`e`.`id` = `t109`.entry_id) 
+					LEFT JOIN
+						`sym_entries_data_101` AS t101
+						ON (e.id = t101.entry_id)
+						
+				WHERE 1
+				
+				AND `e`.`section_id` = '20' 
+				 AND `t118`.relation_id IN ('173')  AND `t98`.relation_id IN ('157')  AND `t109`.relation_id IN ('158') 
+					AND ((t101.start = NaN-NaN-31)
+						OR t101.start >= NaN-NaN-01)
+					
+				ORDER BY `e`.`id` DESC
+				LIMIT 0, 99" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
+23:28:53 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
+				FROM `sym_fields` AS `f` 
+				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
+				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
+00:49:51 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
+				FROM `sym_fields` AS `f` 
+				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
+				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
+00:51:46 > WARNING: 512 - MySQL Error (1054): Unknown column 'NaN' in 'where clause' in query "SELECT  `e`.id, 
+						`e`.section_id, e.`author_id`, 
+						UNIX_TIMESTAMP(e.`creation_date`) AS `creation_date`, 
+						UNIX_TIMESTAMP(e.`creation_date_gmt`) AS `creation_date_gmt`
+						
+				FROM `sym_entries` AS `e`
+				 LEFT JOIN `sym_entries_data_118` AS `t118` ON (`e`.`id` = `t118`.entry_id)  LEFT JOIN `sym_entries_data_98` AS `t98` ON (`e`.`id` = `t98`.entry_id)  LEFT JOIN `sym_entries_data_109` AS `t109` ON (`e`.`id` = `t109`.entry_id) 
+					LEFT JOIN
+						`sym_entries_data_101` AS t101
+						ON (e.id = t101.entry_id)
+						
+				WHERE 1
+				
+				AND `e`.`section_id` = '20' 
+				 AND `t118`.relation_id IN ('173')  AND `t98`.relation_id IN ('956')  AND `t109`.relation_id IN ('158') 
+					AND ((t101.start = NaN-NaN-31)
+						OR t101.start >= NaN-NaN-01)
+					
+				ORDER BY `e`.`id` DESC
+				LIMIT 0, 99" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
+00:52:09 > WARNING: 512 - MySQL Error (1054): Unknown column 'NaN' in 'where clause' in query "SELECT  `e`.id, 
+						`e`.section_id, e.`author_id`, 
+						UNIX_TIMESTAMP(e.`creation_date`) AS `creation_date`, 
+						UNIX_TIMESTAMP(e.`creation_date_gmt`) AS `creation_date_gmt`
+						
+				FROM `sym_entries` AS `e`
+				 LEFT JOIN `sym_entries_data_118` AS `t118` ON (`e`.`id` = `t118`.entry_id)  LEFT JOIN `sym_entries_data_98` AS `t98` ON (`e`.`id` = `t98`.entry_id)  LEFT JOIN `sym_entries_data_109` AS `t109` ON (`e`.`id` = `t109`.entry_id) 
+					LEFT JOIN
+						`sym_entries_data_101` AS t101
+						ON (e.id = t101.entry_id)
+						
+				WHERE 1
+				
+				AND `e`.`section_id` = '20' 
+				 AND `t118`.relation_id IN ('173')  AND `t98`.relation_id IN ('162')  AND `t109`.relation_id IN ('158') 
+					AND ((t101.start = NaN-NaN-31)
+						OR t101.start >= NaN-NaN-01)
+					
+				ORDER BY `e`.`id` DESC
+				LIMIT 0, 99" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
+00:55:17 > WARNING: 512 - MySQL Error (1054): Unknown column 'NaN' in 'where clause' in query "SELECT  `e`.id, 
+						`e`.section_id, e.`author_id`, 
+						UNIX_TIMESTAMP(e.`creation_date`) AS `creation_date`, 
+						UNIX_TIMESTAMP(e.`creation_date_gmt`) AS `creation_date_gmt`
+						
+				FROM `sym_entries` AS `e`
+				 LEFT JOIN `sym_entries_data_118` AS `t118` ON (`e`.`id` = `t118`.entry_id)  LEFT JOIN `sym_entries_data_98` AS `t98` ON (`e`.`id` = `t98`.entry_id)  LEFT JOIN `sym_entries_data_109` AS `t109` ON (`e`.`id` = `t109`.entry_id) 
+					LEFT JOIN
+						`sym_entries_data_101` AS t101
+						ON (e.id = t101.entry_id)
+						
+				WHERE 1
+				
+				AND `e`.`section_id` = '20' 
+				 AND `t118`.relation_id IN ('173')  AND `t98`.relation_id IN ('160')  AND `t109`.relation_id IN ('158') 
+					AND ((t101.start = NaN-NaN-31)
+						OR t101.start >= NaN-NaN-01)
+					
+				ORDER BY `e`.`id` DESC
+				LIMIT 0, 99" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
+02:19:15 > WARNING: 512 - MySQL Error (1054): Unknown column 'NaN' in 'where clause' in query "SELECT  `e`.id, 
+						`e`.section_id, e.`author_id`, 
+						UNIX_TIMESTAMP(e.`creation_date`) AS `creation_date`, 
+						UNIX_TIMESTAMP(e.`creation_date_gmt`) AS `creation_date_gmt`
+						
+				FROM `sym_entries` AS `e`
+				 LEFT JOIN `sym_entries_data_118` AS `t118` ON (`e`.`id` = `t118`.entry_id)  LEFT JOIN `sym_entries_data_98` AS `t98` ON (`e`.`id` = `t98`.entry_id)  LEFT JOIN `sym_entries_data_109` AS `t109` ON (`e`.`id` = `t109`.entry_id) 
+					LEFT JOIN
+						`sym_entries_data_101` AS t101
+						ON (e.id = t101.entry_id)
+						
+				WHERE 1
+				
+				AND `e`.`section_id` = '20' 
+				 AND `t118`.relation_id IN ('173')  AND `t98`.relation_id IN ('153')  AND `t109`.relation_id IN ('158') 
+					AND ((t101.start = NaN-NaN-31)
+						OR t101.start >= NaN-NaN-01)
+					
+				ORDER BY `e`.`id` DESC
+				LIMIT 0, 99" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
+02:22:58 > WARNING: 512 - MySQL Error (1054): Unknown column 'NaN' in 'where clause' in query "SELECT  `e`.id, 
+						`e`.section_id, e.`author_id`, 
+						UNIX_TIMESTAMP(e.`creation_date`) AS `creation_date`, 
+						UNIX_TIMESTAMP(e.`creation_date_gmt`) AS `creation_date_gmt`
+						
+				FROM `sym_entries` AS `e`
+				 LEFT JOIN `sym_entries_data_118` AS `t118` ON (`e`.`id` = `t118`.entry_id)  LEFT JOIN `sym_entries_data_98` AS `t98` ON (`e`.`id` = `t98`.entry_id)  LEFT JOIN `sym_entries_data_109` AS `t109` ON (`e`.`id` = `t109`.entry_id) 
+					LEFT JOIN
+						`sym_entries_data_101` AS t101
+						ON (e.id = t101.entry_id)
+						
+				WHERE 1
+				
+				AND `e`.`section_id` = '20' 
+				 AND `t118`.relation_id IN ('173')  AND `t98`.relation_id IN ('164')  AND `t109`.relation_id IN ('158') 
+					AND ((t101.start = NaN-NaN-31)
+						OR t101.start >= NaN-NaN-01)
+					
+				ORDER BY `e`.`id` DESC
+				LIMIT 0, 99" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
+02:23:18 > WARNING: 512 - MySQL Error (1054): Unknown column 'NaN' in 'where clause' in query "SELECT  `e`.id, 
+						`e`.section_id, e.`author_id`, 
+						UNIX_TIMESTAMP(e.`creation_date`) AS `creation_date`, 
+						UNIX_TIMESTAMP(e.`creation_date_gmt`) AS `creation_date_gmt`
+						
+				FROM `sym_entries` AS `e`
+				 LEFT JOIN `sym_entries_data_118` AS `t118` ON (`e`.`id` = `t118`.entry_id)  LEFT JOIN `sym_entries_data_98` AS `t98` ON (`e`.`id` = `t98`.entry_id)  LEFT JOIN `sym_entries_data_109` AS `t109` ON (`e`.`id` = `t109`.entry_id) 
+					LEFT JOIN
+						`sym_entries_data_101` AS t101
+						ON (e.id = t101.entry_id)
+						
+				WHERE 1
+				
+				AND `e`.`section_id` = '20' 
+				 AND `t118`.relation_id IN ('173')  AND `t98`.relation_id IN ('165')  AND `t109`.relation_id IN ('158') 
+					AND ((t101.start = NaN-NaN-31)
+						OR t101.start >= NaN-NaN-01)
+					
+				ORDER BY `e`.`id` DESC
+				LIMIT 0, 99" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
+02:23:58 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
+				FROM `sym_fields` AS `f` 
+				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
+				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
+02:24:19 > WARNING: 512 - MySQL Error (1054): Unknown column 'NaN' in 'where clause' in query "SELECT  `e`.id, 
+						`e`.section_id, e.`author_id`, 
+						UNIX_TIMESTAMP(e.`creation_date`) AS `creation_date`, 
+						UNIX_TIMESTAMP(e.`creation_date_gmt`) AS `creation_date_gmt`
+						
+				FROM `sym_entries` AS `e`
+				 LEFT JOIN `sym_entries_data_109` AS `t109` ON (`e`.`id` = `t109`.entry_id) 
+					LEFT JOIN
+						`sym_entries_data_101` AS t101
+						ON (e.id = t101.entry_id)
+						
+				WHERE 1
+				
+				AND `e`.`section_id` = '20' 
+				 AND `t109`.relation_id IN ('158') 
+					AND ((t101.start = NaN-NaN-31)
+						OR t101.start >= NaN-NaN-01)
+					
+				ORDER BY `e`.`id` ASC
+				LIMIT 0, 20" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
+03:20:20 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
+				FROM `sym_fields` AS `f` 
+				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
+				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
+04:21:14 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
+				FROM `sym_fields` AS `f` 
+				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
+				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
+07:52:35 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
+				FROM `sym_fields` AS `f` 
+				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
+				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
+09:50:48 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
+				FROM `sym_fields` AS `f` 
+				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
+				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
+21:40:19 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
+				FROM `sym_fields` AS `f` 
+				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
+				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
