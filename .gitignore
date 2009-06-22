@@ -2,3 +2,5 @@
 *config.php
 .htaccess
 symphony/.htaccess
+manifest/logs
+.sass-cache

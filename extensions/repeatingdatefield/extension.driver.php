@@ -259,7 +259,7 @@
 			
 				$current = strtotime("+{$skip} day", $current);
 			}
-		
+
 			return $dates;
 		}
 	
@@ -275,7 +275,7 @@
 			$skip = ((integer)$skip > 0 ? (integer)$skip : 1);
 			$current = $start; $dates = array();
 			$results = 0;
-			
+
 			while ($current <= $finish and $results < 9999) {
 				array_push($dates, $current);
 				

@@ -1,399 +1,661 @@
 ============================================
-Log Created: 2009-05-31T17:20:26-05:00
+Log Created: 2009-06-21T14:18:59-05:00
 ============================================
 Symphony Log
 Build: 375
 --------------------------------------------
-18:20:26 > WARNING: 2 - filemtime() [function.filemtime]: stat failed for /home/keepfli/symphony/gallery-images/bar-bg-page.jpg in file /home/keepfli/symphony/extensions/massuploadutility/content/content.inject.php on line 518
-18:20:26 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-18:20:26 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('26') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
+15:18:59 > WARNING: 2 - file(/home/keepfli/symphony/manifest/cachelite-excluded-pages) [function.file]: failed to open stream: No such file or directory in file /home/keepfli/symphony/extensions/cachelite/extension.driver.php on line 199
+15:18:59 > WARNING: 2 - array_map() [function.array-map]: Argument #2 should be an array in file /home/keepfli/symphony/extensions/cachelite/extension.driver.php on line 201
+15:18:59 > WARNING: 2 - file(/home/keepfli/symphony/manifest/cachelite-excluded-pages) [function.file]: failed to open stream: No such file or directory in file /home/keepfli/symphony/extensions/cachelite/extension.driver.php on line 199
+15:18:59 > WARNING: 2 - array_map() [function.array-map]: Argument #2 should be an array in file /home/keepfli/symphony/extensions/cachelite/extension.driver.php on line 201
+15:19:02 > WARNING: 2 - file(/home/keepfli/symphony/manifest/cachelite-excluded-pages) [function.file]: failed to open stream: No such file or directory in file /home/keepfli/symphony/extensions/cachelite/extension.driver.php on line 199
+15:19:02 > WARNING: 2 - array_map() [function.array-map]: Argument #2 should be an array in file /home/keepfli/symphony/extensions/cachelite/extension.driver.php on line 201
+15:19:03 > WARNING: 2 - file(/home/keepfli/symphony/manifest/cachelite-excluded-pages) [function.file]: failed to open stream: No such file or directory in file /home/keepfli/symphony/extensions/cachelite/extension.driver.php on line 199
+15:19:03 > WARNING: 2 - array_map() [function.array-map]: Argument #2 should be an array in file /home/keepfli/symphony/extensions/cachelite/extension.driver.php on line 201
+15:19:07 > WARNING: 2 - file(/home/keepfli/symphony/manifest/cachelite-excluded-pages) [function.file]: failed to open stream: No such file or directory in file /home/keepfli/symphony/extensions/cachelite/extension.driver.php on line 199
+15:19:07 > WARNING: 2 - array_map() [function.array-map]: Argument #2 should be an array in file /home/keepfli/symphony/extensions/cachelite/extension.driver.php on line 201
+15:19:10 > WARNING: 2 - file(/home/keepfli/symphony/manifest/cachelite-excluded-pages) [function.file]: failed to open stream: No such file or directory in file /home/keepfli/symphony/extensions/cachelite/extension.driver.php on line 199
+15:19:10 > WARNING: 2 - array_map() [function.array-map]: Argument #2 should be an array in file /home/keepfli/symphony/extensions/cachelite/extension.driver.php on line 201
+16:12:31 > WARNING: 2 - file(/home/keepfli/symphony/manifest/cachelite-excluded-pages) [function.file]: failed to open stream: No such file or directory in file /home/keepfli/symphony/extensions/cachelite/extension.driver.php on line 199
+16:12:31 > WARNING: 2 - array_map() [function.array-map]: Argument #2 should be an array in file /home/keepfli/symphony/extensions/cachelite/extension.driver.php on line 201
+16:12:44 > WARNING: 2 - file(/home/keepfli/symphony/manifest/cachelite-excluded-pages) [function.file]: failed to open stream: No such file or directory in file /home/keepfli/symphony/extensions/cachelite/extension.driver.php on line 199
+16:12:44 > WARNING: 2 - array_map() [function.array-map]: Argument #2 should be an array in file /home/keepfli/symphony/extensions/cachelite/extension.driver.php on line 201
+16:14:00 > WARNING: 2 - file(/home/keepfli/symphony/manifest/cachelite-excluded-pages) [function.file]: failed to open stream: No such file or directory in file /home/keepfli/symphony/extensions/cachelite/extension.driver.php on line 199
+16:14:00 > WARNING: 2 - array_map() [function.array-map]: Argument #2 should be an array in file /home/keepfli/symphony/extensions/cachelite/extension.driver.php on line 201
+16:34:53 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
+16:34:53 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('119') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
 				FROM `sym_fields` AS `f` 
 				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('26') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-18:20:29 > WARNING: 2 - filemtime() [function.filemtime]: stat failed for /home/keepfli/symphony/gallery-images/bar-bg-page.jpg in file /home/keepfli/symphony/extensions/massuploadutility/content/content.inject.php on line 518
-18:20:29 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-18:20:29 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('26') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('26') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-18:25:04 > WARNING: 2 - filemtime() [function.filemtime]: stat failed for /home/keepfli/symphony/gallery-images/bar-bg-page.jpg in file /home/keepfli/symphony/extensions/massuploadutility/content/content.inject.php on line 518
-18:25:04 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-18:25:04 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('26') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('26') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-18:25:49 > WARNING: 2 - filemtime() [function.filemtime]: stat failed for /home/keepfli/symphony/gallery-images/bar-bg-page.jpg in file /home/keepfli/symphony/extensions/massuploadutility/content/content.inject.php on line 518
-18:25:49 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-18:25:49 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('26') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('26') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-18:26:14 > WARNING: 2 - filemtime() [function.filemtime]: stat failed for /home/keepfli/symphony/gallery-images/bar-bg-page.jpg in file /home/keepfli/symphony/extensions/massuploadutility/content/content.inject.php on line 518
-18:26:14 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-18:26:14 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('26') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('26') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-18:26:28 > WARNING: 2 - filemtime() [function.filemtime]: stat failed for /home/keepfli/symphony/gallery-images/bar-bg-page.jpg in file /home/keepfli/symphony/extensions/massuploadutility/content/content.inject.php on line 518
-18:26:28 > WARNING: 2 - filemtime() [function.filemtime]: stat failed for /home/keepfli/symphony/gallery-images/bar-bg-piece-page.jpg in file /home/keepfli/symphony/extensions/massuploadutility/content/content.inject.php on line 518
-18:26:28 > WARNING: 2 - filemtime() [function.filemtime]: stat failed for /home/keepfli/symphony/gallery-images/bg.png in file /home/keepfli/symphony/extensions/massuploadutility/content/content.inject.php on line 518
-18:26:28 > WARNING: 2 - filemtime() [function.filemtime]: stat failed for /home/keepfli/symphony/gallery-images/blank.gif in file /home/keepfli/symphony/extensions/massuploadutility/content/content.inject.php on line 518
-18:26:28 > WARNING: 2 - filemtime() [function.filemtime]: stat failed for /home/keepfli/symphony/gallery-images/closelabel.gif in file /home/keepfli/symphony/extensions/massuploadutility/content/content.inject.php on line 518
-18:26:28 > WARNING: 2 - filemtime() [function.filemtime]: stat failed for /home/keepfli/symphony/gallery-images/contact.jpg in file /home/keepfli/symphony/extensions/massuploadutility/content/content.inject.php on line 518
-18:26:28 > WARNING: 2 - filemtime() [function.filemtime]: stat failed for /home/keepfli/symphony/gallery-images/contact_button2.gif in file /home/keepfli/symphony/extensions/massuploadutility/content/content.inject.php on line 518
-18:26:28 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-18:26:28 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('26') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('26') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-18:59:26 > WARNING: 512 - MySQL Error (1048): Column 'relation_id' cannot be null in query "INSERT INTO `sym_entries_data_130` (`entry_id`, `relation_id`) VALUES ('898', NULL)" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-19:01:07 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-19:01:07 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('26') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('26') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-19:01:17 > WARNING: 2 - filemtime() [function.filemtime]: stat failed for /home/keepfli/symphony/gallery-images/270.jpg in file /home/keepfli/symphony/extensions/massuploadutility/content/content.inject.php on line 518
-19:01:17 > WARNING: 2 - filemtime() [function.filemtime]: stat failed for /home/keepfli/symphony/gallery-images/271.jpg in file /home/keepfli/symphony/extensions/massuploadutility/content/content.inject.php on line 518
-19:01:17 > WARNING: 2 - filemtime() [function.filemtime]: stat failed for /home/keepfli/symphony/gallery-images/272.jpg in file /home/keepfli/symphony/extensions/massuploadutility/content/content.inject.php on line 518
-19:01:17 > WARNING: 2 - filemtime() [function.filemtime]: stat failed for /home/keepfli/symphony/gallery-images/273.jpg in file /home/keepfli/symphony/extensions/massuploadutility/content/content.inject.php on line 518
-19:01:17 > WARNING: 2 - filemtime() [function.filemtime]: stat failed for /home/keepfli/symphony/gallery-images/274.jpg in file /home/keepfli/symphony/extensions/massuploadutility/content/content.inject.php on line 518
-19:01:17 > WARNING: 2 - filemtime() [function.filemtime]: stat failed for /home/keepfli/symphony/gallery-images/275.jpg in file /home/keepfli/symphony/extensions/massuploadutility/content/content.inject.php on line 518
-19:01:17 > WARNING: 2 - filemtime() [function.filemtime]: stat failed for /home/keepfli/symphony/gallery-images/276.jpg in file /home/keepfli/symphony/extensions/massuploadutility/content/content.inject.php on line 518
-19:01:17 > WARNING: 2 - filemtime() [function.filemtime]: stat failed for /home/keepfli/symphony/gallery-images/277.jpg in file /home/keepfli/symphony/extensions/massuploadutility/content/content.inject.php on line 518
-19:01:17 > WARNING: 2 - filemtime() [function.filemtime]: stat failed for /home/keepfli/symphony/gallery-images/bar-bg-page.jpg in file /home/keepfli/symphony/extensions/massuploadutility/content/content.inject.php on line 518
-19:01:17 > WARNING: 2 - filemtime() [function.filemtime]: stat failed for /home/keepfli/symphony/gallery-images/bar-bg-piece-page.jpg in file /home/keepfli/symphony/extensions/massuploadutility/content/content.inject.php on line 518
-19:01:17 > WARNING: 2 - filemtime() [function.filemtime]: stat failed for /home/keepfli/symphony/gallery-images/bg.png in file /home/keepfli/symphony/extensions/massuploadutility/content/content.inject.php on line 518
-19:01:17 > WARNING: 2 - filemtime() [function.filemtime]: stat failed for /home/keepfli/symphony/gallery-images/blank.gif in file /home/keepfli/symphony/extensions/massuploadutility/content/content.inject.php on line 518
-19:01:17 > WARNING: 2 - filemtime() [function.filemtime]: stat failed for /home/keepfli/symphony/gallery-images/closelabel.gif in file /home/keepfli/symphony/extensions/massuploadutility/content/content.inject.php on line 518
-19:01:17 > WARNING: 2 - filemtime() [function.filemtime]: stat failed for /home/keepfli/symphony/gallery-images/contact.jpg in file /home/keepfli/symphony/extensions/massuploadutility/content/content.inject.php on line 518
-19:01:17 > WARNING: 2 - filemtime() [function.filemtime]: stat failed for /home/keepfli/symphony/gallery-images/contact_button2.gif in file /home/keepfli/symphony/extensions/massuploadutility/content/content.inject.php on line 518
-19:01:17 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-19:01:17 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('26') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('26') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-22:41:36 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-22:41:36 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('26') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('26') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-22:41:44 > WARNING: 2 - filemtime() [function.filemtime]: stat failed for /home/keepfli/symphony/gallery-images/intro1-10.png in file /home/keepfli/symphony/extensions/massuploadutility/content/content.inject.php on line 518
-22:41:44 > WARNING: 2 - filemtime() [function.filemtime]: stat failed for /home/keepfli/symphony/gallery-images/intro1-9a.png in file /home/keepfli/symphony/extensions/massuploadutility/content/content.inject.php on line 518
-22:41:44 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-22:41:44 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('26') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('26') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-16:28:42 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
+				WHERE `s`.id =  AND f.id IN ('119') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
+16:34:53 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/symphony/extensions/section_schemas/extension.driver.php on line 88
+16:34:53 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
+16:34:53 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
 				FROM `sym_fields` AS `f` 
 				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
 				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-16:28:46 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
+16:34:53 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/symphony/extensions/section_schemas/extension.driver.php on line 88
+16:34:53 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
+16:34:53 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('102') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
+				FROM `sym_fields` AS `f` 
+				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
+				WHERE `s`.id =  AND f.id IN ('102') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
+16:34:53 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/symphony/extensions/section_schemas/extension.driver.php on line 88
+16:34:54 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
+16:34:54 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('119') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
+				FROM `sym_fields` AS `f` 
+				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
+				WHERE `s`.id =  AND f.id IN ('119') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
+16:34:54 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/symphony/extensions/section_schemas/extension.driver.php on line 88
+16:34:54 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
+16:34:54 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
 				FROM `sym_fields` AS `f` 
 				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
 				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-16:28:49 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
+16:34:54 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/symphony/extensions/section_schemas/extension.driver.php on line 88
+16:34:54 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
+16:34:54 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('102') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
+				FROM `sym_fields` AS `f` 
+				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
+				WHERE `s`.id =  AND f.id IN ('102') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
+16:34:54 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/symphony/extensions/section_schemas/extension.driver.php on line 88
+16:35:28 > WARNING: 2 - Missing argument 1 for AdministrationPage::__construct(), called in /home/keepfli/symphony/extensions/section_schemas/content/content.list.php on line 74 and defined in file /home/keepfli/symphony/symphony/lib/toolkit/class.administrationpage.php on line 19
+16:35:28 > WARNING: 512 - Unable to remove file - /home/keepfli/symphony/workspace/data-sources/data.section_schema_article_images.php in file /home/keepfli/symphony/symphony/lib/toolkit/class.general.php on line 520
+16:35:28 > WARNING: 512 - Unable to remove file - /home/keepfli/symphony/workspace/data-sources/data.section_schema_classes.php in file /home/keepfli/symphony/symphony/lib/toolkit/class.general.php on line 520
+16:35:28 > WARNING: 512 - Unable to remove file - /home/keepfli/symphony/workspace/data-sources/data.section_schema_comments.php in file /home/keepfli/symphony/symphony/lib/toolkit/class.general.php on line 520
+16:35:28 > WARNING: 512 - Unable to remove file - /home/keepfli/symphony/workspace/data-sources/data.section_schema_files.php in file /home/keepfli/symphony/symphony/lib/toolkit/class.general.php on line 520
+16:35:28 > WARNING: 512 - Unable to remove file - /home/keepfli/symphony/workspace/data-sources/data.section_schema_galleries.php in file /home/keepfli/symphony/symphony/lib/toolkit/class.general.php on line 520
+16:35:28 > WARNING: 512 - Unable to remove file - /home/keepfli/symphony/workspace/data-sources/data.section_schema_gallery_images.php in file /home/keepfli/symphony/symphony/lib/toolkit/class.general.php on line 520
+16:35:28 > WARNING: 512 - Unable to remove file - /home/keepfli/symphony/workspace/data-sources/data.section_schema_locations_images.php in file /home/keepfli/symphony/symphony/lib/toolkit/class.general.php on line 520
+16:35:28 > WARNING: 512 - Unable to remove file - /home/keepfli/symphony/workspace/data-sources/data.section_schema_messages.php in file /home/keepfli/symphony/symphony/lib/toolkit/class.general.php on line 520
+16:35:28 > WARNING: 512 - Unable to remove file - /home/keepfli/symphony/workspace/data-sources/data.section_schema_performances.php in file /home/keepfli/symphony/symphony/lib/toolkit/class.general.php on line 520
+16:35:28 > WARNING: 512 - Unable to remove file - /home/keepfli/symphony/workspace/data-sources/data.section_schema_places.php in file /home/keepfli/symphony/symphony/lib/toolkit/class.general.php on line 520
+16:35:29 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
+16:35:29 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('119') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
+				FROM `sym_fields` AS `f` 
+				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
+				WHERE `s`.id =  AND f.id IN ('119') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
+16:35:29 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/symphony/extensions/section_schemas/extension.driver.php on line 88
+16:35:29 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
+16:35:29 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
 				FROM `sym_fields` AS `f` 
 				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
 				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-16:28:58 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
+16:35:30 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/symphony/extensions/section_schemas/extension.driver.php on line 88
+16:35:30 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
+16:35:30 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('102') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
+				FROM `sym_fields` AS `f` 
+				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
+				WHERE `s`.id =  AND f.id IN ('102') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
+16:35:30 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/symphony/extensions/section_schemas/extension.driver.php on line 88
+16:35:30 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
+16:35:30 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('119') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
+				FROM `sym_fields` AS `f` 
+				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
+				WHERE `s`.id =  AND f.id IN ('119') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
+16:35:30 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/symphony/extensions/section_schemas/extension.driver.php on line 88
+16:35:30 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
+16:35:30 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
 				FROM `sym_fields` AS `f` 
 				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
 				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-16:29:00 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
+16:35:30 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/symphony/extensions/section_schemas/extension.driver.php on line 88
+16:35:30 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
+16:35:30 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('102') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
 				FROM `sym_fields` AS `f` 
 				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-16:29:03 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-16:29:07 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-16:29:09 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-14:09:26 > ERROR: 256 - Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/master.xsl line 72 element call-template
+				WHERE `s`.id =  AND f.id IN ('102') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
+16:35:30 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/symphony/extensions/section_schemas/extension.driver.php on line 88
+16:44:09 > WARNING: 2 - file(/home/keepfli/symphony/manifest/cachelite-excluded-pages) [function.file]: failed to open stream: No such file or directory in file /home/keepfli/symphony/extensions/cachelite/extension.driver.php on line 199
+16:44:09 > WARNING: 2 - array_map() [function.array-map]: Argument #2 should be an array in file /home/keepfli/symphony/extensions/cachelite/extension.driver.php on line 201
+16:44:09 > WARNING: 2 - file(/home/keepfli/symphony/manifest/cachelite-excluded-pages) [function.file]: failed to open stream: No such file or directory in file /home/keepfli/symphony/extensions/cachelite/extension.driver.php on line 199
+16:44:09 > WARNING: 2 - array_map() [function.array-map]: Argument #2 should be an array in file /home/keepfli/symphony/extensions/cachelite/extension.driver.php on line 201
+16:44:11 > WARNING: 2 - file(/home/keepfli/symphony/manifest/cachelite-excluded-pages) [function.file]: failed to open stream: No such file or directory in file /home/keepfli/symphony/extensions/cachelite/extension.driver.php on line 199
+16:44:11 > WARNING: 2 - array_map() [function.array-map]: Argument #2 should be an array in file /home/keepfli/symphony/extensions/cachelite/extension.driver.php on line 201
+16:44:13 > WARNING: 2 - file(/home/keepfli/symphony/manifest/cachelite-excluded-pages) [function.file]: failed to open stream: No such file or directory in file /home/keepfli/symphony/extensions/cachelite/extension.driver.php on line 199
+16:44:13 > WARNING: 2 - array_map() [function.array-map]: Argument #2 should be an array in file /home/keepfli/symphony/extensions/cachelite/extension.driver.php on line 201
+16:44:13 > WARNING: 2 - file(/home/keepfli/symphony/manifest/cachelite-excluded-pages) [function.file]: failed to open stream: No such file or directory in file /home/keepfli/symphony/extensions/cachelite/extension.driver.php on line 199
+16:44:13 > WARNING: 2 - array_map() [function.array-map]: Argument #2 should be an array in file /home/keepfli/symphony/extensions/cachelite/extension.driver.php on line 201
+16:44:15 > WARNING: 2 - file(/home/keepfli/symphony/manifest/cachelite-excluded-pages) [function.file]: failed to open stream: No such file or directory in file /home/keepfli/symphony/extensions/cachelite/extension.driver.php on line 199
+16:44:15 > WARNING: 2 - array_map() [function.array-map]: Argument #2 should be an array in file /home/keepfli/symphony/extensions/cachelite/extension.driver.php on line 201
+16:44:51 > WARNING: 2 - file(/home/keepfli/symphony/manifest/cachelite-excluded-pages) [function.file]: failed to open stream: No such file or directory in file /home/keepfli/symphony/extensions/cachelite/extension.driver.php on line 199
+16:44:51 > WARNING: 2 - array_map() [function.array-map]: Argument #2 should be an array in file /home/keepfli/symphony/extensions/cachelite/extension.driver.php on line 201
+16:44:52 > WARNING: 2 - file(/home/keepfli/symphony/manifest/cachelite-excluded-pages) [function.file]: failed to open stream: No such file or directory in file /home/keepfli/symphony/extensions/cachelite/extension.driver.php on line 199
+16:44:52 > WARNING: 2 - array_map() [function.array-map]: Argument #2 should be an array in file /home/keepfli/symphony/extensions/cachelite/extension.driver.php on line 201
+16:45:26 > WARNING: 2 - file(/home/keepfli/symphony/manifest/cachelite-excluded-pages) [function.file]: failed to open stream: No such file or directory in file /home/keepfli/symphony/extensions/cachelite/extension.driver.php on line 199
+16:45:26 > WARNING: 2 - array_map() [function.array-map]: Argument #2 should be an array in file /home/keepfli/symphony/extensions/cachelite/extension.driver.php on line 201
+16:45:30 > WARNING: 2 - file(/home/keepfli/symphony/manifest/cachelite-excluded-pages) [function.file]: failed to open stream: No such file or directory in file /home/keepfli/symphony/extensions/cachelite/extension.driver.php on line 199
+16:45:30 > WARNING: 2 - array_map() [function.array-map]: Argument #2 should be an array in file /home/keepfli/symphony/extensions/cachelite/extension.driver.php on line 201
+16:47:46 > ERROR: 256 - Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/form.xsl line 94 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:validation-summary not found
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/form.xsl line 153 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/form.xsl line 153 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/form.xsl line 153 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/form.xsl line 153 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/form.xsl line 153 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/form.xsl line 432 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/form.xsl line 153 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/form.xsl line 153 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/form.xsl line 153 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/form.xsl line 153 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/form.xsl line 153 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/form.xsl line 153 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/form.xsl line 153 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/form.xsl line 153 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
+16:48:08 > ERROR: 256 - Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/form.xsl line 94 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:validation-summary not found
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/form.xsl line 153 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/form.xsl line 153 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/form.xsl line 153 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/form.xsl line 153 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/form.xsl line 153 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/form.xsl line 432 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/form.xsl line 153 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/form.xsl line 153 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/form.xsl line 153 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/form.xsl line 153 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/form.xsl line 153 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/form.xsl line 153 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/form.xsl line 153 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/form.xsl line 153 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
+17:01:08 > ERROR: 256 - Line: 75 - XSLTProcessor::importStylesheet(): compilation error: file /home/keepfli/symphony/workspace/pages/test.xsl line 12 element import
+Line: 75 - XSLTProcessor::importStylesheet(): xsltParseStylesheetTop: ignoring misplaced import element
+Line: 88 - XSLTProcessor::transformToXml(): No stylesheet associated to this object
+17:02:10 > ERROR: 256 - 
+17:02:11 > ERROR: 256 - 
+17:02:15 > ERROR: 256 - 
+17:02:29 > ERROR: 256 - 
+17:02:30 > ERROR: 256 - 
+17:03:02 > ERROR: 256 - 
+17:03:04 > ERROR: 256 - 
+17:03:05 > ERROR: 256 - 
+17:03:11 > ERROR: 256 - 
+17:03:12 > ERROR: 256 - 
+17:03:13 > ERROR: 256 - 
+17:03:45 > ERROR: 256 - Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/master.xsl line 81 element call-template
 Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template top not found
-14:10:10 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-14:22:45 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-14:34:10 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/10.gif in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
-14:34:10 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/og.jpg in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
-14:49:13 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-15:13:31 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/10.gif in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
-15:13:31 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/og.jpg in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
-15:14:39 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-16:06:28 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/10.gif in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
-16:06:28 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/og.jpg in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
-16:11:31 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/10.gif in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
-16:11:31 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/og.jpg in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
-16:12:41 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/10.gif in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
-16:12:41 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/og.jpg in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
-16:13:23 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/10.gif in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
-16:13:23 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/og.jpg in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
-16:13:23 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/10.gif in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
-16:13:23 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/og.jpg in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
-16:24:07 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-16:52:29 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/10.gif in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
-16:52:29 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/og.jpg in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
-16:52:34 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/10.gif in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
-16:52:34 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/og.jpg in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
-17:05:59 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/10.gif in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
-17:05:59 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/og.jpg in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
-17:13:43 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/10.gif in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
-17:13:43 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/og.jpg in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
-17:21:56 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-17:22:05 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-17:22:27 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-23:18:34 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/10.gif in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
-23:18:34 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/og.jpg in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
-23:18:37 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/10.gif in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
-23:18:37 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/og.jpg in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
-11:32:24 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/10.gif in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
-11:32:24 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/og.jpg in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
-11:33:44 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/10.gif in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
-11:33:44 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/og.jpg in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
-11:33:59 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/10.gif in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
-11:33:59 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/og.jpg in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
-11:34:07 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/10.gif in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
-11:34:07 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/og.jpg in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
-11:34:20 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/10.gif in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
-11:34:20 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/og.jpg in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
-11:34:22 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/10.gif in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
-11:34:22 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/og.jpg in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
-11:34:27 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/10.gif in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
-11:34:27 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/og.jpg in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
-11:34:33 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/10.gif in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
-11:34:33 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/og.jpg in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
-11:35:00 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/10.gif in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
-11:35:00 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/og.jpg in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
-11:35:14 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/10.gif in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
-11:35:14 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/og.jpg in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
-11:56:43 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/10.gif in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
-11:56:43 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/og.jpg in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
-11:57:12 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/10.gif in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
-11:57:12 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/og.jpg in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
-11:57:15 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/10.gif in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
-11:57:15 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/og.jpg in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
-12:03:36 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-12:04:14 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-12:04:35 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-14:05:14 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-15:56:26 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/10.gif in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
-15:56:26 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/og.jpg in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
-15:56:35 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/10.gif in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
-15:56:37 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/og.jpg in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
-15:56:45 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/10.gif in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
-15:56:45 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/og.jpg in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
-15:56:54 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/10.gif in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
-15:56:54 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/og.jpg in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
-15:59:22 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/10.gif in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
-15:59:22 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/og.jpg in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
-16:00:48 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/10.gif in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
-16:00:48 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/og.jpg in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
-16:08:02 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/10.gif in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
-16:08:02 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/article_images/og.jpg in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
-16:12:11 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-16:31:47 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-16:48:35 > ERROR: 256 - Line: 75 - XSLTProcessor::importStylesheet(): I/O warning : failed to load external entity "/home/keepfli/symphony/workspace/pages/404-page-not-found.xsl"
-Line: 75 - XSLTProcessor::importStylesheet(): compilation error: file /home/keepfli/symphony/ line 3 element import
-Line: 75 - XSLTProcessor::importStylesheet(): xsl:import : unable to load /home/keepfli/symphony/workspace/pages/404-page-not-found.xsl
+17:05:20 > ERROR: 256 - Line: 75 - XSLTProcessor::importStylesheet(): form:validation-summary : no namespace bound to prefix form
+Line: 75 - XSLTProcessor::importStylesheet(): form:label : no namespace bound to prefix form
+Line: 75 - XSLTProcessor::importStylesheet(): form:input : no namespace bound to prefix form
+Line: 75 - XSLTProcessor::importStylesheet(): form:label : no namespace bound to prefix form
+Line: 75 - XSLTProcessor::importStylesheet(): form:input : no namespace bound to prefix form
+Line: 75 - XSLTProcessor::importStylesheet(): form:label : no namespace bound to prefix form
+Line: 75 - XSLTProcessor::importStylesheet(): form:input : no namespace bound to prefix form
+Line: 75 - XSLTProcessor::importStylesheet(): form:label : no namespace bound to prefix form
+Line: 75 - XSLTProcessor::importStylesheet(): form:input : no namespace bound to prefix form
+Line: 75 - XSLTProcessor::importStylesheet(): form:select : no namespace bound to prefix form
+Line: 75 - XSLTProcessor::importStylesheet(): form:label : no namespace bound to prefix form
+Line: 75 - XSLTProcessor::importStylesheet(): form:input : no namespace bound to prefix form
+Line: 75 - XSLTProcessor::importStylesheet(): form:label : no namespace bound to prefix form
+Line: 75 - XSLTProcessor::importStylesheet(): form:textarea : no namespace bound to prefix form
+Line: 75 - XSLTProcessor::importStylesheet(): form:label : no namespace bound to prefix form
+Line: 75 - XSLTProcessor::importStylesheet(): form:select : no namespace bound to prefix form
+Line: 75 - XSLTProcessor::importStylesheet(): form:label : no namespace bound to prefix form
+Line: 75 - XSLTProcessor::importStylesheet(): form:input : no namespace bound to prefix form
+Line: 75 - XSLTProcessor::importStylesheet(): form:label : no namespace bound to prefix form
+Line: 75 - XSLTProcessor::importStylesheet(): form:checkbox : no namespace bound to prefix form
 Line: 88 - XSLTProcessor::transformToXml(): No stylesheet associated to this object
-16:48:38 > ERROR: 256 - Line: 75 - XSLTProcessor::importStylesheet(): I/O warning : failed to load external entity "/home/keepfli/symphony/workspace/pages/404-page-not-found.xsl"
-Line: 75 - XSLTProcessor::importStylesheet(): compilation error: file /home/keepfli/symphony/ line 3 element import
-Line: 75 - XSLTProcessor::importStylesheet(): xsl:import : unable to load /home/keepfli/symphony/workspace/pages/404-page-not-found.xsl
+17:06:22 > ERROR: 256 - Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 136 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:validation-summary not found
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 474 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
+17:06:50 > ERROR: 256 - Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 136 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:validation-summary not found
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 474 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
+17:08:32 > ERROR: 256 - Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 136 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:validation-summary not found
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 474 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
+17:11:34 > ERROR: 256 - Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 136 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:validation-summary not found
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 474 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
+17:15:33 > ERROR: 256 - Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 136 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:validation-summary not found
+17:19:38 > ERROR: 256 - Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 136 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:validation-summary not found
+17:21:37 > ERROR: 256 - Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 134 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:validation-summary not found
+17:22:45 > ERROR: 256 - Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 134 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template validation-summary not found
+17:22:46 > ERROR: 256 - Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 134 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template validation-summary not found
+17:23:59 > ERROR: 256 - Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 134 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:validation-summary not found
+17:24:00 > ERROR: 256 - Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 134 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:validation-summary not found
+17:24:28 > ERROR: 256 - Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 134 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:validation-summary not found
+17:24:29 > ERROR: 256 - Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 134 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:validation-summary not found
+17:24:46 > ERROR: 256 - Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 134 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:validation-summary not found
+17:24:47 > ERROR: 256 - Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 134 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:validation-summary not found
+17:24:48 > ERROR: 256 - Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 134 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:validation-summary not found
+17:24:49 > ERROR: 256 - Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 134 element call-template
+Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:validation-summary not found
+17:33:39 > ERROR: 256 - Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+17:34:07 > ERROR: 256 - Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+17:37:04 > ERROR: 256 - Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+17:38:23 > ERROR: 256 - Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
+17:46:47 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
+17:46:47 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('119') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
+				FROM `sym_fields` AS `f` 
+				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
+				WHERE `s`.id =  AND f.id IN ('119') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
+17:46:47 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/symphony/extensions/section_schemas/extension.driver.php on line 88
+17:46:47 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
+17:46:47 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
+				FROM `sym_fields` AS `f` 
+				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
+				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
+17:46:47 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/symphony/extensions/section_schemas/extension.driver.php on line 88
+17:46:47 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
+17:46:47 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('102') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
+				FROM `sym_fields` AS `f` 
+				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
+				WHERE `s`.id =  AND f.id IN ('102') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
+17:46:47 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/symphony/extensions/section_schemas/extension.driver.php on line 88
+17:47:35 > ERROR: 256 - Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 53 element value-of
+Line: 88 - XSLTProcessor::transformToXml(): unregistered variable url-session
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompiledEval: evaluation failed
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 53 element value-of
+Line: 88 - XSLTProcessor::transformToXml(): xsltValueOf: text copy failed
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 54 element value
+Line: 88 - XSLTProcessor::transformToXml(): unregistered variable url-units
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompiledEval: evaluation failed
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 54 element value
+Line: 88 - XSLTProcessor::transformToXml(): unregistered variable url-mode
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompiledEval: evaluation failed
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 55 element value-of
+Line: 88 - XSLTProcessor::transformToXml(): unregistered variable url-start
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompiledEval: evaluation failed
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 55 element value-of
+Line: 88 - XSLTProcessor::transformToXml(): xsltValueOf: text copy failed
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 56 element value-of
+Line: 88 - XSLTProcessor::transformToXml(): unregistered variable url-end
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompiledEval: evaluation failed
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 56 element value-of
+Line: 88 - XSLTProcessor::transformToXml(): xsltValueOf: text copy failed
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 58 element value-of
+Line: 88 - XSLTProcessor::transformToXml(): unregistered variable url-place
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompiledEval: evaluation failed
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 58 element value-of
+Line: 88 - XSLTProcessor::transformToXml(): xsltValueOf: text copy failed
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 59 element value-of
+Line: 88 - XSLTProcessor::transformToXml(): unregistered variable url-class
+Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompiledEval: evaluation failed
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 59 element value-of
+Line: 88 - XSLTProcessor::transformToXml(): xsltValueOf: text copy failed
+17:50:15 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
+17:50:15 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('119') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
+				FROM `sym_fields` AS `f` 
+				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
+				WHERE `s`.id =  AND f.id IN ('119') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
+17:50:15 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/symphony/extensions/section_schemas/extension.driver.php on line 88
+17:50:15 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
+17:50:15 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
+				FROM `sym_fields` AS `f` 
+				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
+				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
+17:50:15 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/symphony/extensions/section_schemas/extension.driver.php on line 88
+17:50:15 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
+17:50:15 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('102') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
+				FROM `sym_fields` AS `f` 
+				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
+				WHERE `s`.id =  AND f.id IN ('102') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
+17:50:15 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/symphony/extensions/section_schemas/extension.driver.php on line 88
+17:50:25 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
+17:50:25 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('119') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
+				FROM `sym_fields` AS `f` 
+				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
+				WHERE `s`.id =  AND f.id IN ('119') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
+17:50:25 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/symphony/extensions/section_schemas/extension.driver.php on line 88
+17:50:25 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
+17:50:25 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
+				FROM `sym_fields` AS `f` 
+				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
+				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
+17:50:25 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/symphony/extensions/section_schemas/extension.driver.php on line 88
+17:50:25 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
+17:50:25 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('102') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
+				FROM `sym_fields` AS `f` 
+				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
+				WHERE `s`.id =  AND f.id IN ('102') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
+17:50:25 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/symphony/extensions/section_schemas/extension.driver.php on line 88
+18:12:25 > ERROR: 256 - Line: 75 - XSLTProcessor::importStylesheet(): /home/keepfli/symphony/workspace/utilities/get-places.xsl:19: parser error : Opening and ending tag mismatch: a line 16 and li
+Line: 75 - XSLTProcessor::importStylesheet(): 	
+Line: 75 - XSLTProcessor::importStylesheet(): 	     ^
+Line: 75 - XSLTProcessor::importStylesheet(): /home/keepfli/symphony/workspace/utilities/get-places.xsl:20: parser error : Opening and ending tag mismatch: li line 12 and xsl:template
+Line: 75 - XSLTProcessor::importStylesheet(): 
+Line: 75 - XSLTProcessor::importStylesheet():                ^
+Line: 75 - XSLTProcessor::importStylesheet(): /home/keepfli/symphony/workspace/utilities/get-places.xsl:76: parser error : Opening and ending tag mismatch: template line 11 and stylesheet
+Line: 75 - XSLTProcessor::importStylesheet(): 
+Line: 75 - XSLTProcessor::importStylesheet():                  ^
+Line: 75 - XSLTProcessor::importStylesheet(): /home/keepfli/symphony/workspace/utilities/get-places.xsl:76: parser error : Premature end of data in tag stylesheet line 2
+Line: 75 - XSLTProcessor::importStylesheet(): 
+Line: 75 - XSLTProcessor::importStylesheet():                  ^
+Line: 75 - XSLTProcessor::importStylesheet(): compilation error: file /home/keepfli/symphony/workspace/pages/locations.xsl line 6 element import
+Line: 75 - XSLTProcessor::importStylesheet(): xsl:import : unable to load /home/keepfli/symphony/workspace/utilities/get-places.xsl
 Line: 88 - XSLTProcessor::transformToXml(): No stylesheet associated to this object
-16:49:14 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/images/article_images/DSC06229-3.jpg in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
-16:49:15 > ERROR: 256 - Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/navigation.xsl line 40 element value-of
-Line: 88 - XSLTProcessor::transformToXml(): unregistered variable this-session
+18:12:30 > ERROR: 256 - Line: 75 - XSLTProcessor::importStylesheet(): /home/keepfli/symphony/workspace/utilities/get-places.xsl:19: parser error : Opening and ending tag mismatch: a line 16 and li
+Line: 75 - XSLTProcessor::importStylesheet(): 	
+Line: 75 - XSLTProcessor::importStylesheet(): 	     ^
+Line: 75 - XSLTProcessor::importStylesheet(): /home/keepfli/symphony/workspace/utilities/get-places.xsl:20: parser error : Opening and ending tag mismatch: li line 12 and xsl:template
+Line: 75 - XSLTProcessor::importStylesheet(): 
+Line: 75 - XSLTProcessor::importStylesheet():                ^
+Line: 75 - XSLTProcessor::importStylesheet(): /home/keepfli/symphony/workspace/utilities/get-places.xsl:76: parser error : Opening and ending tag mismatch: template line 11 and stylesheet
+Line: 75 - XSLTProcessor::importStylesheet(): 
+Line: 75 - XSLTProcessor::importStylesheet():                  ^
+Line: 75 - XSLTProcessor::importStylesheet(): /home/keepfli/symphony/workspace/utilities/get-places.xsl:76: parser error : Premature end of data in tag stylesheet line 2
+Line: 75 - XSLTProcessor::importStylesheet(): 
+Line: 75 - XSLTProcessor::importStylesheet():                  ^
+Line: 75 - XSLTProcessor::importStylesheet(): compilation error: file /home/keepfli/symphony/workspace/pages/locations.xsl line 6 element import
+Line: 75 - XSLTProcessor::importStylesheet(): xsl:import : unable to load /home/keepfli/symphony/workspace/utilities/get-places.xsl
+Line: 88 - XSLTProcessor::transformToXml(): No stylesheet associated to this object
+19:08:15 > WARNING: 2 - Cannot modify header information - headers already sent by (output started at /home/keepfli/symphony/extensions/cachelite/extension.driver.php:122) in file /home/keepfli/symphony/symphony/lib/toolkit/class.page.php on line 21
+19:08:15 > WARNING: 2 - Cannot modify header information - headers already sent by (output started at /home/keepfli/symphony/extensions/cachelite/extension.driver.php:122) in file /home/keepfli/symphony/extensions/cachelite/extension.driver.php on line 160
+19:37:09 > WARNING: 2 - Missing argument 1 for datasourceshowteam::grab(), called in /home/keepfli/symphony/symphony/content/content.blueprintsdatasources.php on line 122 and defined in file /home/keepfli/symphony/workspace/data-sources/data.showteam.php on line 32
+19:37:21 > WARNING: 2 - Missing argument 1 for datasourceshowteam::grab(), called in /home/keepfli/symphony/symphony/content/content.blueprintsdatasources.php on line 122 and defined in file /home/keepfli/symphony/workspace/data-sources/data.showteam.php on line 32
+19:46:35 > ERROR: 256 - Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/schedule_classes.xsl line 19 element a
+Line: 88 - XSLTProcessor::transformToXml(): unregistered variable current-session-start
 Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompiledEval: evaluation failed
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/navigation.xsl line 40 element value-of
-Line: 88 - XSLTProcessor::transformToXml(): xsltValueOf: text copy failed
-16:49:17 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/images/article_images/DSC06229-3.jpg in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
-16:49:17 > ERROR: 256 - Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/navigation.xsl line 40 element value-of
-Line: 88 - XSLTProcessor::transformToXml(): unregistered variable this-session
+19:49:33 > ERROR: 256 - Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/schedule_classes.xsl line 21 element a
+Line: 88 - XSLTProcessor::transformToXml(): unregistered variable current-session
 Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompiledEval: evaluation failed
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/navigation.xsl line 40 element value-of
-Line: 88 - XSLTProcessor::transformToXml(): xsltValueOf: text copy failed
-16:49:17 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/images/article_images/DSC06229-3.jpg in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
-16:49:17 > ERROR: 256 - Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/navigation.xsl line 40 element value-of
-Line: 88 - XSLTProcessor::transformToXml(): unregistered variable this-session
+Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/schedule_classes.xsl line 21 element a
+Line: 88 - XSLTProcessor::transformToXml(): unregistered variable session-start
 Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompiledEval: evaluation failed
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/navigation.xsl line 40 element value-of
-Line: 88 - XSLTProcessor::transformToXml(): xsltValueOf: text copy failed
-16:49:18 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/images/article_images/DSC06229-3.jpg in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
-16:49:18 > ERROR: 256 - Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/navigation.xsl line 40 element value-of
-Line: 88 - XSLTProcessor::transformToXml(): unregistered variable this-session
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompiledEval: evaluation failed
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/navigation.xsl line 40 element value-of
-Line: 88 - XSLTProcessor::transformToXml(): xsltValueOf: text copy failed
-16:49:19 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/images/article_images/DSC06229-3.jpg in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
-16:49:19 > ERROR: 256 - Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/navigation.xsl line 40 element value-of
-Line: 88 - XSLTProcessor::transformToXml(): unregistered variable this-session
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompiledEval: evaluation failed
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/navigation.xsl line 40 element value-of
-Line: 88 - XSLTProcessor::transformToXml(): xsltValueOf: text copy failed
-16:52:49 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/symphony/workspace/images/article_images/DSC06229-3.jpg in file /home/keepfli/symphony/symphony/lib/toolkit/fields/field.upload.php on line 172
-16:52:49 > ERROR: 256 - Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/navigation.xsl line 40 element value-of
-Line: 88 - XSLTProcessor::transformToXml(): unregistered variable this-session
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompiledEval: evaluation failed
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/navigation.xsl line 40 element value-of
-Line: 88 - XSLTProcessor::transformToXml(): xsltValueOf: text copy failed
-16:52:52 > ERROR: 256 - Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/navigation.xsl line 40 element value-of
-Line: 88 - XSLTProcessor::transformToXml(): unregistered variable this-session
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompiledEval: evaluation failed
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/navigation.xsl line 40 element value-of
-Line: 88 - XSLTProcessor::transformToXml(): xsltValueOf: text copy failed
-17:00:06 > ERROR: 256 - Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/navigation.xsl line 40 element value-of
-Line: 88 - XSLTProcessor::transformToXml(): unregistered variable this-session
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompiledEval: evaluation failed
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/navigation.xsl line 40 element value-of
-Line: 88 - XSLTProcessor::transformToXml(): xsltValueOf: text copy failed
-17:05:37 > ERROR: 256 - Could not find extension at location /home/keepfli/symphony/extensions/massuploadutility/extension.driver.php in file /home/keepfli/symphony/symphony/lib/toolkit/class.extensionmanager.php on line 234
-17:05:57 > ERROR: 256 - Could not find extension at location /home/keepfli/symphony/extensions/massuploadutility/extension.driver.php in file /home/keepfli/symphony/symphony/lib/toolkit/class.extensionmanager.php on line 234
-17:06:53 > ERROR: 256 - Could not find extension at location /home/keepfli/symphony/extensions/massuploadutility/extension.driver.php in file /home/keepfli/symphony/symphony/lib/toolkit/class.extensionmanager.php on line 234
-04:54:45 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-08:26:25 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-08:27:15 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-11:23:12 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-11:23:37 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-11:35:32 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-13:54:43 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-13:55:36 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-15:38:13 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-15:41:01 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-17:31:01 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-17:35:51 > WARNING: 512 - MySQL Error (1054): Unknown column 'NaN' in 'where clause' in query "SELECT  `e`.id, 
-						`e`.section_id, e.`author_id`, 
-						UNIX_TIMESTAMP(e.`creation_date`) AS `creation_date`, 
-						UNIX_TIMESTAMP(e.`creation_date_gmt`) AS `creation_date_gmt`
-						
-				FROM `sym_entries` AS `e`
-				 LEFT JOIN `sym_entries_data_109` AS `t109` ON (`e`.`id` = `t109`.entry_id) 
-					LEFT JOIN
-						`sym_entries_data_101` AS t101
-						ON (e.id = t101.entry_id)
-						
-				WHERE 1
+19:51:06 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= dates101.value)
 				
-				AND `e`.`section_id` = '20' 
-				 AND `t109`.relation_id IN ('158') 
-					AND ((t101.start = NaN-NaN-31)
-						OR t101.start >= NaN-NaN-01)
-					
 				ORDER BY `e`.`id` ASC
-				LIMIT 0, 20" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-19:31:55 > WARNING: 512 - MySQL Error (1054): Unknown column 'NaN' in 'where clause' in query "SELECT  `e`.id, 
-						`e`.section_id, e.`author_id`, 
-						UNIX_TIMESTAMP(e.`creation_date`) AS `creation_date`, 
-						UNIX_TIMESTAMP(e.`creation_date_gmt`) AS `creation_date_gmt`
-						
-				FROM `sym_entries` AS `e`
-				 LEFT JOIN `sym_entries_data_118` AS `t118` ON (`e`.`id` = `t118`.entry_id)  LEFT JOIN `sym_entries_data_98` AS `t98` ON (`e`.`id` = `t98`.entry_id)  LEFT JOIN `sym_entries_data_109` AS `t109` ON (`e`.`id` = `t109`.entry_id) 
-					LEFT JOIN
-						`sym_entries_data_101` AS t101
-						ON (e.id = t101.entry_id)
-						
-				WHERE 1
-				
-				AND `e`.`section_id` = '20' 
-				 AND `t118`.relation_id IN ('173')  AND `t98`.relation_id IN ('993')  AND `t109`.relation_id IN ('158') 
-					AND ((t101.start = NaN-NaN-31)
-						OR t101.start >= NaN-NaN-01)
-					
-				ORDER BY `e`.`id` DESC
-				LIMIT 0, 99" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-19:33:00 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-19:37:05 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-21:21:19 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-21:24:31 > WARNING: 512 - MySQL Error (1054): Unknown column 'NaN' in 'where clause' in query "SELECT  `e`.id, 
+		' at line 19 in query "SELECT  `e`.id, 
 						`e`.section_id, e.`author_id`, 
 						UNIX_TIMESTAMP(e.`creation_date`) AS `creation_date`, 
 						UNIX_TIMESTAMP(e.`creation_date_gmt`) AS `creation_date_gmt`
@@ -403,249 +665,15 @@ Line: 88 - XSLTProcessor::transformToXml(): xsltValueOf: text copy failed
 					LEFT JOIN
 						`sym_entries_data_101` AS t101
 						ON (e.id = t101.entry_id)
+					LEFT JOIN
+						`sym_entries_data_101_dates` AS dates101
+						ON (t101.link_id = dates101.link_id)
 						
 				WHERE 1
 				
 				AND `e`.`section_id` = '20' 
-				 AND `t118`.relation_id IN ('173')  AND `t98`.relation_id IN ('153', '157', '160', '161', '162', '163', '164', '165', '956') 
-					AND ((t101.start = NaN-NaN-31)
-						OR t101.start >= NaN-NaN-01)
-					
+				 AND `t118`.relation_id IN ('173')  AND `t98`.relation_id IN ('153', '157', '160', '161', '162', '163', '164', '165', '956', '1030', '1036') 
+					AND ( = dates101.value)
+				
 				ORDER BY `e`.`id` ASC
-				LIMIT 0, 99" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-23:00:38 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-23:02:46 > WARNING: 512 - MySQL Error (1054): Unknown column 'NaN' in 'where clause' in query "SELECT  `e`.id, 
-						`e`.section_id, e.`author_id`, 
-						UNIX_TIMESTAMP(e.`creation_date`) AS `creation_date`, 
-						UNIX_TIMESTAMP(e.`creation_date_gmt`) AS `creation_date_gmt`
-						
-				FROM `sym_entries` AS `e`
-				 LEFT JOIN `sym_entries_data_118` AS `t118` ON (`e`.`id` = `t118`.entry_id)  LEFT JOIN `sym_entries_data_98` AS `t98` ON (`e`.`id` = `t98`.entry_id)  LEFT JOIN `sym_entries_data_109` AS `t109` ON (`e`.`id` = `t109`.entry_id) 
-					LEFT JOIN
-						`sym_entries_data_101` AS t101
-						ON (e.id = t101.entry_id)
-						
-				WHERE 1
-				
-				AND `e`.`section_id` = '20' 
-				 AND `t118`.relation_id IN ('173')  AND `t98`.relation_id IN ('161')  AND `t109`.relation_id IN ('158') 
-					AND ((t101.start = NaN-NaN-31)
-						OR t101.start >= NaN-NaN-01)
-					
-				ORDER BY `e`.`id` DESC
-				LIMIT 0, 99" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-23:04:04 > WARNING: 512 - MySQL Error (1054): Unknown column 'NaN' in 'where clause' in query "SELECT  `e`.id, 
-						`e`.section_id, e.`author_id`, 
-						UNIX_TIMESTAMP(e.`creation_date`) AS `creation_date`, 
-						UNIX_TIMESTAMP(e.`creation_date_gmt`) AS `creation_date_gmt`
-						
-				FROM `sym_entries` AS `e`
-				 LEFT JOIN `sym_entries_data_118` AS `t118` ON (`e`.`id` = `t118`.entry_id)  LEFT JOIN `sym_entries_data_98` AS `t98` ON (`e`.`id` = `t98`.entry_id)  LEFT JOIN `sym_entries_data_109` AS `t109` ON (`e`.`id` = `t109`.entry_id) 
-					LEFT JOIN
-						`sym_entries_data_101` AS t101
-						ON (e.id = t101.entry_id)
-						
-				WHERE 1
-				
-				AND `e`.`section_id` = '20' 
-				 AND `t118`.relation_id IN ('173')  AND `t98`.relation_id IN ('163')  AND `t109`.relation_id IN ('158') 
-					AND ((t101.start = NaN-NaN-31)
-						OR t101.start >= NaN-NaN-01)
-					
-				ORDER BY `e`.`id` DESC
-				LIMIT 0, 99" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-23:20:43 > WARNING: 512 - MySQL Error (1054): Unknown column 'NaN' in 'where clause' in query "SELECT  `e`.id, 
-						`e`.section_id, e.`author_id`, 
-						UNIX_TIMESTAMP(e.`creation_date`) AS `creation_date`, 
-						UNIX_TIMESTAMP(e.`creation_date_gmt`) AS `creation_date_gmt`
-						
-				FROM `sym_entries` AS `e`
-				 LEFT JOIN `sym_entries_data_118` AS `t118` ON (`e`.`id` = `t118`.entry_id)  LEFT JOIN `sym_entries_data_98` AS `t98` ON (`e`.`id` = `t98`.entry_id)  LEFT JOIN `sym_entries_data_109` AS `t109` ON (`e`.`id` = `t109`.entry_id) 
-					LEFT JOIN
-						`sym_entries_data_101` AS t101
-						ON (e.id = t101.entry_id)
-						
-				WHERE 1
-				
-				AND `e`.`section_id` = '20' 
-				 AND `t118`.relation_id IN ('173')  AND `t98`.relation_id IN ('157')  AND `t109`.relation_id IN ('158') 
-					AND ((t101.start = NaN-NaN-31)
-						OR t101.start >= NaN-NaN-01)
-					
-				ORDER BY `e`.`id` DESC
-				LIMIT 0, 99" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-23:28:53 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-00:49:51 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-00:51:46 > WARNING: 512 - MySQL Error (1054): Unknown column 'NaN' in 'where clause' in query "SELECT  `e`.id, 
-						`e`.section_id, e.`author_id`, 
-						UNIX_TIMESTAMP(e.`creation_date`) AS `creation_date`, 
-						UNIX_TIMESTAMP(e.`creation_date_gmt`) AS `creation_date_gmt`
-						
-				FROM `sym_entries` AS `e`
-				 LEFT JOIN `sym_entries_data_118` AS `t118` ON (`e`.`id` = `t118`.entry_id)  LEFT JOIN `sym_entries_data_98` AS `t98` ON (`e`.`id` = `t98`.entry_id)  LEFT JOIN `sym_entries_data_109` AS `t109` ON (`e`.`id` = `t109`.entry_id) 
-					LEFT JOIN
-						`sym_entries_data_101` AS t101
-						ON (e.id = t101.entry_id)
-						
-				WHERE 1
-				
-				AND `e`.`section_id` = '20' 
-				 AND `t118`.relation_id IN ('173')  AND `t98`.relation_id IN ('956')  AND `t109`.relation_id IN ('158') 
-					AND ((t101.start = NaN-NaN-31)
-						OR t101.start >= NaN-NaN-01)
-					
-				ORDER BY `e`.`id` DESC
-				LIMIT 0, 99" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-00:52:09 > WARNING: 512 - MySQL Error (1054): Unknown column 'NaN' in 'where clause' in query "SELECT  `e`.id, 
-						`e`.section_id, e.`author_id`, 
-						UNIX_TIMESTAMP(e.`creation_date`) AS `creation_date`, 
-						UNIX_TIMESTAMP(e.`creation_date_gmt`) AS `creation_date_gmt`
-						
-				FROM `sym_entries` AS `e`
-				 LEFT JOIN `sym_entries_data_118` AS `t118` ON (`e`.`id` = `t118`.entry_id)  LEFT JOIN `sym_entries_data_98` AS `t98` ON (`e`.`id` = `t98`.entry_id)  LEFT JOIN `sym_entries_data_109` AS `t109` ON (`e`.`id` = `t109`.entry_id) 
-					LEFT JOIN
-						`sym_entries_data_101` AS t101
-						ON (e.id = t101.entry_id)
-						
-				WHERE 1
-				
-				AND `e`.`section_id` = '20' 
-				 AND `t118`.relation_id IN ('173')  AND `t98`.relation_id IN ('162')  AND `t109`.relation_id IN ('158') 
-					AND ((t101.start = NaN-NaN-31)
-						OR t101.start >= NaN-NaN-01)
-					
-				ORDER BY `e`.`id` DESC
-				LIMIT 0, 99" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-00:55:17 > WARNING: 512 - MySQL Error (1054): Unknown column 'NaN' in 'where clause' in query "SELECT  `e`.id, 
-						`e`.section_id, e.`author_id`, 
-						UNIX_TIMESTAMP(e.`creation_date`) AS `creation_date`, 
-						UNIX_TIMESTAMP(e.`creation_date_gmt`) AS `creation_date_gmt`
-						
-				FROM `sym_entries` AS `e`
-				 LEFT JOIN `sym_entries_data_118` AS `t118` ON (`e`.`id` = `t118`.entry_id)  LEFT JOIN `sym_entries_data_98` AS `t98` ON (`e`.`id` = `t98`.entry_id)  LEFT JOIN `sym_entries_data_109` AS `t109` ON (`e`.`id` = `t109`.entry_id) 
-					LEFT JOIN
-						`sym_entries_data_101` AS t101
-						ON (e.id = t101.entry_id)
-						
-				WHERE 1
-				
-				AND `e`.`section_id` = '20' 
-				 AND `t118`.relation_id IN ('173')  AND `t98`.relation_id IN ('160')  AND `t109`.relation_id IN ('158') 
-					AND ((t101.start = NaN-NaN-31)
-						OR t101.start >= NaN-NaN-01)
-					
-				ORDER BY `e`.`id` DESC
-				LIMIT 0, 99" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-02:19:15 > WARNING: 512 - MySQL Error (1054): Unknown column 'NaN' in 'where clause' in query "SELECT  `e`.id, 
-						`e`.section_id, e.`author_id`, 
-						UNIX_TIMESTAMP(e.`creation_date`) AS `creation_date`, 
-						UNIX_TIMESTAMP(e.`creation_date_gmt`) AS `creation_date_gmt`
-						
-				FROM `sym_entries` AS `e`
-				 LEFT JOIN `sym_entries_data_118` AS `t118` ON (`e`.`id` = `t118`.entry_id)  LEFT JOIN `sym_entries_data_98` AS `t98` ON (`e`.`id` = `t98`.entry_id)  LEFT JOIN `sym_entries_data_109` AS `t109` ON (`e`.`id` = `t109`.entry_id) 
-					LEFT JOIN
-						`sym_entries_data_101` AS t101
-						ON (e.id = t101.entry_id)
-						
-				WHERE 1
-				
-				AND `e`.`section_id` = '20' 
-				 AND `t118`.relation_id IN ('173')  AND `t98`.relation_id IN ('153')  AND `t109`.relation_id IN ('158') 
-					AND ((t101.start = NaN-NaN-31)
-						OR t101.start >= NaN-NaN-01)
-					
-				ORDER BY `e`.`id` DESC
-				LIMIT 0, 99" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-02:22:58 > WARNING: 512 - MySQL Error (1054): Unknown column 'NaN' in 'where clause' in query "SELECT  `e`.id, 
-						`e`.section_id, e.`author_id`, 
-						UNIX_TIMESTAMP(e.`creation_date`) AS `creation_date`, 
-						UNIX_TIMESTAMP(e.`creation_date_gmt`) AS `creation_date_gmt`
-						
-				FROM `sym_entries` AS `e`
-				 LEFT JOIN `sym_entries_data_118` AS `t118` ON (`e`.`id` = `t118`.entry_id)  LEFT JOIN `sym_entries_data_98` AS `t98` ON (`e`.`id` = `t98`.entry_id)  LEFT JOIN `sym_entries_data_109` AS `t109` ON (`e`.`id` = `t109`.entry_id) 
-					LEFT JOIN
-						`sym_entries_data_101` AS t101
-						ON (e.id = t101.entry_id)
-						
-				WHERE 1
-				
-				AND `e`.`section_id` = '20' 
-				 AND `t118`.relation_id IN ('173')  AND `t98`.relation_id IN ('164')  AND `t109`.relation_id IN ('158') 
-					AND ((t101.start = NaN-NaN-31)
-						OR t101.start >= NaN-NaN-01)
-					
-				ORDER BY `e`.`id` DESC
-				LIMIT 0, 99" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-02:23:18 > WARNING: 512 - MySQL Error (1054): Unknown column 'NaN' in 'where clause' in query "SELECT  `e`.id, 
-						`e`.section_id, e.`author_id`, 
-						UNIX_TIMESTAMP(e.`creation_date`) AS `creation_date`, 
-						UNIX_TIMESTAMP(e.`creation_date_gmt`) AS `creation_date_gmt`
-						
-				FROM `sym_entries` AS `e`
-				 LEFT JOIN `sym_entries_data_118` AS `t118` ON (`e`.`id` = `t118`.entry_id)  LEFT JOIN `sym_entries_data_98` AS `t98` ON (`e`.`id` = `t98`.entry_id)  LEFT JOIN `sym_entries_data_109` AS `t109` ON (`e`.`id` = `t109`.entry_id) 
-					LEFT JOIN
-						`sym_entries_data_101` AS t101
-						ON (e.id = t101.entry_id)
-						
-				WHERE 1
-				
-				AND `e`.`section_id` = '20' 
-				 AND `t118`.relation_id IN ('173')  AND `t98`.relation_id IN ('165')  AND `t109`.relation_id IN ('158') 
-					AND ((t101.start = NaN-NaN-31)
-						OR t101.start >= NaN-NaN-01)
-					
-				ORDER BY `e`.`id` DESC
-				LIMIT 0, 99" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-02:23:58 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-02:24:19 > WARNING: 512 - MySQL Error (1054): Unknown column 'NaN' in 'where clause' in query "SELECT  `e`.id, 
-						`e`.section_id, e.`author_id`, 
-						UNIX_TIMESTAMP(e.`creation_date`) AS `creation_date`, 
-						UNIX_TIMESTAMP(e.`creation_date_gmt`) AS `creation_date_gmt`
-						
-				FROM `sym_entries` AS `e`
-				 LEFT JOIN `sym_entries_data_109` AS `t109` ON (`e`.`id` = `t109`.entry_id) 
-					LEFT JOIN
-						`sym_entries_data_101` AS t101
-						ON (e.id = t101.entry_id)
-						
-				WHERE 1
-				
-				AND `e`.`section_id` = '20' 
-				 AND `t109`.relation_id IN ('158') 
-					AND ((t101.start = NaN-NaN-31)
-						OR t101.start >= NaN-NaN-01)
-					
-				ORDER BY `e`.`id` ASC
-				LIMIT 0, 20" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-03:20:20 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-04:21:14 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-07:52:35 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-09:50:48 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-21:40:19 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
+				LIMIT 0, 9999" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401

@@ -28,3 +28,18 @@
 [submodule "extensions/massuploadutility"]
 	path = extensions/massuploadutility
 	url = git://github.com/scottkf/mass-upload-utility.git
+[submodule "extensions/custom_admin"]
+	path = extensions/custom_admin
+	url = git://github.com/nickdunn/custom_admin.git
+[submodule "extensions/databasemanipulator"]
+	path = extensions/databasemanipulator
+	url = git://github.com/yourheropaul/databasemanipulator.git
+[submodule "extensions/asdc"]
+	path = extensions/asdc
+	url = git://github.com/pointybeard/asdc.git
+[submodule "extensions/textformatter_labels"]
+	path = extensions/textformatter_labels
+	url = git://github.com/michael-e/textformatter_labels.git
+[submodule "extensions/mailchimp"]
+	path = extensions/mailchimp
+	url = git://github.com/lewiswharf/mailchimp.git
