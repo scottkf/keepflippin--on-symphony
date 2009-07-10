@@ -1,6 +1,8 @@
+.Apple*
 .DS_Store
 *config.php
 .htaccess
 symphony/.htaccess
 manifest/logs
 .sass-cache
+workspace/

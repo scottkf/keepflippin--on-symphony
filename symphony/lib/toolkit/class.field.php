@@ -35,8 +35,8 @@
 			## all the parent objects
 			$this->catalogueParentObjects();
 
-			if(isset($this->_ParentCatalogue['administration']) && is_object($this->_ParentCatalogue['administration'])) $this->_engine = $this->_ParentCatalogue['administration'];
-			elseif(isset($this->_ParentCatalogue['frontend']) && is_object($this->_ParentCatalogue['frontend'])) $this->_engine = $this->_ParentCatalogue['frontend'];
+			if(class_exists('Administration')) $this->_engine = Administration::instance();
+			elseif(class_exists('Frontend')) $this->_engine = Frontend::instance();
 			else trigger_error(__('No suitable engine object found'), E_USER_ERROR);
 			
 			$this->creationDate = DateTimeObj::getGMT('c'); //$this->_engine->getDateObj();
@@ -220,7 +220,7 @@
 		}
 		
 		public function buildSortingSQL(&$joins, &$where, &$sort, $order='ASC'){
-			$joins .= "INNER JOIN `tbl_entries_data_".$this->get('id')."` AS `ed` ON (`e`.`id` = `ed`.`entry_id`) ";
+			$joins .= "LEFT OUTER JOIN `tbl_entries_data_".$this->get('id')."` AS `ed` ON (`e`.`id` = `ed`.`entry_id`) ";
 			$sort = 'ORDER BY ' . (in_array(strtolower($order), array('random', 'rand')) ? 'RAND()' : "`ed`.`value` $order");
 		}
 		
@@ -300,7 +300,7 @@
 			$entry_id (optionsl) - Useful for identifying the current entry
 		
 		*/
-		public function processRawFieldData($data, &$status, &$message, $simulate=false, $entry_id=NULL){
+		public function processRawFieldData($data, &$status, $simulate=false, $entry_id=null) {	
 			
 			$status = self::__OK__;
 			
@@ -411,8 +411,9 @@
 			
 		}
 
-		public function buildLocationSelect($selected=NULL, $name='fields[location]', $label_value=NULL){
-			if(!$label_value) $label_value = __('Placement');
+		public function buildLocationSelect($selected = null, $name = 'fields[location]', $label_value = null) {
+			if (!$label_value) $label_value = __('Placement');
+			
 			$label = Widget::Label($label_value);
 			$options = array(
 				array('main', $selected == 'main', __('Main content')),

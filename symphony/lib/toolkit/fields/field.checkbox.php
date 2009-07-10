@@ -54,7 +54,7 @@
 			return $data;
 		}
 
-		function processRawFieldData($data, &$status, &$message, $simulate=false, $entry_id=NULL){
+		public function processRawFieldData($data, &$status, $simulate=false, $entry_id=NULL){
 			
 			$status = self::__OK__;
 
@@ -65,7 +65,7 @@
 		}
 		
 		function buildSortingSQL(&$joins, &$where, &$sort, $order='ASC'){
-			$joins .= "INNER JOIN `tbl_entries_data_".$this->get('id')."` AS `ed` ON (`e`.`id` = `ed`.`entry_id`) ";
+			$joins .= "LEFT OUTER JOIN `tbl_entries_data_".$this->get('id')."` AS `ed` ON (`e`.`id` = `ed`.`entry_id`) ";
 			$sort = 'ORDER BY ' . (in_array(strtolower($order), array('random', 'rand')) ? 'RAND()' : "`ed`.`value` $order");
 		}
 
@@ -153,9 +153,8 @@
 			if(!isset($fields['default_state'])) $fields['default_state'] = 'off';
 		}
 				
-		function displaySettingsPanel(&$wrapper){
-			
-			parent::displaySettingsPanel($wrapper);
+		public function displaySettingsPanel(&$wrapper, $errors = null) {
+			parent::displaySettingsPanel($wrapper, $errors);
 			
 			## Long Description		
 			$label = Widget::Label(__('Long Description <i>Optional</i>'));

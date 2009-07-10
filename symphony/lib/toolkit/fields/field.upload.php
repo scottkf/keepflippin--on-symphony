@@ -19,7 +19,7 @@
 		}
 		
 		public function buildSortingSQL(&$joins, &$where, &$sort, $order='ASC'){
-		    $joins .= "INNER JOIN `tbl_entries_data_".$this->get('id')."` AS `ed` ON (`e`.`id` = `ed`.`entry_id`) ";
+		    $joins .= "LEFT OUTER JOIN `tbl_entries_data_".$this->get('id')."` AS `ed` ON (`e`.`id` = `ed`.`entry_id`) ";
 		    $sort = 'ORDER BY ' . (in_array(strtolower($order), array('random', 'rand')) ? 'RAND()' : "`ed`.`file` $order");
 		}
 		
@@ -185,12 +185,17 @@
 			$wrapper->appendChild($item);
 		}
 		
-		function displaySettingsPanel(&$wrapper, $errors=NULL){
-			
+		public function displaySettingsPanel(&$wrapper, $errors = null) {
 			parent::displaySettingsPanel($wrapper, $errors);
 
 			## Destination Folder
-			$ignore = array('events', 'data-sources', 'text-formatters', 'pages', 'utilities');
+			$ignore = array(
+				'/workspace/events',
+				'/workspace/data-sources',
+				'/workspace/text-formatters',
+				'/workspace/pages',
+				'/workspace/utilities'
+			);
 			$directories = General::listDirStructure(WORKSPACE, true, 'asc', DOCROOT, $ignore);	   	
 	
 			$label = Widget::Label(__('Destination Directory'));
@@ -338,7 +343,7 @@
 						
 		}
 		
-		function processRawFieldData($data, &$status, &$message, $simulate=false, $entry_id=NULL){
+		public function processRawFieldData($data, &$status, $simulate=false, $entry_id=NULL){
 
 			$status = self::__OK__;
 			
@@ -385,6 +390,11 @@
 			$status = self::__OK__;
 
 			$file = rtrim($rel_path, '/') . '/' . trim($data['name'], '/');
+
+			## If browser doesn't send MIME type (e.g. .flv in Safari)
+			if (strlen(trim($data['type'])) == 0){
+				$data['type'] = 'unknown';
+			}
 
 			return array(
 				'file' => $file,
@@ -441,7 +451,7 @@
 				  `entry_id` int(11) unsigned NOT NULL,
 				  `file` varchar(255) default NULL,
 				  `size` int(11) unsigned NOT NULL,
-				  `mimetype` varchar(50) NOT NULL,
+				  `mimetype` varchar(50) default NULL,
 				  `meta` varchar(255) default NULL,
 				  PRIMARY KEY  (`id`),
 				  KEY `entry_id` (`entry_id`),

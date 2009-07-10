@@ -20,6 +20,12 @@
 				$post_values = new XMLElement('post-values');
 				foreach($fields as $element_name => $value){
 					if(strlen($value) == 0) continue;
+					if(is_array($value)) {
+						foreach($value as $key => $value) {
+							$post_values->appendChild(new XMLElement($element_name, General::sanitize($value)));
+						}
+						continue;
+					}
 					$post_values->appendChild(new XMLElement($element_name, General::sanitize($value)));
 				}
 			}
@@ -56,7 +62,8 @@
 					list($type, $status, $message) = $fr;
 
 					$result->appendChild(buildFilterElement($type, ($status ? 'passed' : 'failed'), $message));
-
+					$result->appendChild($post_values);
+					
 					if(!$status){
 						$result->setAttribute('result', 'error');
 						$result->appendChild(new XMLElement('message', __('Entry encountered errors when saving.')));
@@ -105,7 +112,7 @@
 
 				foreach($errors as $field_id => $message){
 					$field = $entryManager->fieldManager->fetch($field_id);
-					$result->appendChild(new XMLElement($field->get('element_name'), NULL, array('type' => ($fields[$field->get('element_name')] == '' ? 'missing' : 'invalid'))));
+					$result->appendChild(new XMLElement($field->get('element_name'), NULL, array('type' => ($fields[$field->get('element_name')] == '' ? 'missing' : 'invalid'), 'message' => General::sanitize($message))));
 				}
 
 				if(isset($post_values) && is_object($post_values)) $result->appendChild($post_values);		

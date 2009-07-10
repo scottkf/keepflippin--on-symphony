@@ -32,7 +32,7 @@
 			return $data;
 		}
 
-		public function processRawFieldData($data, &$status, &$message, $simulate=false, $entry_id=NULL){	
+		public function processRawFieldData($data, &$status, $simulate=false, $entry_id=NULL){	
 			
 			$status = self::__OK__;
 			
@@ -106,7 +106,7 @@
 		}
 		
 		public function buildSortingSQL(&$joins, &$where, &$sort, $order='ASC'){
-			$joins .= "INNER JOIN `tbl_entries_data_".$this->get('id')."` AS `ed` ON (`e`.`id` = `ed`.`entry_id`) ";
+			$joins .= "LEFT OUTER JOIN `tbl_entries_data_".$this->get('id')."` AS `ed` ON (`e`.`id` = `ed`.`entry_id`) ";
 			$sort = 'ORDER BY ' . (in_array(strtolower($order), array('random', 'rand')) ? 'RAND()' : "`ed`.`author_id` $order");
 		}
 		
@@ -196,9 +196,8 @@
 			if(!isset($fields['allow_multiple_selection'])) $fields['allow_multiple_selection'] = 'no';
 		}
 		
-		public function displaySettingsPanel(&$wrapper){
-			
-			parent::displaySettingsPanel($wrapper);
+		public function displaySettingsPanel(&$wrapper, $errors = null) {
+			parent::displaySettingsPanel($wrapper, $errors);
 			
 			$div = new XMLElement('div');
 			$div->setAttribute('class', 'related');

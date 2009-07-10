@@ -75,16 +75,19 @@
 			return $this->_engine->Database->fetchCol('entry_id', "SELECT `entry_id` FROM `tbl_entries_data_".$this->get('id')."` WHERE `value` = '".$this->_engine->Database->cleanValue($value)."'");
 		}	
 			
-		function getToggleStates(){
-			
+		public function getToggleStates() {
 			$values = preg_split('/,\s*/i', $this->get('static_options'), -1, PREG_SPLIT_NO_EMPTY);
-
-			if($this->get('dynamic_options') != '') $this->findAndAddDynamicOptions($values);
+			
+			if ($this->get('dynamic_options') != '') $this->findAndAddDynamicOptions($values);
 			
 			$values = array_map('trim', $values);
-			
 			$states = array();
-			foreach($values as $value) $states[$value] = $value;
+			
+			foreach ($values as $value) {
+				$value = General::sanitize($value);
+				
+				$states[$value] = $value;
+			}
 			
 			return $states;
 		}
@@ -96,15 +99,15 @@
 		}
 
 		function displayPublishPanel(&$wrapper, $data=NULL, $flagWithError=NULL, $fieldnamePrefix=NULL, $fieldnamePostfix=NULL){
-
+			header('content-type: text/plain');
 			$states = $this->getToggleStates();
 			
 			if(!is_array($data['value'])) $data['value'] = array($data['value']);
 			
 			$options = array();
-
+			
 			foreach($states as $handle => $v){
-				$options[] = array($v, in_array($v, $data['value']), $v);
+				$options[] = array(General::sanitize($v), in_array($v, $data['value']), $v);
 			}
 			
 			$fieldname = 'fields'.$fieldnamePrefix.'['.$this->get('element_name').']'.$fieldnamePostfix;
@@ -156,7 +159,7 @@
 			return parent::prepareTableValue(array('value' => @implode(', ', $value)), $link);
 		}
 
-		function processRawFieldData($data, &$status, &$message, $simulate=false, $entry_id=NULL){
+		public function processRawFieldData($data, &$status, $simulate=false, $entry_id=NULL){
 			
 			$status = self::__OK__;
 
@@ -275,8 +278,7 @@
 			if(!isset($fields['allow_multiple_selection'])) $fields['allow_multiple_selection'] = 'no';
 		}
 				
-		function displaySettingsPanel(&$wrapper, $errors=NULL){		
-			
+		public function displaySettingsPanel(&$wrapper, $errors = null) {
 			parent::displaySettingsPanel($wrapper, $errors);
 
 			$div = new XMLElement('div', NULL, array('class' => 'group'));

@@ -66,7 +66,7 @@
 		}
 
 		function buildSortingSQL(&$joins, &$where, &$sort, $order='ASC'){
-			$joins .= "INNER JOIN `tbl_entries_data_".$this->get('id')."` AS `ed` ON (`e`.`id` = `ed`.`entry_id`) ";
+			$joins .= "LEFT OUTER JOIN `tbl_entries_data_".$this->get('id')."` AS `ed` ON (`e`.`id` = `ed`.`entry_id`) ";
 			$sort = 'ORDER BY ' . (in_array(strtolower($order), array('random', 'rand')) ? 'RAND()' : "`ed`.`value` $order");
 		}
 		
@@ -216,8 +216,7 @@
 			if($this->get('validator') == '') $this->remove('validator');				
 		}
 		
-		function displaySettingsPanel(&$wrapper, $errors=NULL){
-			
+		public function displaySettingsPanel(&$wrapper, $errors = null) {
 			parent::displaySettingsPanel($wrapper, $errors);
 			
 			$this->buildValidationSelect($wrapper, $this->get('validator'), 'fields['.$this->get('sortorder').'][validator]');		
