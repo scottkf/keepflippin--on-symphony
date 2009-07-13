@@ -1,679 +1,78 @@
 ============================================
-Log Created: 2009-06-21T14:18:59-05:00
+Log Created: 2009-07-13T04:15:38-04:00
 ============================================
 Symphony Log
-Build: 375
+Version: 2.0.4
 --------------------------------------------
-15:18:59 > WARNING: 2 - file(/home/keepfli/symphony/manifest/cachelite-excluded-pages) [function.file]: failed to open stream: No such file or directory in file /home/keepfli/symphony/extensions/cachelite/extension.driver.php on line 199
-15:18:59 > WARNING: 2 - array_map() [function.array-map]: Argument #2 should be an array in file /home/keepfli/symphony/extensions/cachelite/extension.driver.php on line 201
-15:18:59 > WARNING: 2 - file(/home/keepfli/symphony/manifest/cachelite-excluded-pages) [function.file]: failed to open stream: No such file or directory in file /home/keepfli/symphony/extensions/cachelite/extension.driver.php on line 199
-15:18:59 > WARNING: 2 - array_map() [function.array-map]: Argument #2 should be an array in file /home/keepfli/symphony/extensions/cachelite/extension.driver.php on line 201
-15:19:02 > WARNING: 2 - file(/home/keepfli/symphony/manifest/cachelite-excluded-pages) [function.file]: failed to open stream: No such file or directory in file /home/keepfli/symphony/extensions/cachelite/extension.driver.php on line 199
-15:19:02 > WARNING: 2 - array_map() [function.array-map]: Argument #2 should be an array in file /home/keepfli/symphony/extensions/cachelite/extension.driver.php on line 201
-15:19:03 > WARNING: 2 - file(/home/keepfli/symphony/manifest/cachelite-excluded-pages) [function.file]: failed to open stream: No such file or directory in file /home/keepfli/symphony/extensions/cachelite/extension.driver.php on line 199
-15:19:03 > WARNING: 2 - array_map() [function.array-map]: Argument #2 should be an array in file /home/keepfli/symphony/extensions/cachelite/extension.driver.php on line 201
-15:19:07 > WARNING: 2 - file(/home/keepfli/symphony/manifest/cachelite-excluded-pages) [function.file]: failed to open stream: No such file or directory in file /home/keepfli/symphony/extensions/cachelite/extension.driver.php on line 199
-15:19:07 > WARNING: 2 - array_map() [function.array-map]: Argument #2 should be an array in file /home/keepfli/symphony/extensions/cachelite/extension.driver.php on line 201
-15:19:10 > WARNING: 2 - file(/home/keepfli/symphony/manifest/cachelite-excluded-pages) [function.file]: failed to open stream: No such file or directory in file /home/keepfli/symphony/extensions/cachelite/extension.driver.php on line 199
-15:19:10 > WARNING: 2 - array_map() [function.array-map]: Argument #2 should be an array in file /home/keepfli/symphony/extensions/cachelite/extension.driver.php on line 201
-16:12:31 > WARNING: 2 - file(/home/keepfli/symphony/manifest/cachelite-excluded-pages) [function.file]: failed to open stream: No such file or directory in file /home/keepfli/symphony/extensions/cachelite/extension.driver.php on line 199
-16:12:31 > WARNING: 2 - array_map() [function.array-map]: Argument #2 should be an array in file /home/keepfli/symphony/extensions/cachelite/extension.driver.php on line 201
-16:12:44 > WARNING: 2 - file(/home/keepfli/symphony/manifest/cachelite-excluded-pages) [function.file]: failed to open stream: No such file or directory in file /home/keepfli/symphony/extensions/cachelite/extension.driver.php on line 199
-16:12:44 > WARNING: 2 - array_map() [function.array-map]: Argument #2 should be an array in file /home/keepfli/symphony/extensions/cachelite/extension.driver.php on line 201
-16:14:00 > WARNING: 2 - file(/home/keepfli/symphony/manifest/cachelite-excluded-pages) [function.file]: failed to open stream: No such file or directory in file /home/keepfli/symphony/extensions/cachelite/extension.driver.php on line 199
-16:14:00 > WARNING: 2 - array_map() [function.array-map]: Argument #2 should be an array in file /home/keepfli/symphony/extensions/cachelite/extension.driver.php on line 201
-16:34:53 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-16:34:53 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('119') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('119') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-16:34:53 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/symphony/extensions/section_schemas/extension.driver.php on line 88
-16:34:53 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-16:34:53 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-16:34:53 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/symphony/extensions/section_schemas/extension.driver.php on line 88
-16:34:53 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-16:34:53 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('102') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('102') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-16:34:53 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/symphony/extensions/section_schemas/extension.driver.php on line 88
-16:34:54 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-16:34:54 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('119') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('119') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-16:34:54 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/symphony/extensions/section_schemas/extension.driver.php on line 88
-16:34:54 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-16:34:54 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-16:34:54 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/symphony/extensions/section_schemas/extension.driver.php on line 88
-16:34:54 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-16:34:54 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('102') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('102') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-16:34:54 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/symphony/extensions/section_schemas/extension.driver.php on line 88
-16:35:28 > WARNING: 2 - Missing argument 1 for AdministrationPage::__construct(), called in /home/keepfli/symphony/extensions/section_schemas/content/content.list.php on line 74 and defined in file /home/keepfli/symphony/symphony/lib/toolkit/class.administrationpage.php on line 19
-16:35:28 > WARNING: 512 - Unable to remove file - /home/keepfli/symphony/workspace/data-sources/data.section_schema_article_images.php in file /home/keepfli/symphony/symphony/lib/toolkit/class.general.php on line 520
-16:35:28 > WARNING: 512 - Unable to remove file - /home/keepfli/symphony/workspace/data-sources/data.section_schema_classes.php in file /home/keepfli/symphony/symphony/lib/toolkit/class.general.php on line 520
-16:35:28 > WARNING: 512 - Unable to remove file - /home/keepfli/symphony/workspace/data-sources/data.section_schema_comments.php in file /home/keepfli/symphony/symphony/lib/toolkit/class.general.php on line 520
-16:35:28 > WARNING: 512 - Unable to remove file - /home/keepfli/symphony/workspace/data-sources/data.section_schema_files.php in file /home/keepfli/symphony/symphony/lib/toolkit/class.general.php on line 520
-16:35:28 > WARNING: 512 - Unable to remove file - /home/keepfli/symphony/workspace/data-sources/data.section_schema_galleries.php in file /home/keepfli/symphony/symphony/lib/toolkit/class.general.php on line 520
-16:35:28 > WARNING: 512 - Unable to remove file - /home/keepfli/symphony/workspace/data-sources/data.section_schema_gallery_images.php in file /home/keepfli/symphony/symphony/lib/toolkit/class.general.php on line 520
-16:35:28 > WARNING: 512 - Unable to remove file - /home/keepfli/symphony/workspace/data-sources/data.section_schema_locations_images.php in file /home/keepfli/symphony/symphony/lib/toolkit/class.general.php on line 520
-16:35:28 > WARNING: 512 - Unable to remove file - /home/keepfli/symphony/workspace/data-sources/data.section_schema_messages.php in file /home/keepfli/symphony/symphony/lib/toolkit/class.general.php on line 520
-16:35:28 > WARNING: 512 - Unable to remove file - /home/keepfli/symphony/workspace/data-sources/data.section_schema_performances.php in file /home/keepfli/symphony/symphony/lib/toolkit/class.general.php on line 520
-16:35:28 > WARNING: 512 - Unable to remove file - /home/keepfli/symphony/workspace/data-sources/data.section_schema_places.php in file /home/keepfli/symphony/symphony/lib/toolkit/class.general.php on line 520
-16:35:29 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-16:35:29 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('119') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('119') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-16:35:29 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/symphony/extensions/section_schemas/extension.driver.php on line 88
-16:35:29 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-16:35:29 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-16:35:30 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/symphony/extensions/section_schemas/extension.driver.php on line 88
-16:35:30 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-16:35:30 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('102') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('102') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-16:35:30 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/symphony/extensions/section_schemas/extension.driver.php on line 88
-16:35:30 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-16:35:30 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('119') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('119') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-16:35:30 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/symphony/extensions/section_schemas/extension.driver.php on line 88
-16:35:30 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-16:35:30 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-16:35:30 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/symphony/extensions/section_schemas/extension.driver.php on line 88
-16:35:30 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-16:35:30 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('102') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('102') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-16:35:30 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/symphony/extensions/section_schemas/extension.driver.php on line 88
-16:44:09 > WARNING: 2 - file(/home/keepfli/symphony/manifest/cachelite-excluded-pages) [function.file]: failed to open stream: No such file or directory in file /home/keepfli/symphony/extensions/cachelite/extension.driver.php on line 199
-16:44:09 > WARNING: 2 - array_map() [function.array-map]: Argument #2 should be an array in file /home/keepfli/symphony/extensions/cachelite/extension.driver.php on line 201
-16:44:09 > WARNING: 2 - file(/home/keepfli/symphony/manifest/cachelite-excluded-pages) [function.file]: failed to open stream: No such file or directory in file /home/keepfli/symphony/extensions/cachelite/extension.driver.php on line 199
-16:44:09 > WARNING: 2 - array_map() [function.array-map]: Argument #2 should be an array in file /home/keepfli/symphony/extensions/cachelite/extension.driver.php on line 201
-16:44:11 > WARNING: 2 - file(/home/keepfli/symphony/manifest/cachelite-excluded-pages) [function.file]: failed to open stream: No such file or directory in file /home/keepfli/symphony/extensions/cachelite/extension.driver.php on line 199
-16:44:11 > WARNING: 2 - array_map() [function.array-map]: Argument #2 should be an array in file /home/keepfli/symphony/extensions/cachelite/extension.driver.php on line 201
-16:44:13 > WARNING: 2 - file(/home/keepfli/symphony/manifest/cachelite-excluded-pages) [function.file]: failed to open stream: No such file or directory in file /home/keepfli/symphony/extensions/cachelite/extension.driver.php on line 199
-16:44:13 > WARNING: 2 - array_map() [function.array-map]: Argument #2 should be an array in file /home/keepfli/symphony/extensions/cachelite/extension.driver.php on line 201
-16:44:13 > WARNING: 2 - file(/home/keepfli/symphony/manifest/cachelite-excluded-pages) [function.file]: failed to open stream: No such file or directory in file /home/keepfli/symphony/extensions/cachelite/extension.driver.php on line 199
-16:44:13 > WARNING: 2 - array_map() [function.array-map]: Argument #2 should be an array in file /home/keepfli/symphony/extensions/cachelite/extension.driver.php on line 201
-16:44:15 > WARNING: 2 - file(/home/keepfli/symphony/manifest/cachelite-excluded-pages) [function.file]: failed to open stream: No such file or directory in file /home/keepfli/symphony/extensions/cachelite/extension.driver.php on line 199
-16:44:15 > WARNING: 2 - array_map() [function.array-map]: Argument #2 should be an array in file /home/keepfli/symphony/extensions/cachelite/extension.driver.php on line 201
-16:44:51 > WARNING: 2 - file(/home/keepfli/symphony/manifest/cachelite-excluded-pages) [function.file]: failed to open stream: No such file or directory in file /home/keepfli/symphony/extensions/cachelite/extension.driver.php on line 199
-16:44:51 > WARNING: 2 - array_map() [function.array-map]: Argument #2 should be an array in file /home/keepfli/symphony/extensions/cachelite/extension.driver.php on line 201
-16:44:52 > WARNING: 2 - file(/home/keepfli/symphony/manifest/cachelite-excluded-pages) [function.file]: failed to open stream: No such file or directory in file /home/keepfli/symphony/extensions/cachelite/extension.driver.php on line 199
-16:44:52 > WARNING: 2 - array_map() [function.array-map]: Argument #2 should be an array in file /home/keepfli/symphony/extensions/cachelite/extension.driver.php on line 201
-16:45:26 > WARNING: 2 - file(/home/keepfli/symphony/manifest/cachelite-excluded-pages) [function.file]: failed to open stream: No such file or directory in file /home/keepfli/symphony/extensions/cachelite/extension.driver.php on line 199
-16:45:26 > WARNING: 2 - array_map() [function.array-map]: Argument #2 should be an array in file /home/keepfli/symphony/extensions/cachelite/extension.driver.php on line 201
-16:45:30 > WARNING: 2 - file(/home/keepfli/symphony/manifest/cachelite-excluded-pages) [function.file]: failed to open stream: No such file or directory in file /home/keepfli/symphony/extensions/cachelite/extension.driver.php on line 199
-16:45:30 > WARNING: 2 - array_map() [function.array-map]: Argument #2 should be an array in file /home/keepfli/symphony/extensions/cachelite/extension.driver.php on line 201
-16:47:46 > ERROR: 256 - Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/form.xsl line 94 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:validation-summary not found
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/form.xsl line 153 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/form.xsl line 153 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/form.xsl line 153 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/form.xsl line 153 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/form.xsl line 153 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/form.xsl line 432 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/form.xsl line 153 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/form.xsl line 153 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/form.xsl line 153 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/form.xsl line 153 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/form.xsl line 153 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/form.xsl line 153 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/form.xsl line 153 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/form.xsl line 153 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
-16:48:08 > ERROR: 256 - Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/form.xsl line 94 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:validation-summary not found
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/form.xsl line 153 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/form.xsl line 153 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/form.xsl line 153 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/form.xsl line 153 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/form.xsl line 153 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/form.xsl line 432 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/form.xsl line 153 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/form.xsl line 153 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/form.xsl line 153 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/form.xsl line 153 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/form.xsl line 153 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/form.xsl line 153 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/form.xsl line 153 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/form.xsl line 153 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
-17:01:08 > ERROR: 256 - Line: 75 - XSLTProcessor::importStylesheet(): compilation error: file /home/keepfli/symphony/workspace/pages/test.xsl line 12 element import
-Line: 75 - XSLTProcessor::importStylesheet(): xsltParseStylesheetTop: ignoring misplaced import element
-Line: 88 - XSLTProcessor::transformToXml(): No stylesheet associated to this object
-17:02:10 > ERROR: 256 - 
-17:02:11 > ERROR: 256 - 
-17:02:15 > ERROR: 256 - 
-17:02:29 > ERROR: 256 - 
-17:02:30 > ERROR: 256 - 
-17:03:02 > ERROR: 256 - 
-17:03:04 > ERROR: 256 - 
-17:03:05 > ERROR: 256 - 
-17:03:11 > ERROR: 256 - 
-17:03:12 > ERROR: 256 - 
-17:03:13 > ERROR: 256 - 
-17:03:45 > ERROR: 256 - Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/utilities/master.xsl line 81 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template top not found
-17:05:20 > ERROR: 256 - Line: 75 - XSLTProcessor::importStylesheet(): form:validation-summary : no namespace bound to prefix form
-Line: 75 - XSLTProcessor::importStylesheet(): form:label : no namespace bound to prefix form
-Line: 75 - XSLTProcessor::importStylesheet(): form:input : no namespace bound to prefix form
-Line: 75 - XSLTProcessor::importStylesheet(): form:label : no namespace bound to prefix form
-Line: 75 - XSLTProcessor::importStylesheet(): form:input : no namespace bound to prefix form
-Line: 75 - XSLTProcessor::importStylesheet(): form:label : no namespace bound to prefix form
-Line: 75 - XSLTProcessor::importStylesheet(): form:input : no namespace bound to prefix form
-Line: 75 - XSLTProcessor::importStylesheet(): form:label : no namespace bound to prefix form
-Line: 75 - XSLTProcessor::importStylesheet(): form:input : no namespace bound to prefix form
-Line: 75 - XSLTProcessor::importStylesheet(): form:select : no namespace bound to prefix form
-Line: 75 - XSLTProcessor::importStylesheet(): form:label : no namespace bound to prefix form
-Line: 75 - XSLTProcessor::importStylesheet(): form:input : no namespace bound to prefix form
-Line: 75 - XSLTProcessor::importStylesheet(): form:label : no namespace bound to prefix form
-Line: 75 - XSLTProcessor::importStylesheet(): form:textarea : no namespace bound to prefix form
-Line: 75 - XSLTProcessor::importStylesheet(): form:label : no namespace bound to prefix form
-Line: 75 - XSLTProcessor::importStylesheet(): form:select : no namespace bound to prefix form
-Line: 75 - XSLTProcessor::importStylesheet(): form:label : no namespace bound to prefix form
-Line: 75 - XSLTProcessor::importStylesheet(): form:input : no namespace bound to prefix form
-Line: 75 - XSLTProcessor::importStylesheet(): form:label : no namespace bound to prefix form
-Line: 75 - XSLTProcessor::importStylesheet(): form:checkbox : no namespace bound to prefix form
-Line: 88 - XSLTProcessor::transformToXml(): No stylesheet associated to this object
-17:06:22 > ERROR: 256 - Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 136 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:validation-summary not found
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 474 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
-17:06:50 > ERROR: 256 - Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 136 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:validation-summary not found
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 474 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
-17:08:32 > ERROR: 256 - Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 136 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:validation-summary not found
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 474 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
-17:11:34 > ERROR: 256 - Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 136 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:validation-summary not found
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 474 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 195 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:label not found
-17:15:33 > ERROR: 256 - Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 136 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:validation-summary not found
-17:19:38 > ERROR: 256 - Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 136 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:validation-summary not found
-17:21:37 > ERROR: 256 - Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 134 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:validation-summary not found
-17:22:45 > ERROR: 256 - Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 134 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template validation-summary not found
-17:22:46 > ERROR: 256 - Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 134 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template validation-summary not found
-17:23:59 > ERROR: 256 - Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 134 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:validation-summary not found
-17:24:00 > ERROR: 256 - Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 134 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:validation-summary not found
-17:24:28 > ERROR: 256 - Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 134 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:validation-summary not found
-17:24:29 > ERROR: 256 - Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 134 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:validation-summary not found
-17:24:46 > ERROR: 256 - Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 134 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:validation-summary not found
-17:24:47 > ERROR: 256 - Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 134 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:validation-summary not found
-17:24:48 > ERROR: 256 - Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 134 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:validation-summary not found
-17:24:49 > ERROR: 256 - Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 134 element call-template
-Line: 88 - XSLTProcessor::transformToXml(): xsl:call-template : template http://nick-dunn.co.uk/xslt/form-controls:validation-summary not found
-17:33:39 > ERROR: 256 - Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-17:34:07 > ERROR: 256 - Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-17:37:04 > ERROR: 256 - Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-17:38:23 > ERROR: 256 - Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function tokenize bound to undefined prefix str
-17:46:47 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-17:46:47 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('119') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('119') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-17:46:47 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/symphony/extensions/section_schemas/extension.driver.php on line 88
-17:46:47 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-17:46:47 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-17:46:47 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/symphony/extensions/section_schemas/extension.driver.php on line 88
-17:46:47 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-17:46:47 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('102') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('102') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-17:46:47 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/symphony/extensions/section_schemas/extension.driver.php on line 88
-17:47:35 > ERROR: 256 - Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 53 element value-of
-Line: 88 - XSLTProcessor::transformToXml(): unregistered variable url-session
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompiledEval: evaluation failed
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 53 element value-of
-Line: 88 - XSLTProcessor::transformToXml(): xsltValueOf: text copy failed
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 54 element value
-Line: 88 - XSLTProcessor::transformToXml(): unregistered variable url-units
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompiledEval: evaluation failed
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 54 element value
-Line: 88 - XSLTProcessor::transformToXml(): unregistered variable url-mode
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompiledEval: evaluation failed
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 55 element value-of
-Line: 88 - XSLTProcessor::transformToXml(): unregistered variable url-start
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompiledEval: evaluation failed
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 55 element value-of
-Line: 88 - XSLTProcessor::transformToXml(): xsltValueOf: text copy failed
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 56 element value-of
-Line: 88 - XSLTProcessor::transformToXml(): unregistered variable url-end
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompiledEval: evaluation failed
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 56 element value-of
-Line: 88 - XSLTProcessor::transformToXml(): xsltValueOf: text copy failed
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 58 element value-of
-Line: 88 - XSLTProcessor::transformToXml(): unregistered variable url-place
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompiledEval: evaluation failed
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 58 element value-of
-Line: 88 - XSLTProcessor::transformToXml(): xsltValueOf: text copy failed
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 59 element value-of
-Line: 88 - XSLTProcessor::transformToXml(): unregistered variable url-class
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompiledEval: evaluation failed
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/test.xsl line 59 element value-of
-Line: 88 - XSLTProcessor::transformToXml(): xsltValueOf: text copy failed
-17:50:15 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-17:50:15 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('119') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('119') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-17:50:15 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/symphony/extensions/section_schemas/extension.driver.php on line 88
-17:50:15 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-17:50:15 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-17:50:15 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/symphony/extensions/section_schemas/extension.driver.php on line 88
-17:50:15 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-17:50:15 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('102') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('102') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-17:50:15 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/symphony/extensions/section_schemas/extension.driver.php on line 88
-17:50:25 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-17:50:25 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('119') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('119') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-17:50:25 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/symphony/extensions/section_schemas/extension.driver.php on line 88
-17:50:25 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-17:50:25 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-17:50:25 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/symphony/extensions/section_schemas/extension.driver.php on line 88
-17:50:25 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-17:50:25 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('102') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('102') LIMIT 1" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
-17:50:25 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/symphony/extensions/section_schemas/extension.driver.php on line 88
-18:12:25 > ERROR: 256 - Line: 75 - XSLTProcessor::importStylesheet(): /home/keepfli/symphony/workspace/utilities/get-places.xsl:19: parser error : Opening and ending tag mismatch: a line 16 and li
-Line: 75 - XSLTProcessor::importStylesheet(): 	
-Line: 75 - XSLTProcessor::importStylesheet(): 	     ^
-Line: 75 - XSLTProcessor::importStylesheet(): /home/keepfli/symphony/workspace/utilities/get-places.xsl:20: parser error : Opening and ending tag mismatch: li line 12 and xsl:template
-Line: 75 - XSLTProcessor::importStylesheet(): 
-Line: 75 - XSLTProcessor::importStylesheet():                ^
-Line: 75 - XSLTProcessor::importStylesheet(): /home/keepfli/symphony/workspace/utilities/get-places.xsl:76: parser error : Opening and ending tag mismatch: template line 11 and stylesheet
-Line: 75 - XSLTProcessor::importStylesheet(): 
-Line: 75 - XSLTProcessor::importStylesheet():                  ^
-Line: 75 - XSLTProcessor::importStylesheet(): /home/keepfli/symphony/workspace/utilities/get-places.xsl:76: parser error : Premature end of data in tag stylesheet line 2
-Line: 75 - XSLTProcessor::importStylesheet(): 
-Line: 75 - XSLTProcessor::importStylesheet():                  ^
-Line: 75 - XSLTProcessor::importStylesheet(): compilation error: file /home/keepfli/symphony/workspace/pages/locations.xsl line 6 element import
-Line: 75 - XSLTProcessor::importStylesheet(): xsl:import : unable to load /home/keepfli/symphony/workspace/utilities/get-places.xsl
-Line: 88 - XSLTProcessor::transformToXml(): No stylesheet associated to this object
-18:12:30 > ERROR: 256 - Line: 75 - XSLTProcessor::importStylesheet(): /home/keepfli/symphony/workspace/utilities/get-places.xsl:19: parser error : Opening and ending tag mismatch: a line 16 and li
-Line: 75 - XSLTProcessor::importStylesheet(): 	
-Line: 75 - XSLTProcessor::importStylesheet(): 	     ^
-Line: 75 - XSLTProcessor::importStylesheet(): /home/keepfli/symphony/workspace/utilities/get-places.xsl:20: parser error : Opening and ending tag mismatch: li line 12 and xsl:template
-Line: 75 - XSLTProcessor::importStylesheet(): 
-Line: 75 - XSLTProcessor::importStylesheet():                ^
-Line: 75 - XSLTProcessor::importStylesheet(): /home/keepfli/symphony/workspace/utilities/get-places.xsl:76: parser error : Opening and ending tag mismatch: template line 11 and stylesheet
-Line: 75 - XSLTProcessor::importStylesheet(): 
-Line: 75 - XSLTProcessor::importStylesheet():                  ^
-Line: 75 - XSLTProcessor::importStylesheet(): /home/keepfli/symphony/workspace/utilities/get-places.xsl:76: parser error : Premature end of data in tag stylesheet line 2
-Line: 75 - XSLTProcessor::importStylesheet(): 
-Line: 75 - XSLTProcessor::importStylesheet():                  ^
-Line: 75 - XSLTProcessor::importStylesheet(): compilation error: file /home/keepfli/symphony/workspace/pages/locations.xsl line 6 element import
-Line: 75 - XSLTProcessor::importStylesheet(): xsl:import : unable to load /home/keepfli/symphony/workspace/utilities/get-places.xsl
-Line: 88 - XSLTProcessor::transformToXml(): No stylesheet associated to this object
-19:08:15 > WARNING: 2 - Cannot modify header information - headers already sent by (output started at /home/keepfli/symphony/extensions/cachelite/extension.driver.php:122) in file /home/keepfli/symphony/symphony/lib/toolkit/class.page.php on line 21
-19:08:15 > WARNING: 2 - Cannot modify header information - headers already sent by (output started at /home/keepfli/symphony/extensions/cachelite/extension.driver.php:122) in file /home/keepfli/symphony/extensions/cachelite/extension.driver.php on line 160
-19:37:09 > WARNING: 2 - Missing argument 1 for datasourceshowteam::grab(), called in /home/keepfli/symphony/symphony/content/content.blueprintsdatasources.php on line 122 and defined in file /home/keepfli/symphony/workspace/data-sources/data.showteam.php on line 32
-19:37:21 > WARNING: 2 - Missing argument 1 for datasourceshowteam::grab(), called in /home/keepfli/symphony/symphony/content/content.blueprintsdatasources.php on line 122 and defined in file /home/keepfli/symphony/workspace/data-sources/data.showteam.php on line 32
-19:46:35 > ERROR: 256 - Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/schedule_classes.xsl line 19 element a
-Line: 88 - XSLTProcessor::transformToXml(): unregistered variable current-session-start
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompiledEval: evaluation failed
-19:49:33 > ERROR: 256 - Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/schedule_classes.xsl line 21 element a
-Line: 88 - XSLTProcessor::transformToXml(): unregistered variable current-session
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompiledEval: evaluation failed
-Line: 88 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/symphony/workspace/pages/schedule_classes.xsl line 21 element a
-Line: 88 - XSLTProcessor::transformToXml(): unregistered variable session-start
-Line: 88 - XSLTProcessor::transformToXml(): xmlXPathCompiledEval: evaluation failed
-19:51:06 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= dates101.value)
-				
-				ORDER BY `e`.`id` ASC
-		' at line 19 in query "SELECT  `e`.id, 
-						`e`.section_id, e.`author_id`, 
-						UNIX_TIMESTAMP(e.`creation_date`) AS `creation_date`, 
-						UNIX_TIMESTAMP(e.`creation_date_gmt`) AS `creation_date_gmt`
-						
-				FROM `sym_entries` AS `e`
-				 LEFT JOIN `sym_entries_data_118` AS `t118` ON (`e`.`id` = `t118`.entry_id)  LEFT JOIN `sym_entries_data_98` AS `t98` ON (`e`.`id` = `t98`.entry_id) 
-					LEFT JOIN
-						`sym_entries_data_101` AS t101
-						ON (e.id = t101.entry_id)
-					LEFT JOIN
-						`sym_entries_data_101_dates` AS dates101
-						ON (t101.link_id = dates101.link_id)
-						
-				WHERE 1
-				
-				AND `e`.`section_id` = '20' 
-				 AND `t118`.relation_id IN ('173')  AND `t98`.relation_id IN ('153', '157', '160', '161', '162', '163', '164', '165', '956', '1030', '1036') 
-					AND ( = dates101.value)
-				
-				ORDER BY `e`.`id` ASC
-				LIMIT 0, 9999" in file /home/keepfli/symphony/symphony/lib/toolkit/class.mysql.php on line 401
+2009/07/13 04:15:38 > WARNING: 2 - file(/Users/scotttesoriere/Documents/development/kf-symphony/manifest/cachelite-excluded-pages) [function.file]: failed to open stream: No such file or directory in file /Users/scotttesoriere/Documents/development/kf-symphony/extensions/cachelite/extension.driver.php on line 199
+2009/07/13 04:15:38 > WARNING: 2 - array_map() [function.array-map]: Argument #2 should be an array in file /Users/scotttesoriere/Documents/development/kf-symphony/extensions/cachelite/extension.driver.php on line 201
+2009/07/13 04:15:38 > WARNING: 2 - file(/Users/scotttesoriere/Documents/development/kf-symphony/manifest/cachelite-excluded-pages) [function.file]: failed to open stream: No such file or directory in file /Users/scotttesoriere/Documents/development/kf-symphony/extensions/cachelite/extension.driver.php on line 199
+2009/07/13 04:15:38 > WARNING: 2 - array_map() [function.array-map]: Argument #2 should be an array in file /Users/scotttesoriere/Documents/development/kf-symphony/extensions/cachelite/extension.driver.php on line 201
+2009/07/13 04:15:41 > WARNING: 2 - file(/Users/scotttesoriere/Documents/development/kf-symphony/manifest/cachelite-excluded-pages) [function.file]: failed to open stream: No such file or directory in file /Users/scotttesoriere/Documents/development/kf-symphony/extensions/cachelite/extension.driver.php on line 199
+2009/07/13 04:15:41 > WARNING: 2 - array_map() [function.array-map]: Argument #2 should be an array in file /Users/scotttesoriere/Documents/development/kf-symphony/extensions/cachelite/extension.driver.php on line 201
+2009/07/13 04:15:41 > WARNING: 2 - file(/Users/scotttesoriere/Documents/development/kf-symphony/manifest/cachelite-excluded-pages) [function.file]: failed to open stream: No such file or directory in file /Users/scotttesoriere/Documents/development/kf-symphony/extensions/cachelite/extension.driver.php on line 199
+2009/07/13 04:15:41 > WARNING: 2 - array_map() [function.array-map]: Argument #2 should be an array in file /Users/scotttesoriere/Documents/development/kf-symphony/extensions/cachelite/extension.driver.php on line 201
+2009/07/13 04:15:44 > WARNING: 2 - file(/Users/scotttesoriere/Documents/development/kf-symphony/manifest/cachelite-excluded-pages) [function.file]: failed to open stream: No such file or directory in file /Users/scotttesoriere/Documents/development/kf-symphony/extensions/cachelite/extension.driver.php on line 199
+2009/07/13 04:15:44 > WARNING: 2 - array_map() [function.array-map]: Argument #2 should be an array in file /Users/scotttesoriere/Documents/development/kf-symphony/extensions/cachelite/extension.driver.php on line 201
+2009/07/13 04:15:44 > WARNING: 2 - file(/Users/scotttesoriere/Documents/development/kf-symphony/manifest/cachelite-excluded-pages) [function.file]: failed to open stream: No such file or directory in file /Users/scotttesoriere/Documents/development/kf-symphony/extensions/cachelite/extension.driver.php on line 199
+2009/07/13 04:15:44 > WARNING: 2 - array_map() [function.array-map]: Argument #2 should be an array in file /Users/scotttesoriere/Documents/development/kf-symphony/extensions/cachelite/extension.driver.php on line 201
+2009/07/13 04:15:51 > WARNING: 2 - file(/Users/scotttesoriere/Documents/development/kf-symphony/manifest/cachelite-excluded-pages) [function.file]: failed to open stream: No such file or directory in file /Users/scotttesoriere/Documents/development/kf-symphony/extensions/cachelite/extension.driver.php on line 199
+2009/07/13 04:15:51 > WARNING: 2 - array_map() [function.array-map]: Argument #2 should be an array in file /Users/scotttesoriere/Documents/development/kf-symphony/extensions/cachelite/extension.driver.php on line 201
+2009/07/13 04:15:51 > WARNING: 2 - file(/Users/scotttesoriere/Documents/development/kf-symphony/manifest/cachelite-excluded-pages) [function.file]: failed to open stream: No such file or directory in file /Users/scotttesoriere/Documents/development/kf-symphony/extensions/cachelite/extension.driver.php on line 199
+2009/07/13 04:15:51 > WARNING: 2 - array_map() [function.array-map]: Argument #2 should be an array in file /Users/scotttesoriere/Documents/development/kf-symphony/extensions/cachelite/extension.driver.php on line 201
+2009/07/13 04:15:53 > WARNING: 2 - file(/Users/scotttesoriere/Documents/development/kf-symphony/manifest/cachelite-excluded-pages) [function.file]: failed to open stream: No such file or directory in file /Users/scotttesoriere/Documents/development/kf-symphony/extensions/cachelite/extension.driver.php on line 199
+2009/07/13 04:15:53 > WARNING: 2 - array_map() [function.array-map]: Argument #2 should be an array in file /Users/scotttesoriere/Documents/development/kf-symphony/extensions/cachelite/extension.driver.php on line 201
+2009/07/13 04:15:53 > WARNING: 2 - file(/Users/scotttesoriere/Documents/development/kf-symphony/manifest/cachelite-excluded-pages) [function.file]: failed to open stream: No such file or directory in file /Users/scotttesoriere/Documents/development/kf-symphony/extensions/cachelite/extension.driver.php on line 199
+2009/07/13 04:15:53 > WARNING: 2 - array_map() [function.array-map]: Argument #2 should be an array in file /Users/scotttesoriere/Documents/development/kf-symphony/extensions/cachelite/extension.driver.php on line 201
+2009/07/13 04:15:58 > WARNING: 2 - file(/Users/scotttesoriere/Documents/development/kf-symphony/manifest/cachelite-excluded-pages) [function.file]: failed to open stream: No such file or directory in file /Users/scotttesoriere/Documents/development/kf-symphony/extensions/cachelite/extension.driver.php on line 199
+2009/07/13 04:15:58 > WARNING: 2 - array_map() [function.array-map]: Argument #2 should be an array in file /Users/scotttesoriere/Documents/development/kf-symphony/extensions/cachelite/extension.driver.php on line 201
+2009/07/13 04:15:58 > WARNING: 2 - file(/Users/scotttesoriere/Documents/development/kf-symphony/manifest/cachelite-excluded-pages) [function.file]: failed to open stream: No such file or directory in file /Users/scotttesoriere/Documents/development/kf-symphony/extensions/cachelite/extension.driver.php on line 199
+2009/07/13 04:15:58 > WARNING: 2 - array_map() [function.array-map]: Argument #2 should be an array in file /Users/scotttesoriere/Documents/development/kf-symphony/extensions/cachelite/extension.driver.php on line 201
+2009/07/13 04:15:58 > WARNING: 2 - file(/Users/scotttesoriere/Documents/development/kf-symphony/manifest/cachelite-excluded-pages) [function.file]: failed to open stream: No such file or directory in file /Users/scotttesoriere/Documents/development/kf-symphony/extensions/cachelite/extension.driver.php on line 199
+2009/07/13 04:15:58 > WARNING: 2 - array_map() [function.array-map]: Argument #2 should be an array in file /Users/scotttesoriere/Documents/development/kf-symphony/extensions/cachelite/extension.driver.php on line 201
+2009/07/13 04:15:58 > WARNING: 2 - file(/Users/scotttesoriere/Documents/development/kf-symphony/manifest/cachelite-excluded-pages) [function.file]: failed to open stream: No such file or directory in file /Users/scotttesoriere/Documents/development/kf-symphony/extensions/cachelite/extension.driver.php on line 199
+2009/07/13 04:15:58 > WARNING: 2 - array_map() [function.array-map]: Argument #2 should be an array in file /Users/scotttesoriere/Documents/development/kf-symphony/extensions/cachelite/extension.driver.php on line 201
+2009/07/13 04:16:00 > WARNING: 2 - file(/Users/scotttesoriere/Documents/development/kf-symphony/manifest/cachelite-excluded-pages) [function.file]: failed to open stream: No such file or directory in file /Users/scotttesoriere/Documents/development/kf-symphony/extensions/cachelite/extension.driver.php on line 199
+2009/07/13 04:16:00 > WARNING: 2 - array_map() [function.array-map]: Argument #2 should be an array in file /Users/scotttesoriere/Documents/development/kf-symphony/extensions/cachelite/extension.driver.php on line 201
+2009/07/13 04:16:00 > WARNING: 2 - file(/Users/scotttesoriere/Documents/development/kf-symphony/manifest/cachelite-excluded-pages) [function.file]: failed to open stream: No such file or directory in file /Users/scotttesoriere/Documents/development/kf-symphony/extensions/cachelite/extension.driver.php on line 199
+2009/07/13 04:16:00 > WARNING: 2 - array_map() [function.array-map]: Argument #2 should be an array in file /Users/scotttesoriere/Documents/development/kf-symphony/extensions/cachelite/extension.driver.php on line 201
+2009/07/13 04:16:04 > WARNING: 2 - file(/Users/scotttesoriere/Documents/development/kf-symphony/manifest/cachelite-excluded-pages) [function.file]: failed to open stream: No such file or directory in file /Users/scotttesoriere/Documents/development/kf-symphony/extensions/cachelite/extension.driver.php on line 199
+2009/07/13 04:16:04 > WARNING: 2 - array_map() [function.array-map]: Argument #2 should be an array in file /Users/scotttesoriere/Documents/development/kf-symphony/extensions/cachelite/extension.driver.php on line 201
+2009/07/13 04:16:04 > WARNING: 2 - file(/Users/scotttesoriere/Documents/development/kf-symphony/manifest/cachelite-excluded-pages) [function.file]: failed to open stream: No such file or directory in file /Users/scotttesoriere/Documents/development/kf-symphony/extensions/cachelite/extension.driver.php on line 199
+2009/07/13 04:16:04 > WARNING: 2 - array_map() [function.array-map]: Argument #2 should be an array in file /Users/scotttesoriere/Documents/development/kf-symphony/extensions/cachelite/extension.driver.php on line 201
+2009/07/13 04:16:07 > WARNING: 2 - file(/Users/scotttesoriere/Documents/development/kf-symphony/manifest/cachelite-excluded-pages) [function.file]: failed to open stream: No such file or directory in file /Users/scotttesoriere/Documents/development/kf-symphony/extensions/cachelite/extension.driver.php on line 199
+2009/07/13 04:16:07 > WARNING: 2 - array_map() [function.array-map]: Argument #2 should be an array in file /Users/scotttesoriere/Documents/development/kf-symphony/extensions/cachelite/extension.driver.php on line 201
+2009/07/13 04:16:07 > WARNING: 2 - file(/Users/scotttesoriere/Documents/development/kf-symphony/manifest/cachelite-excluded-pages) [function.file]: failed to open stream: No such file or directory in file /Users/scotttesoriere/Documents/development/kf-symphony/extensions/cachelite/extension.driver.php on line 199
+2009/07/13 04:16:07 > WARNING: 2 - array_map() [function.array-map]: Argument #2 should be an array in file /Users/scotttesoriere/Documents/development/kf-symphony/extensions/cachelite/extension.driver.php on line 201
+2009/07/13 04:16:09 > WARNING: 2 - file(/Users/scotttesoriere/Documents/development/kf-symphony/manifest/cachelite-excluded-pages) [function.file]: failed to open stream: No such file or directory in file /Users/scotttesoriere/Documents/development/kf-symphony/extensions/cachelite/extension.driver.php on line 199
+2009/07/13 04:16:09 > WARNING: 2 - array_map() [function.array-map]: Argument #2 should be an array in file /Users/scotttesoriere/Documents/development/kf-symphony/extensions/cachelite/extension.driver.php on line 201
+2009/07/13 04:16:09 > WARNING: 2 - file(/Users/scotttesoriere/Documents/development/kf-symphony/manifest/cachelite-excluded-pages) [function.file]: failed to open stream: No such file or directory in file /Users/scotttesoriere/Documents/development/kf-symphony/extensions/cachelite/extension.driver.php on line 199
+2009/07/13 04:16:09 > WARNING: 2 - array_map() [function.array-map]: Argument #2 should be an array in file /Users/scotttesoriere/Documents/development/kf-symphony/extensions/cachelite/extension.driver.php on line 201
+2009/07/13 04:16:12 > WARNING: 2 - file(/Users/scotttesoriere/Documents/development/kf-symphony/manifest/cachelite-excluded-pages) [function.file]: failed to open stream: No such file or directory in file /Users/scotttesoriere/Documents/development/kf-symphony/extensions/cachelite/extension.driver.php on line 199
+2009/07/13 04:16:12 > WARNING: 2 - array_map() [function.array-map]: Argument #2 should be an array in file /Users/scotttesoriere/Documents/development/kf-symphony/extensions/cachelite/extension.driver.php on line 201
+2009/07/13 04:16:12 > WARNING: 2 - file(/Users/scotttesoriere/Documents/development/kf-symphony/manifest/cachelite-excluded-pages) [function.file]: failed to open stream: No such file or directory in file /Users/scotttesoriere/Documents/development/kf-symphony/extensions/cachelite/extension.driver.php on line 199
+2009/07/13 04:16:12 > WARNING: 2 - array_map() [function.array-map]: Argument #2 should be an array in file /Users/scotttesoriere/Documents/development/kf-symphony/extensions/cachelite/extension.driver.php on line 201
+2009/07/13 04:16:13 > WARNING: 2 - file(/Users/scotttesoriere/Documents/development/kf-symphony/manifest/cachelite-excluded-pages) [function.file]: failed to open stream: No such file or directory in file /Users/scotttesoriere/Documents/development/kf-symphony/extensions/cachelite/extension.driver.php on line 199
+2009/07/13 04:16:13 > WARNING: 2 - array_map() [function.array-map]: Argument #2 should be an array in file /Users/scotttesoriere/Documents/development/kf-symphony/extensions/cachelite/extension.driver.php on line 201
+2009/07/13 04:16:13 > WARNING: 2 - file(/Users/scotttesoriere/Documents/development/kf-symphony/manifest/cachelite-excluded-pages) [function.file]: failed to open stream: No such file or directory in file /Users/scotttesoriere/Documents/development/kf-symphony/extensions/cachelite/extension.driver.php on line 199
+2009/07/13 04:16:13 > WARNING: 2 - array_map() [function.array-map]: Argument #2 should be an array in file /Users/scotttesoriere/Documents/development/kf-symphony/extensions/cachelite/extension.driver.php on line 201
+2009/07/13 04:16:16 > WARNING: 2 - file(/Users/scotttesoriere/Documents/development/kf-symphony/manifest/cachelite-excluded-pages) [function.file]: failed to open stream: No such file or directory in file /Users/scotttesoriere/Documents/development/kf-symphony/extensions/cachelite/extension.driver.php on line 199
+2009/07/13 04:16:16 > WARNING: 2 - array_map() [function.array-map]: Argument #2 should be an array in file /Users/scotttesoriere/Documents/development/kf-symphony/extensions/cachelite/extension.driver.php on line 201
+2009/07/13 04:16:16 > WARNING: 2 - file(/Users/scotttesoriere/Documents/development/kf-symphony/manifest/cachelite-excluded-pages) [function.file]: failed to open stream: No such file or directory in file /Users/scotttesoriere/Documents/development/kf-symphony/extensions/cachelite/extension.driver.php on line 199
+2009/07/13 04:16:16 > WARNING: 2 - array_map() [function.array-map]: Argument #2 should be an array in file /Users/scotttesoriere/Documents/development/kf-symphony/extensions/cachelite/extension.driver.php on line 201
+2009/07/13 04:16:19 > WARNING: 2 - file(/Users/scotttesoriere/Documents/development/kf-symphony/manifest/cachelite-excluded-pages) [function.file]: failed to open stream: No such file or directory in file /Users/scotttesoriere/Documents/development/kf-symphony/extensions/cachelite/extension.driver.php on line 199
+2009/07/13 04:16:19 > WARNING: 2 - array_map() [function.array-map]: Argument #2 should be an array in file /Users/scotttesoriere/Documents/development/kf-symphony/extensions/cachelite/extension.driver.php on line 201
+2009/07/13 04:16:19 > WARNING: 2 - file(/Users/scotttesoriere/Documents/development/kf-symphony/manifest/cachelite-excluded-pages) [function.file]: failed to open stream: No such file or directory in file /Users/scotttesoriere/Documents/development/kf-symphony/extensions/cachelite/extension.driver.php on line 199
+2009/07/13 04:16:19 > WARNING: 2 - array_map() [function.array-map]: Argument #2 should be an array in file /Users/scotttesoriere/Documents/development/kf-symphony/extensions/cachelite/extension.driver.php on line 201
+2009/07/13 04:16:20 > WARNING: 2 - file(/Users/scotttesoriere/Documents/development/kf-symphony/manifest/cachelite-excluded-pages) [function.file]: failed to open stream: No such file or directory in file /Users/scotttesoriere/Documents/development/kf-symphony/extensions/cachelite/extension.driver.php on line 199
+2009/07/13 04:16:20 > WARNING: 2 - array_map() [function.array-map]: Argument #2 should be an array in file /Users/scotttesoriere/Documents/development/kf-symphony/extensions/cachelite/extension.driver.php on line 201
+2009/07/13 04:16:20 > WARNING: 2 - file(/Users/scotttesoriere/Documents/development/kf-symphony/manifest/cachelite-excluded-pages) [function.file]: failed to open stream: No such file or directory in file /Users/scotttesoriere/Documents/development/kf-symphony/extensions/cachelite/extension.driver.php on line 199
+2009/07/13 04:16:20 > WARNING: 2 - array_map() [function.array-map]: Argument #2 should be an array in file /Users/scotttesoriere/Documents/development/kf-symphony/extensions/cachelite/extension.driver.php on line 201
+2009/07/13 04:16:35 > WARNING: 2 - file(/Users/scotttesoriere/Documents/development/kf-symphony/manifest/cachelite-excluded-pages) [function.file]: failed to open stream: No such file or directory in file /Users/scotttesoriere/Documents/development/kf-symphony/extensions/cachelite/extension.driver.php on line 199
+2009/07/13 04:16:35 > WARNING: 2 - array_map() [function.array-map]: Argument #2 should be an array in file /Users/scotttesoriere/Documents/development/kf-symphony/extensions/cachelite/extension.driver.php on line 201
+2009/07/13 04:16:35 > WARNING: 2 - file(/Users/scotttesoriere/Documents/development/kf-symphony/manifest/cachelite-excluded-pages) [function.file]: failed to open stream: No such file or directory in file /Users/scotttesoriere/Documents/development/kf-symphony/extensions/cachelite/extension.driver.php on line 199
+2009/07/13 04:16:35 > WARNING: 2 - array_map() [function.array-map]: Argument #2 should be an array in file /Users/scotttesoriere/Documents/development/kf-symphony/extensions/cachelite/extension.driver.php on line 201
+2009/07/13 04:16:41 > WARNING: 2 - file(/Users/scotttesoriere/Documents/development/kf-symphony/manifest/cachelite-excluded-pages) [function.file]: failed to open stream: No such file or directory in file /Users/scotttesoriere/Documents/development/kf-symphony/extensions/cachelite/extension.driver.php on line 199
+2009/07/13 04:16:41 > WARNING: 2 - array_map() [function.array-map]: Argument #2 should be an array in file /Users/scotttesoriere/Documents/development/kf-symphony/extensions/cachelite/extension.driver.php on line 201
+2009/07/13 04:16:41 > WARNING: 2 - file(/Users/scotttesoriere/Documents/development/kf-symphony/manifest/cachelite-excluded-pages) [function.file]: failed to open stream: No such file or directory in file /Users/scotttesoriere/Documents/development/kf-symphony/extensions/cachelite/extension.driver.php on line 199
+2009/07/13 04:16:41 > WARNING: 2 - array_map() [function.array-map]: Argument #2 should be an array in file /Users/scotttesoriere/Documents/development/kf-symphony/extensions/cachelite/extension.driver.php on line 201
