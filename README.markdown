@@ -1,16 +1,16 @@
 # Symphony 2 #
 
-- Version: 2.0.4
-- Date: 9th July 2009
+- Version: 2.0.5
+- Date: 27th July 2009
 - Github Repository: <http://github.com/symphony/symphony-2/tree/master>
 
 
 ## Synopsis
 
 Symphony is a `PHP` & `MySQL` based CMS that utilises `XML` and `XSLT` as its core 
-technologies. This repository represents version 2.0.3 and is considered stable.
+technologies. This repository represents version 2.0.5 and is considered stable.
 
-Visit the forum at <http://symphony-cms.com/forum/>
+Visit the forum at <http://symphony-cms.com/community/>
 
 
 ## Updating
@@ -36,11 +36,7 @@ Follow the instructions below if you are updating from Symphony version 2.0 (non
 
 4. Go to `http://yoursite.com/update.php` to complete the update process.
 
-5. Follow the instruction under "Adding Navigation Group to sections".
-
-6. For those who have an upload field, follow the instructions under "Update Upload Field".
-
-7. Celebrate by shaving your friend's head for charity!
+5. Celebrate by shaving your friend's head for charity!
 
 
 ## INSTALLING
@@ -63,10 +59,9 @@ Follow the instructions below if you are updating from Symphony version 2.0 (non
 	- [Debug DevKit](http://github.com/symphony/debugdevkit/tree/master)
 	- [Profile DevKit](http://github.com/symphony/profiledevkit/tree/master)
 
-3. Run the following commands to ensure the submodules are cloned:
+3. Run the following command to ensure the submodules are cloned:
 
-		git submodule init
-		git submodule update
+		git submodule update --init
 
 4. _(Optional)_ If you would like the [default theme](http://github.com/symphony/workspace/tree) installed as well, 
 you will need to use the following command from within the Symphony 2 folder you just created:
@@ -80,7 +75,7 @@ you will need to use the following command from within the Symphony 2 folder you
 
 **Note: You can leave `/workspace` out if you do not want the default theme.**
 
-1. This step assumes you downloaded a zip archive from the [Symphony website](http://symphony21.com). 
+1. This step assumes you downloaded a zip archive from the [Symphony website](http://symphony-cms.com). 
 Upload the following files and directories to the root directory of your website:
 
 	- index.php

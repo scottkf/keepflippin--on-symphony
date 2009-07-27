@@ -286,7 +286,7 @@
 			# Delegate: FrontendPrePageResolve
 			# Description: Before page resolve. Allows manipulation of page without redirection
 			# Global: Yes
-			$this->ExtensionManager->notifyMembers('FrontendPrePageResolve', '/frontend/', array('row' => &$row, 'page' => $this->_page));
+			$this->ExtensionManager->notifyMembers('FrontendPrePageResolve', '/frontend/', array('row' => &$row, 'page' => &$this->_page));
 			
 			
 			## Default to the index page if no page has been specified
