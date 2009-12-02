@@ -19,3 +19,5 @@
 	echo $output;
 
 	exit();
+
+?>

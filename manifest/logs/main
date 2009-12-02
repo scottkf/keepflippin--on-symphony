@@ -353,3 +353,110 @@ Line: 90 - XSLTProcessor::transformToXml(): No stylesheet associated to this obj
 				FROM `sym_fields` AS `f` 
 				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
 				WHERE `s`.id =  AND f.id IN ('26') LIMIT 1" in file /Volumes/FAT/Documents/development/kf-symphony/symphony/lib/toolkit/class.mysql.php on line 401
+2009/11/18 17:55:50 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
+2009/11/18 17:55:50 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('119') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
+				FROM `sym_fields` AS `f` 
+				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
+				WHERE `s`.id =  AND f.id IN ('119') LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
+2009/11/18 17:55:50 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/public_html/extensions/section_schemas/extension.driver.php on line 88
+2009/11/18 17:55:50 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
+2009/11/18 17:55:50 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
+				FROM `sym_fields` AS `f` 
+				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
+				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
+2009/11/18 17:55:50 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/public_html/extensions/section_schemas/extension.driver.php on line 88
+2009/11/18 17:55:50 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
+2009/11/18 17:55:50 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('102') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
+				FROM `sym_fields` AS `f` 
+				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
+				WHERE `s`.id =  AND f.id IN ('102') LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
+2009/11/18 17:55:50 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/public_html/extensions/section_schemas/extension.driver.php on line 88
+2009/11/18 17:55:50 > WARNING: 2 - file_put_contents(/home/keepfli/public_html/extensions/debugdevkit/lib/bitter/caches/0f635d0e0f3874fff8b581c132e6c7a7-c57dbeac51de2b31f323f5b4c69e03b5-54fd508ad5d97b33ee35411fbbe00d3d): failed to open stream: No such file or directory in file /home/keepfli/public_html/extensions/debugdevkit/lib/bitter/bitter.php on line 158
+2009/11/18 17:56:06 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
+2009/11/18 17:56:06 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('119') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
+				FROM `sym_fields` AS `f` 
+				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
+				WHERE `s`.id =  AND f.id IN ('119') LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
+2009/11/18 17:56:06 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/public_html/extensions/section_schemas/extension.driver.php on line 88
+2009/11/18 17:56:06 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
+2009/11/18 17:56:06 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
+				FROM `sym_fields` AS `f` 
+				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
+				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
+2009/11/18 17:56:06 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/public_html/extensions/section_schemas/extension.driver.php on line 88
+2009/11/18 17:56:06 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
+2009/11/18 17:56:06 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('102') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
+				FROM `sym_fields` AS `f` 
+				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
+				WHERE `s`.id =  AND f.id IN ('102') LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
+2009/11/18 17:56:06 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/public_html/extensions/section_schemas/extension.driver.php on line 88
+2009/11/18 17:56:22 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
+2009/11/18 17:56:22 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('119') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
+				FROM `sym_fields` AS `f` 
+				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
+				WHERE `s`.id =  AND f.id IN ('119') LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
+2009/11/18 17:56:22 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/public_html/extensions/section_schemas/extension.driver.php on line 88
+2009/11/18 17:56:22 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
+2009/11/18 17:56:22 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
+				FROM `sym_fields` AS `f` 
+				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
+				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
+2009/11/18 17:56:22 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/public_html/extensions/section_schemas/extension.driver.php on line 88
+2009/11/18 17:56:22 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
+2009/11/18 17:56:22 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('102') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
+				FROM `sym_fields` AS `f` 
+				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
+				WHERE `s`.id =  AND f.id IN ('102') LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
+2009/11/18 17:56:22 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/public_html/extensions/section_schemas/extension.driver.php on line 88
+2009/11/18 19:37:36 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/public_html/workspace/gallery-images/DSC06322.jpg in file /home/keepfli/public_html/symphony/lib/toolkit/fields/field.upload.php on line 182
+2009/11/19 03:03:53 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/public_html/workspace/gallery-images/DSC06308.jpg in file /home/keepfli/public_html/symphony/lib/toolkit/fields/field.upload.php on line 182
+2009/11/19 03:03:55 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/public_html/workspace/gallery-images/DSC06322.jpg in file /home/keepfli/public_html/symphony/lib/toolkit/fields/field.upload.php on line 182
+2009/11/19 22:42:14 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/public_html/workspace/gallery-images/DSC06308.jpg in file /home/keepfli/public_html/symphony/lib/toolkit/fields/field.upload.php on line 182
+2009/11/19 22:43:18 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/public_html/workspace/gallery-images/DSC06308.jpg in file /home/keepfli/public_html/symphony/lib/toolkit/fields/field.upload.php on line 182
+2009/11/19 22:43:27 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/public_html/workspace/gallery-images/DSC06322.jpg in file /home/keepfli/public_html/symphony/lib/toolkit/fields/field.upload.php on line 182
+2009/11/20 08:28:53 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/public_html/workspace/gallery-images/DSC06308.jpg in file /home/keepfli/public_html/symphony/lib/toolkit/fields/field.upload.php on line 182
+2009/11/20 14:47:56 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/public_html/workspace/gallery-images/DSC06308.jpg in file /home/keepfli/public_html/symphony/lib/toolkit/fields/field.upload.php on line 182
+2009/11/20 22:54:42 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/public_html/workspace/gallery-images/DSC06308.jpg in file /home/keepfli/public_html/symphony/lib/toolkit/fields/field.upload.php on line 182
+2009/11/20 22:54:42 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/public_html/workspace/gallery-images/DSC06308.jpg in file /home/keepfli/public_html/symphony/lib/toolkit/fields/field.upload.php on line 182
+2009/11/20 22:54:46 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/public_html/workspace/gallery-images/DSC06322.jpg in file /home/keepfli/public_html/symphony/lib/toolkit/fields/field.upload.php on line 182
+2009/11/20 22:54:46 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/public_html/workspace/gallery-images/DSC06322.jpg in file /home/keepfli/public_html/symphony/lib/toolkit/fields/field.upload.php on line 182
+2009/11/22 08:17:26 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/public_html/workspace/gallery-images/DSC06322.jpg in file /home/keepfli/public_html/symphony/lib/toolkit/fields/field.upload.php on line 182
+2009/11/22 11:47:09 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/public_html/workspace/gallery-images/DSC06308.jpg in file /home/keepfli/public_html/symphony/lib/toolkit/fields/field.upload.php on line 182
+2009/11/22 11:47:22 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/public_html/workspace/gallery-images/DSC06322.jpg in file /home/keepfli/public_html/symphony/lib/toolkit/fields/field.upload.php on line 182
+2009/11/22 11:47:29 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/public_html/workspace/gallery-images/DSC06308.jpg in file /home/keepfli/public_html/symphony/lib/toolkit/fields/field.upload.php on line 182
+2009/11/23 11:55:11 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/public_html/workspace/gallery-images/DSC06308.jpg in file /home/keepfli/public_html/symphony/lib/toolkit/fields/field.upload.php on line 182
+2009/11/23 11:55:13 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/public_html/workspace/gallery-images/DSC06322.jpg in file /home/keepfli/public_html/symphony/lib/toolkit/fields/field.upload.php on line 182
+2009/11/24 23:37:36 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/public_html/workspace/gallery-images/DSC06308.jpg in file /home/keepfli/public_html/symphony/lib/toolkit/fields/field.upload.php on line 182
+2009/11/24 23:37:41 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/public_html/workspace/gallery-images/DSC06322.jpg in file /home/keepfli/public_html/symphony/lib/toolkit/fields/field.upload.php on line 182
+2009/11/25 04:12:02 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/public_html/workspace/gallery-images/DSC06308.jpg in file /home/keepfli/public_html/symphony/lib/toolkit/fields/field.upload.php on line 182
+2009/11/25 04:12:04 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/public_html/workspace/gallery-images/DSC06322.jpg in file /home/keepfli/public_html/symphony/lib/toolkit/fields/field.upload.php on line 182
+2009/11/26 17:36:33 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/public_html/workspace/gallery-images/DSC06308.jpg in file /home/keepfli/public_html/symphony/lib/toolkit/fields/field.upload.php on line 182
+2009/11/26 17:39:05 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/public_html/workspace/gallery-images/DSC06322.jpg in file /home/keepfli/public_html/symphony/lib/toolkit/fields/field.upload.php on line 182
+2009/11/27 16:42:03 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/public_html/workspace/gallery-images/DSC06308.jpg in file /home/keepfli/public_html/symphony/lib/toolkit/fields/field.upload.php on line 182
+2009/11/28 11:23:30 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/public_html/workspace/gallery-images/DSC06308.jpg in file /home/keepfli/public_html/symphony/lib/toolkit/fields/field.upload.php on line 182
+2009/11/28 11:23:32 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/public_html/workspace/gallery-images/DSC06322.jpg in file /home/keepfli/public_html/symphony/lib/toolkit/fields/field.upload.php on line 182
+2009/11/29 10:43:03 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/public_html/workspace/gallery-images/DSC06308.jpg in file /home/keepfli/public_html/symphony/lib/toolkit/fields/field.upload.php on line 182
+2009/11/29 15:54:00 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/public_html/workspace/gallery-images/DSC06322.jpg in file /home/keepfli/public_html/symphony/lib/toolkit/fields/field.upload.php on line 182
+2009/11/30 19:44:29 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/public_html/workspace/gallery-images/DSC06322.jpg in file /home/keepfli/public_html/symphony/lib/toolkit/fields/field.upload.php on line 182
+2009/12/01 12:40:52 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/public_html/workspace/gallery-images/DSC06308.jpg in file /home/keepfli/public_html/symphony/lib/toolkit/fields/field.upload.php on line 182
+2009/12/01 12:41:00 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/public_html/workspace/gallery-images/DSC06322.jpg in file /home/keepfli/public_html/symphony/lib/toolkit/fields/field.upload.php on line 182
+2009/12/02 01:48:52 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/public_html/workspace/gallery-images/DSC06322.jpg in file /home/keepfli/public_html/symphony/lib/toolkit/fields/field.upload.php on line 182
+2009/12/02 01:52:26 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/public_html/workspace/gallery-images/DSC06308.jpg in file /home/keepfli/public_html/symphony/lib/toolkit/fields/field.upload.php on line 182
+2009/12/02 01:52:29 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/public_html/workspace/gallery-images/DSC06322.jpg in file /home/keepfli/public_html/symphony/lib/toolkit/fields/field.upload.php on line 182
+2009/12/02 01:53:47 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/public_html/workspace/gallery-images/DSC06308.jpg in file /home/keepfli/public_html/symphony/lib/toolkit/fields/field.upload.php on line 182
+2009/12/02 02:15:12 > WARNING: 2 - filesize() [function.filesize]: stat failed for /home/keepfli/public_html/workspace/gallery-images/DSC06308.jpg in file /home/keepfli/public_html/symphony/lib/toolkit/fields/field.upload.php on line 182
+2009/12/02 17:24:31 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
+2009/12/02 17:24:31 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('119') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
+				FROM `sym_fields` AS `f` 
+				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
+				WHERE `s`.id =  AND f.id IN ('119') LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
+2009/12/02 17:24:31 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
+2009/12/02 17:24:31 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('90') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
+				FROM `sym_fields` AS `f` 
+				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
+				WHERE `s`.id =  AND f.id IN ('90') LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
+2009/12/02 17:24:31 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
+2009/12/02 17:24:31 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('102') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
+				FROM `sym_fields` AS `f` 
+				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
+				WHERE `s`.id =  AND f.id IN ('102') LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
