@@ -274,9 +274,7 @@
 			foreach ($default_headers as $header => $value) {
 				$headers[] = sprintf('%s: %s', $header, $value);
 			}
-			
-			if (!mail($to_email, $subject, @wordwrap($message, 70), @implode(self::CRLF, $headers) . self::CRLF)) return false;
-
+			if (!mail($to_email, $subject, @wordwrap($message, 70), @implode(self::CRLF, $headers) . self::CRLF)) { echo "FAILED"; return false; }
 			return true;
 		}
 
