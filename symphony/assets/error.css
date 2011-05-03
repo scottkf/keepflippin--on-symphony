@@ -1,5 +1,3 @@
-@import url("basic.css");
-
 /* System Errors */
 #details h2 {
 	text-shadow: none;
@@ -11,7 +9,8 @@
 	margin: 0 auto;
 	border: 1px solid #eee;
 	background-color: #ccb;
-	width: 40em;
+	min-width: 45em;
+	max-width: 55%;
 }
 #description {
 	margin-top: 96px;
@@ -57,12 +56,13 @@
 }
 #details dt {
 	position: absolute;
-	padding: 0.3em 1em;
+	padding: 0.6em 1em;
 	width: 4.3em;
 	color: #665;
 	text-align: right;
 }
 #details dd {
+	overflow: auto;
 	margin-left: 6.3em;
 	border-left: 1px solid #ddc;
 	padding: 0.6em 1em;

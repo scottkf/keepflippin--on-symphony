@@ -1,12 +1,14 @@
+._*
 .Apple*
 .DS_Store
 *config.php
 .htaccess
-<<<<<<< HEAD:.gitignore
 symphony/.htaccess
 manifest/logs
 .sass-cache
-=======
->>>>>>> 4add5b91d2dc8786a421f70a6c4113bf399062c8:.gitignore
 workspace/
 manifest/
+*.esproj
+*~
+*.geany
+install-log.txt

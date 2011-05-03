@@ -10,6 +10,7 @@
 	indent="yes" />
 
 <xsl:template match="/">
-	
+	<h1><xsl:value-of select="$page-title"/></h1>
 </xsl:template>
+
 </xsl:stylesheet>
