@@ -1,320 +1,559 @@
 ============================================
-Log Created: 2010-10-02T17:36:12-04:00
+Log Created: 2011-04-28T12:51:26-04:00
 ============================================
 Symphony Log
 Version: 2.0.2
 --------------------------------------------
-2010/10/02 17:36:35 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
-2010/10/02 17:36:35 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('179') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
+2011/04/28 12:51:26 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= dates101.value)
+				
+				ORDER BY `e`.`id` ASC
+		' at line 19 in query "SELECT  `e`.id, 
+						`e`.section_id, e.`author_id`, 
+						UNIX_TIMESTAMP(e.`creation_date`) AS `creation_date`, 
+						UNIX_TIMESTAMP(e.`creation_date_gmt`) AS `creation_date_gmt`
+						
+				FROM `sym_entries` AS `e`
+				 LEFT JOIN `sym_entries_data_118` AS `t118` ON (`e`.`id` = `t118`.entry_id)  LEFT JOIN `sym_entries_data_98` AS `t98` ON (`e`.`id` = `t98`.entry_id)  LEFT JOIN `sym_entries_data_109` AS `t109` ON (`e`.`id` = `t109`.entry_id) 
+					LEFT JOIN
+						`sym_entries_data_101` AS t101
+						ON (e.id = t101.entry_id)
+					LEFT JOIN
+						`sym_entries_data_101_dates` AS dates101
+						ON (t101.link_id = dates101.link_id)
+						
+				WHERE 1
+				
+				AND `e`.`section_id` = '20' 
+				 AND `t118`.relation_id IN ('2320')  AND `t98`.relation_id IN ('153', '157', '160', '161', '162', '163', '164', '165', '956', '1030', '1036', '2399')  AND `t109`.relation_id IN ('158') 
+					AND ( = dates101.value)
+				
+				ORDER BY `e`.`id` ASC
+				LIMIT 0, 9999" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
+2011/04/28 12:51:27 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= dates101.value)
+				
+				ORDER BY `e`.`id` ASC
+		' at line 19 in query "SELECT  `e`.id, 
+						`e`.section_id, e.`author_id`, 
+						UNIX_TIMESTAMP(e.`creation_date`) AS `creation_date`, 
+						UNIX_TIMESTAMP(e.`creation_date_gmt`) AS `creation_date_gmt`
+						
+				FROM `sym_entries` AS `e`
+				 LEFT JOIN `sym_entries_data_118` AS `t118` ON (`e`.`id` = `t118`.entry_id)  LEFT JOIN `sym_entries_data_98` AS `t98` ON (`e`.`id` = `t98`.entry_id)  LEFT JOIN `sym_entries_data_109` AS `t109` ON (`e`.`id` = `t109`.entry_id) 
+					LEFT JOIN
+						`sym_entries_data_101` AS t101
+						ON (e.id = t101.entry_id)
+					LEFT JOIN
+						`sym_entries_data_101_dates` AS dates101
+						ON (t101.link_id = dates101.link_id)
+						
+				WHERE 1
+				
+				AND `e`.`section_id` = '20' 
+				 AND `t118`.relation_id IN ('2320')  AND `t98`.relation_id IN ('153', '157', '160', '161', '162', '163', '164', '165', '956', '1030', '1036', '2399')  AND `t109`.relation_id IN ('158') 
+					AND ( = dates101.value)
+				
+				ORDER BY `e`.`id` ASC
+				LIMIT 0, 9999" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
+2011/04/28 12:51:28 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= dates101.value)
+				
+				ORDER BY `e`.`id` ASC
+		' at line 19 in query "SELECT  `e`.id, 
+						`e`.section_id, e.`author_id`, 
+						UNIX_TIMESTAMP(e.`creation_date`) AS `creation_date`, 
+						UNIX_TIMESTAMP(e.`creation_date_gmt`) AS `creation_date_gmt`
+						
+				FROM `sym_entries` AS `e`
+				 LEFT JOIN `sym_entries_data_118` AS `t118` ON (`e`.`id` = `t118`.entry_id)  LEFT JOIN `sym_entries_data_98` AS `t98` ON (`e`.`id` = `t98`.entry_id)  LEFT JOIN `sym_entries_data_109` AS `t109` ON (`e`.`id` = `t109`.entry_id) 
+					LEFT JOIN
+						`sym_entries_data_101` AS t101
+						ON (e.id = t101.entry_id)
+					LEFT JOIN
+						`sym_entries_data_101_dates` AS dates101
+						ON (t101.link_id = dates101.link_id)
+						
+				WHERE 1
+				
+				AND `e`.`section_id` = '20' 
+				 AND `t118`.relation_id IN ('2320')  AND `t98`.relation_id IN ('153', '157', '160', '161', '162', '163', '164', '165', '956', '1030', '1036', '2399')  AND `t109`.relation_id IN ('158') 
+					AND ( = dates101.value)
+				
+				ORDER BY `e`.`id` ASC
+				LIMIT 0, 9999" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
+2011/04/28 12:51:29 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= dates101.value)
+				
+				ORDER BY `e`.`id` ASC
+		' at line 19 in query "SELECT  `e`.id, 
+						`e`.section_id, e.`author_id`, 
+						UNIX_TIMESTAMP(e.`creation_date`) AS `creation_date`, 
+						UNIX_TIMESTAMP(e.`creation_date_gmt`) AS `creation_date_gmt`
+						
+				FROM `sym_entries` AS `e`
+				 LEFT JOIN `sym_entries_data_118` AS `t118` ON (`e`.`id` = `t118`.entry_id)  LEFT JOIN `sym_entries_data_98` AS `t98` ON (`e`.`id` = `t98`.entry_id)  LEFT JOIN `sym_entries_data_109` AS `t109` ON (`e`.`id` = `t109`.entry_id) 
+					LEFT JOIN
+						`sym_entries_data_101` AS t101
+						ON (e.id = t101.entry_id)
+					LEFT JOIN
+						`sym_entries_data_101_dates` AS dates101
+						ON (t101.link_id = dates101.link_id)
+						
+				WHERE 1
+				
+				AND `e`.`section_id` = '20' 
+				 AND `t118`.relation_id IN ('2320')  AND `t98`.relation_id IN ('153', '157', '160', '161', '162', '163', '164', '165', '956', '1030', '1036', '2399')  AND `t109`.relation_id IN ('158') 
+					AND ( = dates101.value)
+				
+				ORDER BY `e`.`id` ASC
+				LIMIT 0, 9999" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
+2011/04/28 12:51:29 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= dates101.value)
+				
+				ORDER BY `e`.`id` ASC
+		' at line 19 in query "SELECT  `e`.id, 
+						`e`.section_id, e.`author_id`, 
+						UNIX_TIMESTAMP(e.`creation_date`) AS `creation_date`, 
+						UNIX_TIMESTAMP(e.`creation_date_gmt`) AS `creation_date_gmt`
+						
+				FROM `sym_entries` AS `e`
+				 LEFT JOIN `sym_entries_data_118` AS `t118` ON (`e`.`id` = `t118`.entry_id)  LEFT JOIN `sym_entries_data_98` AS `t98` ON (`e`.`id` = `t98`.entry_id)  LEFT JOIN `sym_entries_data_109` AS `t109` ON (`e`.`id` = `t109`.entry_id) 
+					LEFT JOIN
+						`sym_entries_data_101` AS t101
+						ON (e.id = t101.entry_id)
+					LEFT JOIN
+						`sym_entries_data_101_dates` AS dates101
+						ON (t101.link_id = dates101.link_id)
+						
+				WHERE 1
+				
+				AND `e`.`section_id` = '20' 
+				 AND `t118`.relation_id IN ('2320')  AND `t98`.relation_id IN ('153', '157', '160', '161', '162', '163', '164', '165', '956', '1030', '1036', '2399')  AND `t109`.relation_id IN ('158') 
+					AND ( = dates101.value)
+				
+				ORDER BY `e`.`id` ASC
+				LIMIT 0, 9999" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
+2011/04/30 13:46:35 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= dates101.value)
+				
+				ORDER BY `e`.`id` ASC
+		' at line 19 in query "SELECT  `e`.id, 
+						`e`.section_id, e.`author_id`, 
+						UNIX_TIMESTAMP(e.`creation_date`) AS `creation_date`, 
+						UNIX_TIMESTAMP(e.`creation_date_gmt`) AS `creation_date_gmt`
+						
+				FROM `sym_entries` AS `e`
+				 LEFT JOIN `sym_entries_data_118` AS `t118` ON (`e`.`id` = `t118`.entry_id)  LEFT JOIN `sym_entries_data_98` AS `t98` ON (`e`.`id` = `t98`.entry_id)  LEFT JOIN `sym_entries_data_109` AS `t109` ON (`e`.`id` = `t109`.entry_id) 
+					LEFT JOIN
+						`sym_entries_data_101` AS t101
+						ON (e.id = t101.entry_id)
+					LEFT JOIN
+						`sym_entries_data_101_dates` AS dates101
+						ON (t101.link_id = dates101.link_id)
+						
+				WHERE 1
+				
+				AND `e`.`section_id` = '20' 
+				 AND `t118`.relation_id IN ('2320')  AND `t98`.relation_id IN ('153', '157', '160', '161', '162', '163', '164', '165', '956', '1030', '1036', '2399')  AND `t109`.relation_id IN ('158') 
+					AND ( = dates101.value)
+				
+				ORDER BY `e`.`id` ASC
+				LIMIT 0, 9999" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
+2011/04/30 13:46:36 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= dates101.value)
+				
+				ORDER BY `e`.`id` ASC
+		' at line 19 in query "SELECT  `e`.id, 
+						`e`.section_id, e.`author_id`, 
+						UNIX_TIMESTAMP(e.`creation_date`) AS `creation_date`, 
+						UNIX_TIMESTAMP(e.`creation_date_gmt`) AS `creation_date_gmt`
+						
+				FROM `sym_entries` AS `e`
+				 LEFT JOIN `sym_entries_data_118` AS `t118` ON (`e`.`id` = `t118`.entry_id)  LEFT JOIN `sym_entries_data_98` AS `t98` ON (`e`.`id` = `t98`.entry_id)  LEFT JOIN `sym_entries_data_109` AS `t109` ON (`e`.`id` = `t109`.entry_id) 
+					LEFT JOIN
+						`sym_entries_data_101` AS t101
+						ON (e.id = t101.entry_id)
+					LEFT JOIN
+						`sym_entries_data_101_dates` AS dates101
+						ON (t101.link_id = dates101.link_id)
+						
+				WHERE 1
+				
+				AND `e`.`section_id` = '20' 
+				 AND `t118`.relation_id IN ('2320')  AND `t98`.relation_id IN ('153', '157', '160', '161', '162', '163', '164', '165', '956', '1030', '1036', '2399')  AND `t109`.relation_id IN ('158') 
+					AND ( = dates101.value)
+				
+				ORDER BY `e`.`id` ASC
+				LIMIT 0, 9999" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
+2011/04/30 13:46:36 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= dates101.value)
+				
+				ORDER BY `e`.`id` ASC
+		' at line 19 in query "SELECT  `e`.id, 
+						`e`.section_id, e.`author_id`, 
+						UNIX_TIMESTAMP(e.`creation_date`) AS `creation_date`, 
+						UNIX_TIMESTAMP(e.`creation_date_gmt`) AS `creation_date_gmt`
+						
+				FROM `sym_entries` AS `e`
+				 LEFT JOIN `sym_entries_data_118` AS `t118` ON (`e`.`id` = `t118`.entry_id)  LEFT JOIN `sym_entries_data_98` AS `t98` ON (`e`.`id` = `t98`.entry_id)  LEFT JOIN `sym_entries_data_109` AS `t109` ON (`e`.`id` = `t109`.entry_id) 
+					LEFT JOIN
+						`sym_entries_data_101` AS t101
+						ON (e.id = t101.entry_id)
+					LEFT JOIN
+						`sym_entries_data_101_dates` AS dates101
+						ON (t101.link_id = dates101.link_id)
+						
+				WHERE 1
+				
+				AND `e`.`section_id` = '20' 
+				 AND `t118`.relation_id IN ('2320')  AND `t98`.relation_id IN ('153', '157', '160', '161', '162', '163', '164', '165', '956', '1030', '1036', '2399')  AND `t109`.relation_id IN ('158') 
+					AND ( = dates101.value)
+				
+				ORDER BY `e`.`id` ASC
+				LIMIT 0, 9999" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
+2011/04/30 13:46:37 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= dates101.value)
+				
+				ORDER BY `e`.`id` ASC
+		' at line 19 in query "SELECT  `e`.id, 
+						`e`.section_id, e.`author_id`, 
+						UNIX_TIMESTAMP(e.`creation_date`) AS `creation_date`, 
+						UNIX_TIMESTAMP(e.`creation_date_gmt`) AS `creation_date_gmt`
+						
+				FROM `sym_entries` AS `e`
+				 LEFT JOIN `sym_entries_data_118` AS `t118` ON (`e`.`id` = `t118`.entry_id)  LEFT JOIN `sym_entries_data_98` AS `t98` ON (`e`.`id` = `t98`.entry_id)  LEFT JOIN `sym_entries_data_109` AS `t109` ON (`e`.`id` = `t109`.entry_id) 
+					LEFT JOIN
+						`sym_entries_data_101` AS t101
+						ON (e.id = t101.entry_id)
+					LEFT JOIN
+						`sym_entries_data_101_dates` AS dates101
+						ON (t101.link_id = dates101.link_id)
+						
+				WHERE 1
+				
+				AND `e`.`section_id` = '20' 
+				 AND `t118`.relation_id IN ('2320')  AND `t98`.relation_id IN ('153', '157', '160', '161', '162', '163', '164', '165', '956', '1030', '1036', '2399')  AND `t109`.relation_id IN ('158') 
+					AND ( = dates101.value)
+				
+				ORDER BY `e`.`id` ASC
+				LIMIT 0, 9999" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
+2011/04/30 13:46:38 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= dates101.value)
+				
+				ORDER BY `e`.`id` ASC
+		' at line 19 in query "SELECT  `e`.id, 
+						`e`.section_id, e.`author_id`, 
+						UNIX_TIMESTAMP(e.`creation_date`) AS `creation_date`, 
+						UNIX_TIMESTAMP(e.`creation_date_gmt`) AS `creation_date_gmt`
+						
+				FROM `sym_entries` AS `e`
+				 LEFT JOIN `sym_entries_data_118` AS `t118` ON (`e`.`id` = `t118`.entry_id)  LEFT JOIN `sym_entries_data_98` AS `t98` ON (`e`.`id` = `t98`.entry_id)  LEFT JOIN `sym_entries_data_109` AS `t109` ON (`e`.`id` = `t109`.entry_id) 
+					LEFT JOIN
+						`sym_entries_data_101` AS t101
+						ON (e.id = t101.entry_id)
+					LEFT JOIN
+						`sym_entries_data_101_dates` AS dates101
+						ON (t101.link_id = dates101.link_id)
+						
+				WHERE 1
+				
+				AND `e`.`section_id` = '20' 
+				 AND `t118`.relation_id IN ('2320')  AND `t98`.relation_id IN ('153', '157', '160', '161', '162', '163', '164', '165', '956', '1030', '1036', '2399')  AND `t109`.relation_id IN ('158') 
+					AND ( = dates101.value)
+				
+				ORDER BY `e`.`id` ASC
+				LIMIT 0, 9999" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
+2011/04/30 13:46:38 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= dates101.value)
+				
+				ORDER BY `e`.`id` ASC
+		' at line 19 in query "SELECT  `e`.id, 
+						`e`.section_id, e.`author_id`, 
+						UNIX_TIMESTAMP(e.`creation_date`) AS `creation_date`, 
+						UNIX_TIMESTAMP(e.`creation_date_gmt`) AS `creation_date_gmt`
+						
+				FROM `sym_entries` AS `e`
+				 LEFT JOIN `sym_entries_data_118` AS `t118` ON (`e`.`id` = `t118`.entry_id)  LEFT JOIN `sym_entries_data_98` AS `t98` ON (`e`.`id` = `t98`.entry_id)  LEFT JOIN `sym_entries_data_109` AS `t109` ON (`e`.`id` = `t109`.entry_id) 
+					LEFT JOIN
+						`sym_entries_data_101` AS t101
+						ON (e.id = t101.entry_id)
+					LEFT JOIN
+						`sym_entries_data_101_dates` AS dates101
+						ON (t101.link_id = dates101.link_id)
+						
+				WHERE 1
+				
+				AND `e`.`section_id` = '20' 
+				 AND `t118`.relation_id IN ('2320')  AND `t98`.relation_id IN ('153', '157', '160', '161', '162', '163', '164', '165', '956', '1030', '1036', '2399')  AND `t109`.relation_id IN ('158') 
+					AND ( = dates101.value)
+				
+				ORDER BY `e`.`id` ASC
+				LIMIT 0, 9999" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
+2011/04/30 13:46:39 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= dates101.value)
+				
+				ORDER BY `e`.`id` ASC
+		' at line 19 in query "SELECT  `e`.id, 
+						`e`.section_id, e.`author_id`, 
+						UNIX_TIMESTAMP(e.`creation_date`) AS `creation_date`, 
+						UNIX_TIMESTAMP(e.`creation_date_gmt`) AS `creation_date_gmt`
+						
+				FROM `sym_entries` AS `e`
+				 LEFT JOIN `sym_entries_data_118` AS `t118` ON (`e`.`id` = `t118`.entry_id)  LEFT JOIN `sym_entries_data_98` AS `t98` ON (`e`.`id` = `t98`.entry_id)  LEFT JOIN `sym_entries_data_109` AS `t109` ON (`e`.`id` = `t109`.entry_id) 
+					LEFT JOIN
+						`sym_entries_data_101` AS t101
+						ON (e.id = t101.entry_id)
+					LEFT JOIN
+						`sym_entries_data_101_dates` AS dates101
+						ON (t101.link_id = dates101.link_id)
+						
+				WHERE 1
+				
+				AND `e`.`section_id` = '20' 
+				 AND `t118`.relation_id IN ('2320')  AND `t98`.relation_id IN ('153', '157', '160', '161', '162', '163', '164', '165', '956', '1030', '1036', '2399')  AND `t109`.relation_id IN ('158') 
+					AND ( = dates101.value)
+				
+				ORDER BY `e`.`id` ASC
+				LIMIT 0, 9999" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
+2011/04/30 13:46:39 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= dates101.value)
+				
+				ORDER BY `e`.`id` ASC
+		' at line 19 in query "SELECT  `e`.id, 
+						`e`.section_id, e.`author_id`, 
+						UNIX_TIMESTAMP(e.`creation_date`) AS `creation_date`, 
+						UNIX_TIMESTAMP(e.`creation_date_gmt`) AS `creation_date_gmt`
+						
+				FROM `sym_entries` AS `e`
+				 LEFT JOIN `sym_entries_data_118` AS `t118` ON (`e`.`id` = `t118`.entry_id)  LEFT JOIN `sym_entries_data_98` AS `t98` ON (`e`.`id` = `t98`.entry_id)  LEFT JOIN `sym_entries_data_109` AS `t109` ON (`e`.`id` = `t109`.entry_id) 
+					LEFT JOIN
+						`sym_entries_data_101` AS t101
+						ON (e.id = t101.entry_id)
+					LEFT JOIN
+						`sym_entries_data_101_dates` AS dates101
+						ON (t101.link_id = dates101.link_id)
+						
+				WHERE 1
+				
+				AND `e`.`section_id` = '20' 
+				 AND `t118`.relation_id IN ('2320')  AND `t98`.relation_id IN ('153', '157', '160', '161', '162', '163', '164', '165', '956', '1030', '1036', '2399')  AND `t109`.relation_id IN ('158') 
+					AND ( = dates101.value)
+				
+				ORDER BY `e`.`id` ASC
+				LIMIT 0, 9999" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
+2011/05/01 09:57:15 > WARNING: 512 - MySQL Error (1040): Too many connections in query "" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
+2011/05/01 09:57:15 > WARNING: 512 - MySQL Error (1040): Too many connections in query "" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
+2011/05/01 09:57:16 > ERROR: 256 - 1040: Too many connections
+2011/05/01 09:57:16 > ERROR: 256 - 1040: Too many connections
+2011/05/01 09:59:06 > WARNING: 512 - MySQL Error (1040): Too many connections in query "" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
+2011/05/01 09:59:06 > ERROR: 256 - 1040: Too many connections
+2011/05/01 10:00:47 > WARNING: 512 - MySQL Error (1040): Too many connections in query "" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
+2011/05/01 10:00:47 > ERROR: 256 - 1040: Too many connections
+2011/05/01 13:18:42 > WARNING: 512 - MySQL Error (1040): Too many connections in query "" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
+2011/05/01 13:18:42 > ERROR: 256 - 1040: Too many connections
+2011/05/01 13:18:48 > WARNING: 512 - MySQL Error (1040): Too many connections in query "" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
+2011/05/01 13:18:48 > ERROR: 256 - 1040: Too many connections
+2011/05/01 13:19:57 > WARNING: 512 - MySQL Error (1040): Too many connections in query "" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
+2011/05/01 13:19:57 > ERROR: 256 - 1040: Too many connections
+2011/05/02 18:21:23 > WARNING: 512 - MySQL Error (1048): Column 'relation_id' cannot be null in query "INSERT INTO `sym_entries_data_130` (`entry_id`, `relation_id`) VALUES ('2646', NULL)" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
+2011/05/02 18:21:23 > WARNING: 512 - MySQL Error (1048): Column 'relation_id' cannot be null in query "INSERT INTO `sym_entries_data_132` (`entry_id`, `relation_id`) VALUES ('2646', NULL)" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
+2011/05/02 18:22:50 > WARNING: 512 - MySQL Error (1048): Column 'relation_id' cannot be null in query "INSERT INTO `sym_entries_data_130` (`entry_id`, `relation_id`) VALUES ('2646', NULL)" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
+2011/05/02 18:22:50 > WARNING: 512 - MySQL Error (1048): Column 'relation_id' cannot be null in query "INSERT INTO `sym_entries_data_132` (`entry_id`, `relation_id`) VALUES ('2646', NULL)" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
+2011/05/02 18:28:40 > WARNING: 512 - Unable to remove file - /home/keepfli/public_html/workspace/gallery-images/ in file /home/keepfli/public_html/symphony/lib/toolkit/class.general.php on line 544
+2011/05/03 07:59:48 > WARNING: 512 - Unable to remove file - /home/keepfli/public_html/workspace/files/ in file /home/keepfli/public_html/symphony/lib/toolkit/class.general.php on line 544
+2011/05/03 08:00:47 > WARNING: 512 - Unable to remove file - /home/keepfli/public_html/workspace/files/thumbnails/ in file /home/keepfli/public_html/symphony/lib/toolkit/class.general.php on line 544
+2011/05/03 12:09:09 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= dates101.value)
+				
+				ORDER BY `e`.`id` ASC
+		' at line 19 in query "SELECT  `e`.id, 
+						`e`.section_id, e.`author_id`, 
+						UNIX_TIMESTAMP(e.`creation_date`) AS `creation_date`, 
+						UNIX_TIMESTAMP(e.`creation_date_gmt`) AS `creation_date_gmt`
+						
+				FROM `sym_entries` AS `e`
+				 LEFT JOIN `sym_entries_data_118` AS `t118` ON (`e`.`id` = `t118`.entry_id)  LEFT JOIN `sym_entries_data_98` AS `t98` ON (`e`.`id` = `t98`.entry_id)  LEFT JOIN `sym_entries_data_109` AS `t109` ON (`e`.`id` = `t109`.entry_id) 
+					LEFT JOIN
+						`sym_entries_data_101` AS t101
+						ON (e.id = t101.entry_id)
+					LEFT JOIN
+						`sym_entries_data_101_dates` AS dates101
+						ON (t101.link_id = dates101.link_id)
+						
+				WHERE 1
+				
+				AND `e`.`section_id` = '20' 
+				 AND `t118`.relation_id IN ('2596')  AND `t98`.relation_id IN ('153', '157', '160', '161', '162', '163', '164', '165', '956', '1030', '1036', '2399')  AND `t109`.relation_id IN ('158') 
+					AND ( = dates101.value)
+				
+				ORDER BY `e`.`id` ASC
+				LIMIT 0, 9999" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
+2011/05/03 12:09:10 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= dates101.value)
+				
+				ORDER BY `e`.`id` ASC
+		' at line 19 in query "SELECT  `e`.id, 
+						`e`.section_id, e.`author_id`, 
+						UNIX_TIMESTAMP(e.`creation_date`) AS `creation_date`, 
+						UNIX_TIMESTAMP(e.`creation_date_gmt`) AS `creation_date_gmt`
+						
+				FROM `sym_entries` AS `e`
+				 LEFT JOIN `sym_entries_data_118` AS `t118` ON (`e`.`id` = `t118`.entry_id)  LEFT JOIN `sym_entries_data_98` AS `t98` ON (`e`.`id` = `t98`.entry_id)  LEFT JOIN `sym_entries_data_109` AS `t109` ON (`e`.`id` = `t109`.entry_id) 
+					LEFT JOIN
+						`sym_entries_data_101` AS t101
+						ON (e.id = t101.entry_id)
+					LEFT JOIN
+						`sym_entries_data_101_dates` AS dates101
+						ON (t101.link_id = dates101.link_id)
+						
+				WHERE 1
+				
+				AND `e`.`section_id` = '20' 
+				 AND `t118`.relation_id IN ('2596')  AND `t98`.relation_id IN ('153', '157', '160', '161', '162', '163', '164', '165', '956', '1030', '1036', '2399')  AND `t109`.relation_id IN ('158') 
+					AND ( = dates101.value)
+				
+				ORDER BY `e`.`id` ASC
+				LIMIT 0, 9999" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
+2011/05/03 12:09:10 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= dates101.value)
+				
+				ORDER BY `e`.`id` ASC
+		' at line 19 in query "SELECT  `e`.id, 
+						`e`.section_id, e.`author_id`, 
+						UNIX_TIMESTAMP(e.`creation_date`) AS `creation_date`, 
+						UNIX_TIMESTAMP(e.`creation_date_gmt`) AS `creation_date_gmt`
+						
+				FROM `sym_entries` AS `e`
+				 LEFT JOIN `sym_entries_data_118` AS `t118` ON (`e`.`id` = `t118`.entry_id)  LEFT JOIN `sym_entries_data_98` AS `t98` ON (`e`.`id` = `t98`.entry_id)  LEFT JOIN `sym_entries_data_109` AS `t109` ON (`e`.`id` = `t109`.entry_id) 
+					LEFT JOIN
+						`sym_entries_data_101` AS t101
+						ON (e.id = t101.entry_id)
+					LEFT JOIN
+						`sym_entries_data_101_dates` AS dates101
+						ON (t101.link_id = dates101.link_id)
+						
+				WHERE 1
+				
+				AND `e`.`section_id` = '20' 
+				 AND `t118`.relation_id IN ('2596')  AND `t98`.relation_id IN ('153', '157', '160', '161', '162', '163', '164', '165', '956', '1030', '1036', '2399')  AND `t109`.relation_id IN ('158') 
+					AND ( = dates101.value)
+				
+				ORDER BY `e`.`id` ASC
+				LIMIT 0, 9999" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
+2011/05/03 12:09:11 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= dates101.value)
+				
+				ORDER BY `e`.`id` ASC
+		' at line 19 in query "SELECT  `e`.id, 
+						`e`.section_id, e.`author_id`, 
+						UNIX_TIMESTAMP(e.`creation_date`) AS `creation_date`, 
+						UNIX_TIMESTAMP(e.`creation_date_gmt`) AS `creation_date_gmt`
+						
+				FROM `sym_entries` AS `e`
+				 LEFT JOIN `sym_entries_data_118` AS `t118` ON (`e`.`id` = `t118`.entry_id)  LEFT JOIN `sym_entries_data_98` AS `t98` ON (`e`.`id` = `t98`.entry_id)  LEFT JOIN `sym_entries_data_109` AS `t109` ON (`e`.`id` = `t109`.entry_id) 
+					LEFT JOIN
+						`sym_entries_data_101` AS t101
+						ON (e.id = t101.entry_id)
+					LEFT JOIN
+						`sym_entries_data_101_dates` AS dates101
+						ON (t101.link_id = dates101.link_id)
+						
+				WHERE 1
+				
+				AND `e`.`section_id` = '20' 
+				 AND `t118`.relation_id IN ('2596')  AND `t98`.relation_id IN ('153', '157', '160', '161', '162', '163', '164', '165', '956', '1030', '1036', '2399')  AND `t109`.relation_id IN ('158') 
+					AND ( = dates101.value)
+				
+				ORDER BY `e`.`id` ASC
+				LIMIT 0, 9999" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
+2011/05/03 12:09:12 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= dates101.value)
+				
+				ORDER BY `e`.`id` ASC
+		' at line 19 in query "SELECT  `e`.id, 
+						`e`.section_id, e.`author_id`, 
+						UNIX_TIMESTAMP(e.`creation_date`) AS `creation_date`, 
+						UNIX_TIMESTAMP(e.`creation_date_gmt`) AS `creation_date_gmt`
+						
+				FROM `sym_entries` AS `e`
+				 LEFT JOIN `sym_entries_data_118` AS `t118` ON (`e`.`id` = `t118`.entry_id)  LEFT JOIN `sym_entries_data_98` AS `t98` ON (`e`.`id` = `t98`.entry_id)  LEFT JOIN `sym_entries_data_109` AS `t109` ON (`e`.`id` = `t109`.entry_id) 
+					LEFT JOIN
+						`sym_entries_data_101` AS t101
+						ON (e.id = t101.entry_id)
+					LEFT JOIN
+						`sym_entries_data_101_dates` AS dates101
+						ON (t101.link_id = dates101.link_id)
+						
+				WHERE 1
+				
+				AND `e`.`section_id` = '20' 
+				 AND `t118`.relation_id IN ('2596')  AND `t98`.relation_id IN ('153', '157', '160', '161', '162', '163', '164', '165', '956', '1030', '1036', '2399')  AND `t109`.relation_id IN ('158') 
+					AND ( = dates101.value)
+				
+				ORDER BY `e`.`id` ASC
+				LIMIT 0, 9999" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
+2011/05/03 12:09:12 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= dates101.value)
+				
+				ORDER BY `e`.`id` ASC
+		' at line 19 in query "SELECT  `e`.id, 
+						`e`.section_id, e.`author_id`, 
+						UNIX_TIMESTAMP(e.`creation_date`) AS `creation_date`, 
+						UNIX_TIMESTAMP(e.`creation_date_gmt`) AS `creation_date_gmt`
+						
+				FROM `sym_entries` AS `e`
+				 LEFT JOIN `sym_entries_data_118` AS `t118` ON (`e`.`id` = `t118`.entry_id)  LEFT JOIN `sym_entries_data_98` AS `t98` ON (`e`.`id` = `t98`.entry_id)  LEFT JOIN `sym_entries_data_109` AS `t109` ON (`e`.`id` = `t109`.entry_id) 
+					LEFT JOIN
+						`sym_entries_data_101` AS t101
+						ON (e.id = t101.entry_id)
+					LEFT JOIN
+						`sym_entries_data_101_dates` AS dates101
+						ON (t101.link_id = dates101.link_id)
+						
+				WHERE 1
+				
+				AND `e`.`section_id` = '20' 
+				 AND `t118`.relation_id IN ('2596')  AND `t98`.relation_id IN ('153', '157', '160', '161', '162', '163', '164', '165', '956', '1030', '1036', '2399')  AND `t109`.relation_id IN ('158') 
+					AND ( = dates101.value)
+				
+				ORDER BY `e`.`id` ASC
+				LIMIT 0, 9999" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
+2011/05/03 12:09:13 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= dates101.value)
+				
+				ORDER BY `e`.`id` ASC
+		' at line 19 in query "SELECT  `e`.id, 
+						`e`.section_id, e.`author_id`, 
+						UNIX_TIMESTAMP(e.`creation_date`) AS `creation_date`, 
+						UNIX_TIMESTAMP(e.`creation_date_gmt`) AS `creation_date_gmt`
+						
+				FROM `sym_entries` AS `e`
+				 LEFT JOIN `sym_entries_data_118` AS `t118` ON (`e`.`id` = `t118`.entry_id)  LEFT JOIN `sym_entries_data_98` AS `t98` ON (`e`.`id` = `t98`.entry_id)  LEFT JOIN `sym_entries_data_109` AS `t109` ON (`e`.`id` = `t109`.entry_id) 
+					LEFT JOIN
+						`sym_entries_data_101` AS t101
+						ON (e.id = t101.entry_id)
+					LEFT JOIN
+						`sym_entries_data_101_dates` AS dates101
+						ON (t101.link_id = dates101.link_id)
+						
+				WHERE 1
+				
+				AND `e`.`section_id` = '20' 
+				 AND `t118`.relation_id IN ('2596')  AND `t98`.relation_id IN ('153', '157', '160', '161', '162', '163', '164', '165', '956', '1030', '1036', '2399')  AND `t109`.relation_id IN ('158') 
+					AND ( = dates101.value)
+				
+				ORDER BY `e`.`id` ASC
+				LIMIT 0, 9999" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
+2011/05/03 12:09:14 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= dates101.value)
+				
+				ORDER BY `e`.`id` ASC
+		' at line 19 in query "SELECT  `e`.id, 
+						`e`.section_id, e.`author_id`, 
+						UNIX_TIMESTAMP(e.`creation_date`) AS `creation_date`, 
+						UNIX_TIMESTAMP(e.`creation_date_gmt`) AS `creation_date_gmt`
+						
+				FROM `sym_entries` AS `e`
+				 LEFT JOIN `sym_entries_data_118` AS `t118` ON (`e`.`id` = `t118`.entry_id)  LEFT JOIN `sym_entries_data_98` AS `t98` ON (`e`.`id` = `t98`.entry_id)  LEFT JOIN `sym_entries_data_109` AS `t109` ON (`e`.`id` = `t109`.entry_id) 
+					LEFT JOIN
+						`sym_entries_data_101` AS t101
+						ON (e.id = t101.entry_id)
+					LEFT JOIN
+						`sym_entries_data_101_dates` AS dates101
+						ON (t101.link_id = dates101.link_id)
+						
+				WHERE 1
+				
+				AND `e`.`section_id` = '20' 
+				 AND `t118`.relation_id IN ('2596')  AND `t98`.relation_id IN ('153', '157', '160', '161', '162', '163', '164', '165', '956', '1030', '1036', '2399')  AND `t109`.relation_id IN ('158') 
+					AND ( = dates101.value)
+				
+				ORDER BY `e`.`id` ASC
+				LIMIT 0, 9999" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
+2011/05/03 15:06:01 > WARNING: 512 - Unable to remove file - /home/keepfli/public_html/workspace/gallery-images/ in file /home/keepfli/public_html/symphony/lib/toolkit/class.general.php on line 544
+2011/05/03 15:06:26 > WARNING: 512 - MySQL Error (1048): Column 'relation_id' cannot be null in query "INSERT INTO `sym_entries_data_132` (`entry_id`, `relation_id`) VALUES ('2652', NULL)" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
+2011/05/03 15:16:03 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
+2011/05/03 15:16:03 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('26') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
 				FROM `sym_fields` AS `f` 
 				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('179') LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
-2010/10/02 17:36:35 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/public_html/extensions/section_schemas/extension.driver.php on line 88
-2010/10/02 17:36:35 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
-2010/10/02 17:36:35 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('176') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('176') LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
-2010/10/02 17:36:35 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/public_html/extensions/section_schemas/extension.driver.php on line 88
-2010/10/02 17:36:35 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
-2010/10/02 17:36:35 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('190') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('190') LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
-2010/10/02 17:36:35 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/public_html/extensions/section_schemas/extension.driver.php on line 88
-2010/10/02 17:36:37 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
-2010/10/02 17:36:37 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('179') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('179') LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
-2010/10/02 17:36:37 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/public_html/extensions/section_schemas/extension.driver.php on line 88
-2010/10/02 17:36:37 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
-2010/10/02 17:36:37 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('176') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('176') LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
-2010/10/02 17:36:37 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/public_html/extensions/section_schemas/extension.driver.php on line 88
-2010/10/02 17:36:37 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
-2010/10/02 17:36:37 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('190') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('190') LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
-2010/10/02 17:36:37 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/public_html/extensions/section_schemas/extension.driver.php on line 88
-2010/10/02 17:36:46 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
-2010/10/02 17:36:46 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('179') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('179') LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
-2010/10/02 17:36:46 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/public_html/extensions/section_schemas/extension.driver.php on line 88
-2010/10/02 17:36:46 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
-2010/10/02 17:36:46 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('176') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('176') LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
-2010/10/02 17:36:46 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/public_html/extensions/section_schemas/extension.driver.php on line 88
-2010/10/02 17:36:46 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
-2010/10/02 17:36:46 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('190') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('190') LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
-2010/10/02 17:36:46 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/public_html/extensions/section_schemas/extension.driver.php on line 88
-2010/10/02 17:37:15 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
-2010/10/02 17:37:15 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('179') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('179') LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
-2010/10/02 17:37:15 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/public_html/extensions/section_schemas/extension.driver.php on line 88
-2010/10/02 17:37:15 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
-2010/10/02 17:37:15 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('176') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('176') LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
-2010/10/02 17:37:15 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/public_html/extensions/section_schemas/extension.driver.php on line 88
-2010/10/02 17:37:15 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
-2010/10/02 17:37:15 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('190') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('190') LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
-2010/10/02 17:37:15 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/public_html/extensions/section_schemas/extension.driver.php on line 88
-2010/10/02 17:51:31 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
-2010/10/02 17:51:31 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('179') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('179') LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
-2010/10/02 17:51:31 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/public_html/extensions/section_schemas/extension.driver.php on line 88
-2010/10/02 17:51:31 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
-2010/10/02 17:51:31 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('176') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('176') LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
-2010/10/02 17:51:31 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/public_html/extensions/section_schemas/extension.driver.php on line 88
-2010/10/02 17:51:31 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
-2010/10/02 17:51:31 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('190') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('190') LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
-2010/10/02 17:51:31 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/public_html/extensions/section_schemas/extension.driver.php on line 88
-2010/10/02 17:51:37 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
-2010/10/02 17:51:37 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('179') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('179') LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
-2010/10/02 17:51:37 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/public_html/extensions/section_schemas/extension.driver.php on line 88
-2010/10/02 17:51:37 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
-2010/10/02 17:51:37 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('176') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('176') LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
-2010/10/02 17:51:37 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/public_html/extensions/section_schemas/extension.driver.php on line 88
-2010/10/02 17:51:37 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
-2010/10/02 17:51:37 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('190') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('190') LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
-2010/10/02 17:51:37 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/public_html/extensions/section_schemas/extension.driver.php on line 88
-2010/10/02 17:51:51 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
-2010/10/02 17:51:51 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('179') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('179') LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
-2010/10/02 17:51:51 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/public_html/extensions/section_schemas/extension.driver.php on line 88
-2010/10/02 17:51:51 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
-2010/10/02 17:51:51 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('176') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('176') LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
-2010/10/02 17:51:51 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/public_html/extensions/section_schemas/extension.driver.php on line 88
-2010/10/02 17:51:51 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
-2010/10/02 17:51:51 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('190') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('190') LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
-2010/10/02 17:51:51 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/public_html/extensions/section_schemas/extension.driver.php on line 88
-2010/10/02 17:58:42 > ERROR: 256 - Line: 90 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/public_html/workspace/pages/showteam_show-report.xsl line 18 element a
-Line: 90 - XSLTProcessor::transformToXml(): Variable 'date' has not been declared.
-Line: 90 - XSLTProcessor::transformToXml(): xmlXPathCompiledEval: evaluation failed
-2010/10/02 18:04:49 > ERROR: 256 - Line: 75 - XSLTProcessor::importStylesheet(): Invalid expression
-Line: 75 - XSLTProcessor::importStylesheet(): compilation error: file /home/keepfli/public_html/workspace/pages/showteam_show-report.xsl line 27 element value-of
-Line: 75 - XSLTProcessor::importStylesheet(): xsl:value-of : could not compile select expression ''
-Line: 90 - XSLTProcessor::transformToXml(): No stylesheet associated to this object
-2010/10/02 18:19:05 > ERROR: 256 - Line: 75 - XSLTProcessor::importStylesheet(): Invalid expression
-Line: 75 - XSLTProcessor::importStylesheet(): compilation error: file /home/keepfli/public_html/workspace/pages/showteam_show-report.xsl line 29 element value-of
-Line: 75 - XSLTProcessor::importStylesheet(): xsl:value-of : could not compile select expression '/data/fitness-reports-report/entry[(member/item/@id = @id) and (activity/item/@id = $activity-id]/data)'
-Line: 90 - XSLTProcessor::transformToXml(): No stylesheet associated to this object
-2010/10/02 18:24:57 > ERROR: 256 - Line: 75 - XSLTProcessor::importStylesheet(): Invalid expression
-Line: 75 - XSLTProcessor::importStylesheet(): compilation error: file /home/keepfli/public_html/workspace/pages/showteam_show-report.xsl line 29 element value-of
-Line: 75 - XSLTProcessor::importStylesheet(): xsl:value-of : could not compile select expression '/data/fitness-reports-report/member/[@link-id = @id]/entry/data'
-Line: 90 - XSLTProcessor::transformToXml(): No stylesheet associated to this object
-2010/10/02 18:24:58 > ERROR: 256 - Line: 75 - XSLTProcessor::importStylesheet(): Invalid expression
-Line: 75 - XSLTProcessor::importStylesheet(): compilation error: file /home/keepfli/public_html/workspace/pages/showteam_show-report.xsl line 29 element value-of
-Line: 75 - XSLTProcessor::importStylesheet(): xsl:value-of : could not compile select expression '/data/fitness-reports-report/member/[@link-id = @id]/entry/data'
-Line: 90 - XSLTProcessor::transformToXml(): No stylesheet associated to this object
-2010/10/02 18:25:02 > ERROR: 256 - Line: 75 - XSLTProcessor::importStylesheet(): Invalid expression
-Line: 75 - XSLTProcessor::importStylesheet(): compilation error: file /home/keepfli/public_html/workspace/pages/showteam_show-report.xsl line 29 element value-of
-Line: 75 - XSLTProcessor::importStylesheet(): xsl:value-of : could not compile select expression '/data/fitness-reports-report/member/[@link-id = @id]/entry/data'
-Line: 90 - XSLTProcessor::transformToXml(): No stylesheet associated to this object
-2010/10/02 18:28:03 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
-2010/10/02 18:28:03 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('179') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('179') LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
-2010/10/02 18:28:03 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/public_html/extensions/section_schemas/extension.driver.php on line 88
-2010/10/02 18:28:03 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
-2010/10/02 18:28:03 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('176') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('176') LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
-2010/10/02 18:28:03 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/public_html/extensions/section_schemas/extension.driver.php on line 88
-2010/10/02 18:28:03 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
-2010/10/02 18:28:03 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('190') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('190') LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
-2010/10/02 18:28:03 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/public_html/extensions/section_schemas/extension.driver.php on line 88
-2010/10/02 18:34:17 > ERROR: 256 - Line: 90 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/public_html/workspace/pages/showteam_show-report.xsl line 13 element choose
-Line: 90 - XSLTProcessor::transformToXml(): Variable 'fitness-report-date' has not been declared.
-2010/10/02 18:34:18 > ERROR: 256 - Line: 90 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/public_html/workspace/pages/showteam_show-report.xsl line 13 element choose
-Line: 90 - XSLTProcessor::transformToXml(): Variable 'fitness-report-date' has not been declared.
-2010/10/02 18:34:20 > ERROR: 256 - Line: 90 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/public_html/workspace/pages/showteam_show-report.xsl line 13 element choose
-Line: 90 - XSLTProcessor::transformToXml(): Variable 'fitness-report-date' has not been declared.
-2010/10/02 18:37:06 > ERROR: 256 - Line: 90 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/public_html/workspace/pages/showteam_show-report.xsl line 30 element value-of
-Line: 90 - XSLTProcessor::transformToXml(): Variable 'ds-fitness-report' has not been declared.
-Line: 90 - XSLTProcessor::transformToXml(): xmlXPathCompiledEval: 2 objects left on the stack.
-Line: 90 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/public_html/workspace/pages/showteam_show-report.xsl line 30 element value-of
-Line: 90 - XSLTProcessor::transformToXml(): XPath evaluation returned no result.
-2010/10/02 18:37:07 > ERROR: 256 - Line: 90 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/public_html/workspace/pages/showteam_show-report.xsl line 30 element value-of
-Line: 90 - XSLTProcessor::transformToXml(): Variable 'ds-fitness-report' has not been declared.
-Line: 90 - XSLTProcessor::transformToXml(): xmlXPathCompiledEval: 2 objects left on the stack.
-Line: 90 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/public_html/workspace/pages/showteam_show-report.xsl line 30 element value-of
-Line: 90 - XSLTProcessor::transformToXml(): XPath evaluation returned no result.
-2010/10/02 18:38:26 > ERROR: 256 - Line: 90 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/public_html/workspace/pages/showteam_show-report.xsl line 30 element value-of
-Line: 90 - XSLTProcessor::transformToXml(): Variable 'ds-fitness-report' has not been declared.
-Line: 90 - XSLTProcessor::transformToXml(): xmlXPathCompiledEval: 2 objects left on the stack.
-Line: 90 - XSLTProcessor::transformToXml(): runtime error: file /home/keepfli/public_html/workspace/pages/showteam_show-report.xsl line 30 element value-of
-Line: 90 - XSLTProcessor::transformToXml(): XPath evaluation returned no result.
-2010/10/02 18:41:00 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
-2010/10/02 18:41:00 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('179') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('179') LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
-2010/10/02 18:41:00 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/public_html/extensions/section_schemas/extension.driver.php on line 88
-2010/10/02 18:41:00 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
-2010/10/02 18:41:00 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('176') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('176') LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
-2010/10/02 18:41:00 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/public_html/extensions/section_schemas/extension.driver.php on line 88
-2010/10/02 18:41:00 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
-2010/10/02 18:41:00 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('190') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('190') LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
-2010/10/02 18:41:00 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/public_html/extensions/section_schemas/extension.driver.php on line 88
-2010/10/02 18:41:05 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
-2010/10/02 18:41:05 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('179') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('179') LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
-2010/10/02 18:41:05 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/public_html/extensions/section_schemas/extension.driver.php on line 88
-2010/10/02 18:41:05 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
-2010/10/02 18:41:05 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('176') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('176') LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
-2010/10/02 18:41:05 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/public_html/extensions/section_schemas/extension.driver.php on line 88
-2010/10/02 18:41:05 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
-2010/10/02 18:41:05 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('190') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('190') LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
-2010/10/02 18:41:05 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/public_html/extensions/section_schemas/extension.driver.php on line 88
-2010/10/03 08:55:07 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
-2010/10/03 08:55:08 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('179') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('179') LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
-2010/10/03 08:55:08 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/public_html/extensions/section_schemas/extension.driver.php on line 88
-2010/10/03 08:55:08 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
-2010/10/03 08:55:08 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('176') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('176') LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
-2010/10/03 08:55:08 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/public_html/extensions/section_schemas/extension.driver.php on line 88
-2010/10/03 08:55:08 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
-2010/10/03 08:55:08 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('190') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('190') LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
-2010/10/03 08:55:08 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/public_html/extensions/section_schemas/extension.driver.php on line 88
-2010/10/03 08:55:34 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
-2010/10/03 08:55:34 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('179') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('179') LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
-2010/10/03 08:55:34 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/public_html/extensions/section_schemas/extension.driver.php on line 88
-2010/10/03 08:55:34 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
-2010/10/03 08:55:34 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('176') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('176') LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
-2010/10/03 08:55:34 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/public_html/extensions/section_schemas/extension.driver.php on line 88
-2010/10/03 08:55:34 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
-2010/10/03 08:55:34 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('190') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('190') LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
-2010/10/03 08:55:34 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/public_html/extensions/section_schemas/extension.driver.php on line 88
-2010/10/03 17:00:11 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
-2010/10/03 17:00:11 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('179') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('179') LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
-2010/10/03 17:00:11 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/public_html/extensions/section_schemas/extension.driver.php on line 88
-2010/10/03 17:00:11 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
-2010/10/03 17:00:11 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('176') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('176') LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
-2010/10/03 17:00:11 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/public_html/extensions/section_schemas/extension.driver.php on line 88
-2010/10/03 17:00:11 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
-2010/10/03 17:00:11 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('190') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('190') LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
-2010/10/03 17:00:11 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/public_html/extensions/section_schemas/extension.driver.php on line 88
-2010/10/03 17:00:22 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
-2010/10/03 17:00:22 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('179') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('179') LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
-2010/10/03 17:00:22 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/public_html/extensions/section_schemas/extension.driver.php on line 88
-2010/10/03 17:00:22 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
-2010/10/03 17:00:22 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('176') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('176') LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
-2010/10/03 17:00:22 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/public_html/extensions/section_schemas/extension.driver.php on line 88
-2010/10/03 17:00:22 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
-2010/10/03 17:00:22 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('190') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('190') LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
-2010/10/03 17:00:22 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/public_html/extensions/section_schemas/extension.driver.php on line 88
-2010/10/03 17:06:59 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
-2010/10/03 17:06:59 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('179') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('179') LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
-2010/10/03 17:06:59 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/public_html/extensions/section_schemas/extension.driver.php on line 88
-2010/10/03 17:06:59 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
-2010/10/03 17:06:59 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('176') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('176') LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
-2010/10/03 17:06:59 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/public_html/extensions/section_schemas/extension.driver.php on line 88
-2010/10/03 17:06:59 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
-2010/10/03 17:06:59 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('190') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
-				FROM `sym_fields` AS `f` 
-				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
-				WHERE `s`.id =  AND f.id IN ('190') LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
-2010/10/03 17:06:59 > WARNING: 2 - DOMXPath::__construct() expects parameter 1 to be DOMDocument, object given in file /home/keepfli/public_html/extensions/section_schemas/extension.driver.php on line 88
+				WHERE `s`.id =  AND f.id IN ('26') LIMIT 1" in file /home/keepfli/public_html/symphony/lib/toolkit/class.mysql.php on line 401
