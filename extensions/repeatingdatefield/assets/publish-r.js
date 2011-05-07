@@ -1,6 +1,7 @@
 /*-----------------------------------------------------------------*/
 	
-	$(document).ready(function() {
+//	$(document).ready(function() {
+	jQuery(function($) {
 		$('.field-repeatingdate .date').each(function() {
 			var field = $(this);
 			var date_cal = $('<table />');

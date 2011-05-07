@@ -64,3 +64,6 @@
 [submodule "extensions/subsectionmanager"]
 	path = extensions/subsectionmanager
 	url = https://github.com/nilshoerrmann/subsectionmanager.git
+[submodule "extensions/calendaroverlay"]
+	path = extensions/calendaroverlay
+	url = https://github.com/rowan-lewis/calendaroverlay.git

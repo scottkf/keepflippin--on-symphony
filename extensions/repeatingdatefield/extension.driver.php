@@ -10,7 +10,7 @@
 		public function about() {
 			return array(
 				'name'			=> 'Field: Repeating Date',
-				'version'		=> '1.0.6',
+				'version'		=> '1',
 				'release-date'	=> '2009-05-15',
 				'author'		=> array(
 					'name'			=> 'Rowan Lewis',
